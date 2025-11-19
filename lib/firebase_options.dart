@@ -3,6 +3,7 @@
 import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 import 'package:flutter/foundation.dart'
     show defaultTargetPlatform, kIsWeb, TargetPlatform;
+import 'config/api_keys.dart';
 
 /// Default [FirebaseOptions] for use with your Firebase apps.
 ///
@@ -53,8 +54,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDtOr1lmWe-RpRFisn9YWJgAjdu1IBl9QY',
-
+    apiKey: ApiKeys.firebaseApiKey,
     appId: '1:877355345631:android:638c4df07dc6dc3e62eb6a',
     messagingSenderId: '877355345631',
     projectId: 'smile-hair-clinic-app',

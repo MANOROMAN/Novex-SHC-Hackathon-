@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:http/http.dart' as http;
 import '../models/captured_photo.dart';
 import '../models/capture_stage.dart';
+import '../config/api_keys.dart';
 
 /// AI Analiz Sonucu
 class AiAnalysisResult {
@@ -44,13 +45,11 @@ class AiAnalysisService {
     http.Client? httpClient,
     String? apiKey,
   })  : _client = httpClient ?? http.Client(),
-        _apiKey = apiKey ?? _defaultApiKey;
+        _apiKey = apiKey ?? ApiKeys.geminiAnalysisApiKey;
 
   final http.Client _client;
   final String _apiKey;
 
-  // Gemini 2.5 Flash için yeni API key kullanılıyor
-  static const String _defaultApiKey = 'AIzaSyDRUnGBRwr445sCcidlJfUJYfcGoM-o2P0';
   // Gemini 2.5 Flash: En yeni ve hızlı model, görüntü analizi için mükemmel
   static const String _endpoint =
       'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent';

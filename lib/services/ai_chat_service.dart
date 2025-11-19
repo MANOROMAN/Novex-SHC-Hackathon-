@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
+import '../config/api_keys.dart';
 
 /// SmileCare AI sohbet servisi (Google Gemini 2.5 Flash)
 class SmileAiChatService {
@@ -7,12 +8,11 @@ class SmileAiChatService {
     http.Client? httpClient,
     String? apiKey,
   })  : _client = httpClient ?? http.Client(),
-        _apiKey = apiKey ?? _defaultApiKey;
+        _apiKey = apiKey ?? ApiKeys.geminiChatApiKey;
 
   final http.Client _client;
   final String _apiKey;
 
-  static const String _defaultApiKey = 'AIzaSyAszt26CdF52R6LGp5VZxzzU5YgXjH1ppw';
   static const String _endpoint =
       'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent';
 
