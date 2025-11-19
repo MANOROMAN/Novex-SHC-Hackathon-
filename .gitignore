@@ -44,5 +44,5 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-# API Keys and sensitive configuration
-lib/config/api_keys.dart
+# Note: api_keys.dart is now committed with placeholders
+# Replace placeholder values with your actual keys for local development
