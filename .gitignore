@@ -44,5 +44,7 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-# Note: api_keys.dart is now committed with placeholders
-# Replace placeholder values with your actual keys for local development
+# API Keys - Local development only
+# The api_keys.dart file is committed with placeholders
+# Edit locally with your actual keys, but DO NOT commit them
+lib/config/api_keys.dart
