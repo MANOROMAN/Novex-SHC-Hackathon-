@@ -1,67 +1,67 @@
 # Novex-SHC-Hackathon-
-# Smile Hair Clinic - Mobile Application
+# Smile Hair Clinic - Mobil Uygulama
 
-A comprehensive mobile application for hair transplant clinic management, patient care, and AI-powered photo analysis.
+Saç ekimi kliniği yönetimi, hasta bakımı ve AI destekli fotoğraf analizi için kapsamlı bir mobil uygulama.
 
-## 🚀 Technologies
+## 🚀 Teknolojiler
 
-- **Flutter** - Cross-platform mobile development framework
-- **Firebase** - Backend services (Authentication, Firestore, Storage, Cloud Functions)
-- **Google ML Kit** - Face detection and image analysis
-- **AI Analysis Service** - Custom photo analysis for hair transplant procedures
-- **Multi-language Support** - 12 languages (Turkish, English, Arabic, German, Spanish, French, Italian, Portuguese, Russian, Hebrew, Albanian, and more)
+- **Flutter** - Çapraz platform mobil geliştirme framework'ü
+- **Firebase** - Backend servisleri (Kimlik Doğrulama, Firestore, Depolama, Cloud Functions)
+- **Google ML Kit** - Yüz tespiti ve görüntü analizi
+- **AI Analiz Servisi** - Saç ekimi prosedürleri için özel fotoğraf analizi
+- **Çoklu Dil Desteği** - 12 dil (Türkçe, İngilizce, Arapça, Almanca, İspanyolca, Fransızca, İtalyanca, Portekizce, Rusça, İbranice, Arnavutça ve daha fazlası)
 
-## ✨ Key Features
+## ✨ Temel Özellikler
 
-### Patient Features
-- **AI-Powered Photo Analysis**: Capture photos from 5 critical angles and get instant AI analysis
-- **Face Detection Capture**: Automatic face detection for guided photo capture
-- **Upload & Analyze**: Upload existing photos from gallery for analysis
-- **Past Analyses History**: View and track analysis history
-- **Doctor Messaging**: Direct communication with assigned doctors
-- **Appointment Management**: Schedule and manage appointments
-- **Notifications**: Real-time notifications for appointments, medications, and updates
-- **Multi-language Support**: Full localization in 12 languages
+### Hasta Özellikleri
+- **AI Destekli Fotoğraf Analizi**: 5 kritik açıdan fotoğraf çekin ve anında AI analizi alın
+- **Yüz Tespiti ile Çekim**: Rehberli fotoğraf çekimi için otomatik yüz tespiti
+- **Yükle ve Analiz Et**: Galeriden mevcut fotoğrafları yükleyip analiz edin
+- **Geçmiş Analiz Geçmişi**: Analiz geçmişini görüntüleyin ve takip edin
+- **Doktor Mesajlaşma**: Atanan doktorlarla doğrudan iletişim
+- **Randevu Yönetimi**: Randevu planlayın ve yönetin
+- **Bildirimler**: Randevular, ilaçlar ve güncellemeler için gerçek zamanlı bildirimler
+- **Çoklu Dil Desteği**: 12 dilde tam yerelleştirme
 
-### Doctor Features
-- **Patient Management**: View and manage patient profiles
-- **Photo Analysis Review**: Review and approve/reject patient photo analyses
-- **Messaging System**: Communicate with patients
-- **Appointment Management**: Manage patient appointments
-- **Dashboard**: Comprehensive overview of clinic operations
+### Doktor Özellikleri
+- **Hasta Yönetimi**: Hasta profillerini görüntüleyin ve yönetin
+- **Fotoğraf Analizi İnceleme**: Hasta fotoğraf analizlerini inceleyin ve onaylayın/reddedin
+- **Mesajlaşma Sistemi**: Hastalarla iletişim kurun
+- **Randevu Yönetimi**: Hasta randevularını yönetin
+- **Dashboard**: Klinik operasyonlarının kapsamlı genel bakışı
 
-### Technical Features
-- **Offline Support**: Core features work offline
-- **Real-time Sync**: Firebase Firestore for real-time data synchronization
-- **Secure Authentication**: Firebase Auth with email/password and Google Sign-In
-- **Push Notifications**: Firebase Cloud Messaging for notifications
-- **Image Processing**: Advanced image analysis using AI/ML
-- **Voice Guidance**: Text-to-speech for photo capture guidance
+### Teknik Özellikler
+- **Çevrimdışı Destek**: Temel özellikler çevrimdışı çalışır
+- **Gerçek Zamanlı Senkronizasyon**: Gerçek zamanlı veri senkronizasyonu için Firebase Firestore
+- **Güvenli Kimlik Doğrulama**: E-posta/şifre ve Google Giriş ile Firebase Auth
+- **Push Bildirimleri**: Bildirimler için Firebase Cloud Messaging
+- **Görüntü İşleme**: AI/ML kullanarak gelişmiş görüntü analizi
+- **Sesli Rehberlik**: Fotoğraf çekimi rehberliği için metinden sese
 
-## 📱 Screenshots
+## 📱 Ekran Görüntüleri
 
-The application includes modern, user-friendly interfaces for:
-- Patient dashboard with quick actions
-- Photo capture with face detection
-- AI analysis results
-- Doctor profiles and details
-- Hair transplant procedure information
-- Appointment scheduling
-- Messaging interface
+Uygulama şunlar için modern, kullanıcı dostu arayüzler içerir:
+- Hızlı işlemlerle hasta dashboard'u
+- Yüz tespiti ile fotoğraf çekimi
+- AI analiz sonuçları
+- Doktor profilleri ve detayları
+- Saç ekimi prosedür bilgileri
+- Randevu planlama
+- Mesajlaşma arayüzü
 
-## 🛠️ Setup
+## 🛠️ Kurulum
 
-1. Clone the repository
-2. Install Flutter dependencies: `flutter pub get`
-3. Configure Firebase:
-   - Add `google-services.json` (Android) and `GoogleService-Info.plist` (iOS)
-   - Set up Firebase Authentication
-   - Configure Firestore database
-4. Run the application: `flutter run`
+1. Depoyu klonlayın
+2. Flutter bağımlılıklarını yükleyin: `flutter pub get`
+3. Firebase'i yapılandırın:
+   - `google-services.json` (Android) ve `GoogleService-Info.plist` (iOS) dosyalarını ekleyin
+   - Firebase Authentication'ı ayarlayın
+   - Firestore veritabanını yapılandırın
+4. Uygulamayı çalıştırın: `flutter run`
 
-## 📦 Dependencies
+## 📦 Bağımlılıklar
 
-Key dependencies include:
+Temel bağımlılıklar şunları içerir:
 - `firebase_core`, `firebase_auth`, `cloud_firestore`
 - `google_mlkit_face_detection`
 - `camera`, `image_picker`
@@ -69,21 +69,21 @@ Key dependencies include:
 - `shared_preferences`
 - `url_launcher`
 
-## 🎯 Use Cases
+## 🎯 Kullanım Senaryoları
 
-- **Patients**: Track hair transplant progress, communicate with doctors, schedule appointments
-- **Doctors**: Manage patients, review analyses, provide consultations
-- **Clinics**: Streamline operations, improve patient care, enhance communication
+- **Hastalar**: Saç ekimi ilerlemesini takip edin, doktorlarla iletişim kurun, randevu planlayın
+- **Doktorlar**: Hastaları yönetin, analizleri inceleyin, danışmanlık sağlayın
+- **Klinikler**: Operasyonları kolaylaştırın, hasta bakımını iyileştirin, iletişimi güçlendirin
 
-## 🌍 Localization
+## 🌍 Yerelleştirme
 
-The application supports 12 languages with full localization of:
-- UI elements and navigation
-- Content pages (About Us, Contact, Hair Transplant procedures)
-- Doctor profiles and information
-- Analysis results and guidance
-- Notifications and messages
+Uygulama şunların tam yerelleştirmesi ile 12 dili destekler:
+- UI öğeleri ve navigasyon
+- İçerik sayfaları (Hakkımızda, İletişim, Saç Ekimi prosedürleri)
+- Doktor profilleri ve bilgileri
+- Analiz sonuçları ve rehberlik
+- Bildirimler ve mesajlar
 
-## 📄 License
+## 📄 Lisans
 
-This project is developed for Smile Hair Clinic.
+Bu proje Smile Hair Clinic için geliştirilmiştir.
