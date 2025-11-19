@@ -53,11 +53,15 @@ Uygulama şunlar için modern, kullanıcı dostu arayüzler içerir:
 
 1. Depoyu klonlayın
 2. Flutter bağımlılıklarını yükleyin: `flutter pub get`
-3. Firebase'i yapılandırın:
+3. API Key'leri yapılandırın:
+   - `lib/config/api_keys.example.dart` dosyasını `lib/config/api_keys.dart` olarak kopyalayın
+   - `api_keys.dart` dosyasındaki placeholder'ları gerçek API key'lerinizle değiştirin
+   - **Not:** `api_keys.dart` dosyası `.gitignore`'da olduğu için commit edilmeyecektir
+4. Firebase'i yapılandırın:
    - `google-services.json` (Android) ve `GoogleService-Info.plist` (iOS) dosyalarını ekleyin
    - Firebase Authentication'ı ayarlayın
    - Firestore veritabanını yapılandırın
-4. Uygulamayı çalıştırın: `flutter run`
+5. Uygulamayı çalıştırın: `flutter run`
 
 ## 📦 Bağımlılıklar
 
