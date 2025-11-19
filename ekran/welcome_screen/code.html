@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Hair Clinic App Welcome</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#005A6A", /* Overriding with user-provided color */
+            "background-light": "#F8F9FA",
+            "background-dark": "#101622",
+          },
+          fontFamily: {
+            "display": ["Manrope", "sans-serif"]
+          },
+          borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+        },
+      },
+    }
+  </script>
+<style>
+    .background-overlay::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(248, 249, 250, 0.85); /* background-light with opacity */
+      z-index: 1;
+    }
+    .dark .background-overlay::before {
+      background-color: rgba(16, 22, 34, 0.85); /* background-dark with opacity */
+    }
+    .background-overlay > * {
+      position: relative;
+      z-index: 2;
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="font-display">
+<div class="relative flex h-screen min-h-screen w-full flex-col group/design-root overflow-hidden">
+<!-- Background Image -->
+<div class="absolute inset-0 w-full h-full bg-center bg-no-repeat bg-cover" data-alt="A blurred, clean interior of a modern medical clinic." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBmLi2_IDTWse2M2hkITYm8X_yDHGFYCWDqMgUmfnLcBigWCyKxNUcwwV3BcnpHmdg_Uv70y03lYEH-alfyOhzBNereiER-2xTp0m7fBtXteCVdtT9vT4ckdUggr7tCulHvYRXmUTQmg_ng1bEXGq0Fw8mOIFCzPDllWIA0XrbLD4LRJOZZ2LUbzp_UX2cf4plJv2KELY1xjyAqYCeE7GPSfWGNM7SsIjHF2y4Gk75okt_7ugAr_DTE2WIGOPHyL0I3FxcgELTP7g");'></div>
+<!-- Overlay and Content -->
+<div class="relative flex flex-col h-full w-full background-overlay">
+<div class="flex flex-col flex-1 justify-center items-center p-4">
+<!-- Logo -->
+<div class="flex flex-col items-center text-center text-[#212529] dark:text-background-light">
+<span class="material-symbols-outlined text-6xl text-primary">
+            health_and_safety
+          </span>
+<h1 class="text-3xl font-bold mt-2">ClinicLogo</h1>
+<p class="text-sm mt-1 text-gray-600 dark:text-gray-300">Hair Restoration &amp; Care</p>
+</div>
+</div>
+<!-- Button Group -->
+<div class="flex justify-center p-4 pb-8 w-full">
+<div class="flex w-full max-w-md flex-col items-stretch gap-3">
+<button class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-primary text-white text-base font-bold leading-normal tracking-[0.015em] w-full">
+<span class="truncate">Giriş Yap</span>
+</button>
+<button class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-transparent text-primary border border-primary text-base font-bold leading-normal tracking-[0.015em] w-full dark:border-primary/70 dark:text-primary/90">
+<span class="truncate">Kayıt Ol</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</body></html>

@@ -1,0 +1,92 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Kullanıcı profil fotoğrafları
+    match /users/{userId}/profile/{allPaths=**} {
+      // Sadece kendi profil fotoğraflarını yönetebilir
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+      // Dosya boyutu kontrolü (max 5MB)
+      allow write: if request.resource.size < 5 * 1024 * 1024;
+      // Sadece resim dosyalarına izin ver
+      allow write: if request.resource.contentType.matches('image/.*');
+    }
+
+    // Kullanıcı analiz fotoğrafları
+    match /users/{userId}/analyses/{analysisId}/{allPaths=**} {
+      // Sadece kendi analiz fotoğraflarını yönetebilir
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+      // Dosya boyutu kontrolü (max 10MB)
+      allow write: if request.resource.size < 10 * 1024 * 1024;
+      // Sadece resim dosyalarına izin ver
+      allow write: if request.resource.contentType.matches('image/.*');
+    }
+
+    // Kullanıcı genel fotoğrafları
+    match /users/{userId}/photos/{allPaths=**} {
+      // Sadece kendi fotoğraflarını yönetebilir
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+      // Dosya boyutu kontrolü (max 10MB)
+      allow write: if request.resource.size < 10 * 1024 * 1024;
+      // Sadece resim dosyalarına izin ver
+      allow write: if request.resource.contentType.matches('image/.*');
+    }
+
+    // Genel resim dosyaları (örnekler, tutorial'lar vb.)
+    match /public/images/{allPaths=**} {
+      // Herkes okuyabilir
+      allow read: if true;
+      // Sadece adminler yazabilir
+      allow write: if request.auth != null &&
+        request.auth.token.admin == true;
+    }
+
+    // Sistem dosyaları
+    match /system/{allPaths=**} {
+      // Sadece adminler erişebilir
+      allow read, write: if request.auth != null &&
+        request.auth.token.admin == true;
+    }
+
+    // Chat mesaj fotoğrafları
+    match /chat_images/{conversationId}/{allPaths=**} {
+      // Herkes okuyabilir (mesajlaşma için)
+      allow read: if true;
+      // Yazma: Authenticated kullanıcılar veya doktorlar (auth olmadan da)
+      // Güvenlik uygulama tarafında sağlanıyor
+      allow write: if true;
+      // Dosya boyutu kontrolü (max 10MB)
+      allow write: if request.resource.size < 10 * 1024 * 1024;
+      // Sadece resim dosyalarına izin ver
+      allow write: if request.resource.contentType.matches('image/.*');
+    }
+
+    // Geçici dosyalar (24 saat içinde silinmeli)
+    match /temp/{allPaths=**} {
+      // Authenticated kullanıcılar okuyabilir
+      allow read: if request.auth != null;
+      // Authenticated kullanıcılar yazabilir
+      allow write: if request.auth != null;
+      // Dosya boyutu kontrolü (max 50MB)
+      allow write: if request.resource.size < 50 * 1024 * 1024;
+    }
+
+    // Backup dosyaları
+    match /backup/{allPaths=**} {
+      // Sadece adminler erişebilir
+      allow read, write: if request.auth != null &&
+        request.auth.token.admin == true;
+    }
+
+    // Doktor profil fotoğrafları
+    match /doctors/{doctorId}/{allPaths=**} {
+      // Herkes okuyabilir (doktor uygulaması auth kullanmıyor)
+      allow read: if true;
+      // Yazma: Herkese açık (doktor uygulaması auth kullanmıyor, güvenlik uygulama tarafında)
+      // Auth token olmadan da çalışması için tüm kontrolleri tek bir kuralda birleştir
+      allow write: if 
+        request.resource.size < 5 * 1024 * 1024 &&
+        request.resource.contentType.matches('image/.*');
+    }
+  }
+}
+

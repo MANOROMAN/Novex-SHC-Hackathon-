@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Analysis History</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#3182CE",
+            "background-light": "#F9F9F9",
+            "background-dark": "#101622",
+            "text-light-primary": "#2D3748",
+            "text-light-secondary": "#718096",
+            "text-dark-primary": "#E2E8F0",
+            "text-dark-secondary": "#A0AEC0",
+            "border-light": "#E2E8F0",
+            "border-dark": "#2D3748"
+          },
+          fontFamily: {
+            "display": ["Manrope", "sans-serif"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+        },
+      },
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="relative flex min-h-screen w-full flex-col">
+<header class="sticky top-0 z-10 flex items-center border-b border-border-light dark:border-border-dark bg-background-light/80 dark:bg-background-dark/80 px-4 py-3 backdrop-blur-sm">
+<button class="flex size-10 items-center justify-center text-text-light-primary dark:text-text-dark-primary">
+<span class="material-symbols-outlined text-2xl">arrow_back</span>
+</button>
+<h1 class="flex-1 text-center text-lg font-bold leading-tight tracking-tight text-text-light-primary dark:text-text-dark-primary">Analysis History</h1>
+<div class="size-10"></div>
+</header>
+<main class="flex-1 p-4">
+<div class="flex flex-col gap-4">
+<div class="flex cursor-pointer flex-col gap-4 rounded-xl border border-border-light bg-white p-4 transition-shadow hover:shadow-md dark:border-border-dark dark:bg-zinc-900 dark:hover:bg-zinc-800/50">
+<div class="grid grid-cols-3 gap-2">
+<div class="col-span-2 row-span-2">
+<div class="aspect-square w-full rounded-lg bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCrEbzkA9PjLp8NVSkfs4_b1ZRjVP9sic7PNVl9_e3FFZgSh6H_Ftxx3kBzmOYvZC9GSNvyFusviVhN84UX3MfmvIkE3_RhN_VOuFTpvYLT4tua_1V9mSZr8SOG1nUTC_49nW6U6jboZaVtwSVt5Tfv_TtcgxKVoYFlMefBgYwGlYZ3yk4Stllz-wkmk9uVvvCY6E6NjazVmAiqCYBc3zVe5O2JpdEBwxHeea6xX1oTLXxRuJrDvDI1sH_7brEdTEKqVlXe16AVYQ');"></div>
+</div>
+<div class="aspect-square w-full rounded-lg bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAQyVNUAjQ1Q6KZ7iTNuPrswDZvvCQX2K5sGCrN3ZGCYeCvPAHoJJPFDZ_DCLp7s3apXRD8MLvqINjH4lZWkFYf0WZbnFhjjKIJzps77zShVOwHej01V6jovS4wp85dluZgTAfAHcqDuom6Zd7AKW-ZZ64-SUbaOg7lIK13U5WqzSIKJEcLilUQjIIRku79XKR-WspL_2JXGLbQRTGE8xaNYdfeyCplt9h-KyrC_4gT4Sz5B0mgrpwwJJ4ZGvUEwAh2dtG93fedgA');"></div>
+<div class="aspect-square w-full rounded-lg bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAQyVNUAjQ1Q6KZ7iTNuPrswDZvvCQX2K5sGCrN3ZGCYeCvPAHoJJPFDZ_DCLp7s3apXRD8MLvqINjH4lZWkFYf0WZbnFhjjKIJzps77zShVOwHej01V6jovS4wp85dluZgTAfAHcqDuom6Zd7AKW-ZZ64-SUbaOg7lIK13U5WqzSIKJEcLilUQjIIRku79XKR-WspL_2JXGLbQRTGE8xaNYdfeyCplt9h-KyrC_4gT4Sz5B0mgrpwwJJ4ZGvUEwAh2dtG93fedgA');"></div>
+<div class="aspect-square w-full rounded-lg bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAQyVNUAjQ1Q6KZ7iTNuPrswDZvvCQX2K5sGCrN3ZGCYeCvPAHoJJPFDZ_DCLp7s3apXRD8MLvqINjH4lZWkFYf0WZbnFhjjKIJzps77zShVOwHej01V6jovS4wp85dluZgTAfAHcqDuom6Zd7AKW-ZZ64-SUbaOg7lIK13U5WqzSIKJEcLilUQjIIRku79XKR-WspL_2JXGLbQRTGE8xaNYdfeyCplt9h-KyrC_4gT4Sz5B0mgrpwwJJ4ZGvUEwAh2dtG93fedgA');"></div>
+<div class="aspect-square w-full rounded-lg bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAQyVNUAjQ1Q6KZ7iTNuPrswDZvvCQX2K5sGCrN3ZGCYeCvPAHoJJPFDZ_DCLp7s3apXRD8MLvqINjH4lZWkFYf0WZbnFhjjKIJzps77zShVOwHej01V6jovS4wp85dluZgTAfAHcqDuom6Zd7AKW-ZZ64-SUbaOg7lIK13U5WqzSIKJEcLilUQjIIRku79XKR-WspL_2JXGLbQRTGE8xaNYdfeyCplt9h-KyrC_4gT4Sz5B0mgrpwwJJ4ZGvUEwAh2dtG93fedgA');"></div>
+</div>
+<div>
+<p class="text-base font-semibold text-text-light-primary dark:text-text-dark-primary">October 26, 2023</p>
+<p class="mt-1 text-sm text-text-light-secondary dark:text-text-dark-secondary">AI summary: Moderate density with minimal signs of inflammation. Continued monitoring recommended.</p>
+</div>
+</div>
+<div class="flex cursor-pointer flex-col gap-4 rounded-xl border border-border-light bg-white p-4 transition-shadow hover:shadow-md dark:border-border-dark dark:bg-zinc-900 dark:hover:bg-zinc-800/50">
+<div class="grid grid-cols-3 gap-2">
+<div class="col-span-2 row-span-2">
+<div class="aspect-square w-full rounded-lg bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDZtdPqaQhItnJGaUNOiu8teM0Bw-g3d3WlKFPkIUfzb_sVt3wrbKE1CwpT01ngUwel1AEIEmz_D2hzWKb7yc4d-ahRz7hFYOSt0ZCxMQi9pDDMbK46FCfxKz_ECrhfibzrZ6QQhGMm200SVmMeuDNYf9fOTwsr18_1XQgFZl3sWTsyYrXCrjffl6x7yw2mQWmi920djtiviv3yoGTFeHW3G0UXi1f6lGJAzeg5FD8QtanDQAlx6KzIluGTa6GyNUPvPVDgqEhwqw');"></div>
+</div>
+<div class="aspect-square w-full rounded-lg bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAQyVNUAjQ1Q6KZ7iTNuPrswDZvvCQX2K5sGCrN3ZGCYeCvPAHoJJPFDZ_DCLp7s3apXRD8MLvqINjH4lZWkFYf0WZbnFhjjKIJzps77zShVOwHej01V6jovS4wp85dluZgTAfAHcqDuom6Zd7AKW-ZZ64-SUbaOg7lIK13U5WqzSIKJEcLilUQjIIRku79XKR-WspL_2JXGLbQRTGE8xaNYdfeyCplt9h-KyrC_4gT4Sz5B0mgrpwwJJ4ZGvUEwAh2dtG93fedgA');"></div>
+<div class="aspect-square w-full rounded-lg bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAQyVNUAjQ1Q6KZ7iTNuPrswDZvvCQX2K5sGCrN3ZGCYeCvPAHoJJPFDZ_DCLp7s3apXRD8MLvqINjH4lZWkFYf0WZbnFhjjKIJzps77zShVOwHej01V6jovS4wp85dluZgTAfAHcqDuom6Zd7AKW-ZZ64-SUbaOg7lIK13U5WqzSIKJEcLilUQjIIRku79XKR-WspL_2JXGLbQRTGE8xaNYdfeyCplt9h-KyrC_4gT4Sz5B0mgrpwwJJ4ZGvUEwAh2dtG93fedgA');"></div>
+<div class="aspect-square w-full rounded-lg bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAQyVNUAjQ1Q6KZ7iTNuPrswDZvvCQX2K5sGCrN3ZGCYeCvPAHoJJPFDZ_DCLp7s3apXRD8MLvqINjH4lZWkFYf0WZbnFhjjKIJzps77zShVOwHej01V6jovS4wp85dluZgTAfAHcqDuom6Zd7AKW-ZZ64-SUbaOg7lIK13U5WqzSIKJEcLilUQjIIRku79XKR-WspL_2JXGLbQRTGE8xaNYdfeyCplt9h-KyrC_4gT4Sz5B0mgrpwwJJ4ZGvUEwAh2dtG93fedgA');"></div>
+<div class="aspect-square w-full rounded-lg bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAQyVNUAjQ1Q6KZ7iTNuPrswDZvvCQX2K5sGCrN3ZGCYeCvPAHoJJPFDZ_DCLp7s3apXRD8MLvqINjH4lZWkFYf0WZbnFhjjKIJzps77zShVOwHej01V6jovS4wp85dluZgTAfAHcqDuom6Zd7AKW-ZZ64-SUbaOg7lIK13U5WqzSIKJEcLilUQjIIRku79XKR-WspL_2JXGLbQRTGE8xaNYdfeyCplt9h-KyrC_4gT4Sz5B0mgrpwwJJ4ZGvUEwAh2dtG93fedgA');"></div>
+</div>
+<div>
+<p class="text-base font-semibold text-text-light-primary dark:text-text-dark-primary">September 15, 2023</p>
+<p class="mt-1 text-sm text-text-light-secondary dark:text-text-dark-secondary">AI summary: Low density detected in the crown area. Consider starting targeted treatment as per the detailed plan.</p>
+</div>
+</div>
+<div class="flex cursor-pointer flex-col gap-4 rounded-xl border border-border-light bg-white p-4 transition-shadow hover:shadow-md dark:border-border-dark dark:bg-zinc-900 dark:hover:bg-zinc-800/50">
+<div class="grid grid-cols-3 gap-2">
+<div class="col-span-2 row-span-2">
+<div class="aspect-square w-full rounded-lg bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDkLE3t_F1kWGgCond8zUQK5HK4L-8RBmYvz2KEyo-884Iragn4syTryMjhSG3fd2I7BsjsZkGlvYdnf5hEfBUSMCvLb8g_CR_pO44OZI13pYgI8fHEF7Ommh9Wf3N-IZonbeAJ_CYHtxmHu2HLHOcXXRiw2WfuhcSyL5dgII28g5ny8L1S101IqpBH0cXu-B9hIG0PEyHluBZcA-yW2dD0a4GnWFqAix34L4XNOpsE7GF3S1d8mV9BtTr7Tx3feaT-uuvm0io_hQ');"></div>
+</div>
+<div class="aspect-square w-full rounded-lg bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAQyVNUAjQ1Q6KZ7iTNuPrswDZvvCQX2K5sGCrN3ZGCYeCvPAHoJJPFDZ_DCLp7s3apXRD8MLvqINjH4lZWkFYf0WZbnFhjjKIJzps77zShVOwHej01V6jovS4wp85dluZgTAfAHcqDuom6Zd7AKW-ZZ64-SUbaOg7lIK13U5WqzSIKJEcLilUQjIIRku79XKR-WspL_2JXGLbQRTGE8xaNYdfeyCplt9h-KyrC_4gT4Sz5B0mgrpwwJJ4ZGvUEwAh2dtG93fedgA');"></div>
+<div class="aspect-square w-full rounded-lg bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAQyVNUAjQ1Q6KZ7iTNuPrswDZvvCQX2K5sGCrN3ZGCYeCvPAHoJJPFDZ_DCLp7s3apXRD8MLvqINjH4lZWkFYf0WZbnFhjjKIJzps77zShVOwHej01V6jovS4wp85dluZgTAfAHcqDuom6Zd7AKW-ZZ64-SUbaOg7lIK13U5WqzSIKJEcLilUQjIIRku79XKR-WspL_2JXGLbQRTGE8xaNYdfeyCplt9h-KyrC_4gT4Sz5B0mgrpwwJJ4ZGvUEwAh2dtG93fedgA');"></div>
+<div class="aspect-square w-full rounded-lg bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAQyVNUAjQ1Q6KZ7iTNuPrswDZvvCQX2K5sGCrN3ZGCYeCvPAHoJJPFDZ_DCLp7s3apXRD8MLvqINjH4lZWkFYf0WZbnFhjjKIJzps77zShVOwHej01V6jovS4wp85dluZgTAfAHcqDuom6Zd7AKW-ZZ64-SUbaOg7lIK13U5WqzSIKJEcLilUQjIIRku79XKR-WspL_2JXGLbQRTGE8xaNYdfeyCplt9h-KyrC_4gT4Sz5B0mgrpwwJJ4ZGvUEwAh2dtG93fedgA');"></div>
+<div class="aspect-square w-full rounded-lg bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAQyVNUAjQ1Q6KZ7iTNuPrswDZvvCQX2K5sGCrN3ZGCYeCvPAHoJJPFDZ_DCLp7s3apXRD8MLvqINjH4lZWkFYf0WZbnFhjjKIJzps77zShVOwHej01V6jovS4wp85dluZgTAfAHcqDuom6Zd7AKW-ZZ64-SUbaOg7lIK13U5WqzSIKJEcLilUQjIIRku79XKR-WspL_2JXGLbQRTGE8xaNYdfeyCplt9h-KyrC_4gT4Sz5B0mgrpwwJJ4ZGvUEwAh2dtG93fedgA');"></div>
+</div>
+<div>
+<p class="text-base font-semibold text-text-light-primary dark:text-text-dark-primary">August 02, 2023</p>
+<p class="mt-1 text-sm text-text-light-secondary dark:text-text-dark-secondary">AI summary: Initial analysis shows moderate density. A baseline has been established for future comparison.</p>
+</div>
+</div>
+</div>
+</main>
+</div>
+
+</body></html>

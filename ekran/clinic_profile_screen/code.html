@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Clinic Profile</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+      }
+    </style>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#1A2A4D",
+              "secondary": "#008080",
+              "background-light": "#F8F9FA",
+              "background-dark": "#101622",
+              "text-primary": "#1A2A4D",
+              "text-secondary": "#4A5568",
+              "text-light": "#FFFFFF"
+            },
+            fontFamily: {
+              "display": ["Manrope", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="relative flex h-auto min-h-screen w-full flex-col bg-background-light dark:bg-background-dark group/design-root overflow-x-hidden">
+<!-- Top App Bar -->
+<div class="sticky top-0 z-20 flex items-center bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm p-4 justify-between">
+<button class="flex size-10 items-center justify-center rounded-full text-text-primary dark:text-text-light">
+<span class="material-symbols-outlined">arrow_back</span>
+</button>
+<h2 class="text-text-primary dark:text-text-light text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center">Este Modern</h2>
+<button class="flex size-10 items-center justify-center rounded-full text-text-primary dark:text-text-light">
+<span class="material-symbols-outlined">more_vert</span>
+</button>
+</div>
+<!-- Header Image -->
+<div class="@container">
+<div class="@[480px]:px-4">
+<div class="w-full bg-center bg-no-repeat bg-cover flex flex-col justify-end overflow-hidden @[480px]:rounded-lg min-h-[218px]" data-alt="Modern and clean interior of a hair clinic reception area" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDAGw-jxb-gH1R3MNKfDhsnhegeqlt7b0Fkr4ANV1AtgegKd8c3U5w1w20h8tkkvSAD_rV2fiGD8wFCEl4a1Uf2ta1vAPZZSIFudOmzW7vozi5oxk12WRycXwo2zJWQ-PKkxEDOdPJfX7e2tEC3C6j0TM7-FpIzyhiiUBbXAZhLFy2nMFlbC0eqkRi0skql124gArRXR1vDkCgXjCoJzBXtJEVjp6ZZQv5H2jkwqUz1aZ1EcBXNkWl4N1RvrMGcH-qsfHd-KttlSQ");'></div>
+</div>
+</div>
+<!-- Headline Text -->
+<h1 class="text-text-primary dark:text-text-light tracking-tight text-[32px] font-bold leading-tight px-4 text-left pb-1 pt-6">Este Modern Hair Clinic</h1>
+<p class="text-text-secondary dark:text-gray-400 text-base font-normal leading-normal px-4 pb-4">Specializing in advanced hair restoration technologies.</p>
+<!-- Rating Summary -->
+<div class="flex flex-wrap gap-x-8 gap-y-4 p-4 items-center">
+<div class="flex flex-col gap-2">
+<p class="text-text-primary dark:text-text-light text-4xl font-black leading-tight tracking-[-0.033em]">4.8</p>
+<div class="flex gap-0.5">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">star_half</span>
+</div>
+<p class="text-text-secondary dark:text-gray-400 text-base font-normal leading-normal">125 reviews</p>
+</div>
+</div>
+<!-- Tabs -->
+<div class="sticky top-[72px] z-10 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm pb-0">
+<div class="flex border-b border-gray-200 dark:border-gray-700 px-4 gap-8">
+<a class="flex flex-col items-center justify-center border-b-[3px] border-b-secondary text-primary dark:text-text-light pb-[13px] pt-4" href="#">
+<p class="text-sm font-bold leading-normal tracking-[0.015em]">About</p>
+</a>
+<a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-text-secondary dark:text-gray-400 pb-[13px] pt-4" href="#">
+<p class="text-sm font-bold leading-normal tracking-[0.015em]">Doctors</p>
+</a>
+<a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-text-secondary dark:text-gray-400 pb-[13px] pt-4" href="#">
+<p class="text-sm font-bold leading-normal tracking-[0.015em]">Gallery</p>
+</a>
+<a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-text-secondary dark:text-gray-400 pb-[13px] pt-4" href="#">
+<p class="text-sm font-bold leading-normal tracking-[0.015em]">Treatments</p>
+</a>
+</div>
+</div>
+<!-- About Section -->
+<div class="p-4 space-y-4">
+<p class="text-text-secondary dark:text-gray-300 text-base leading-relaxed">
+            Este Modern is a premier hair restoration clinic dedicated to providing the highest quality of care. Our state-of-the-art facility and experienced team ensure natural-looking results and patient satisfaction.
+        </p>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-text-secondary dark:text-gray-400 mt-1">location_on</span>
+<p class="text-text-primary dark:text-text-light font-medium flex-1">123 Health St, Wellness City, 45678</p>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-text-secondary dark:text-gray-400 mt-1">schedule</span>
+<p class="text-text-primary dark:text-text-light font-medium flex-1">Mon - Fri: 9:00 AM - 6:00 PM</p>
+</div>
+</div>
+<!-- Doctors Section -->
+<div class="px-4 pt-6 pb-2">
+<h3 class="text-xl font-bold text-text-primary dark:text-text-light">Our Experts</h3>
+</div>
+<div class="px-4 space-y-4">
+<div class="flex items-center gap-4 rounded-lg bg-white dark:bg-gray-800 p-4 border border-gray-200 dark:border-gray-700">
+<img class="h-20 w-20 rounded-full object-cover" data-alt="Professional headshot of Dr. Evelyn Reed" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDoSlm4FxsOAhSM8HBDhUuR0aDn2A4Sy3C2M00XVVoSpOEjAZXdt_pfN5col4xoRcP8t8as7S4NdPDHrRMnVMqSN7D1GWbuDt0AkpQ38_Xs5UjXtofUoxcZZ5zkWezfTQN3nyQ6X8vV8HKck7OhFMw0lQPbipHylq1_taACkc1ST1MDUi9_aZ2tWw9XAxgbYDtjCnj8-Cb6YTomzX0edO0cXMKKpjL28KBHtksaI9ufv4FeR6gg7QQNlGa0pRKZ9SlnC8-oQgRmQw"/>
+<div class="flex-1">
+<p class="font-bold text-text-primary dark:text-text-light">Dr. Evelyn Reed</p>
+<p class="text-sm text-text-secondary dark:text-gray-400">FUE Specialist</p>
+<p class="text-sm text-text-secondary dark:text-gray-400">12 Years of Experience</p>
+</div>
+<span class="material-symbols-outlined text-text-secondary dark:text-gray-400">arrow_forward_ios</span>
+</div>
+<div class="flex items-center gap-4 rounded-lg bg-white dark:bg-gray-800 p-4 border border-gray-200 dark:border-gray-700">
+<img class="h-20 w-20 rounded-full object-cover" data-alt="Professional headshot of Dr. Marcus Chen" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAORBMOwIUEKm0qMcXEMSld4PU2eH_3B0kZPzV5yB3ZXFF6uTktyTo-nkPzxcdT5MZH3P-c7d2LQBSDvwB562WyWZtUaFwXM2GDpxAGe4oDUC6xygh1Ypanmmi9cK6eDLPlDduxtejMttbjoNaaM_GmYFxh_MvSMvVwhZgtL3K4IekTc0SzR9mOVaa9uYkdbZrTwHzvlxeBddRijlBpt6m9QVNA9ZCIKssDLpU-oaWcsF6BGUWcTtc6s0Q1tM4NuVAgPlm5gErWpQ"/>
+<div class="flex-1">
+<p class="font-bold text-text-primary dark:text-text-light">Dr. Marcus Chen</p>
+<p class="text-sm text-text-secondary dark:text-gray-400">DHI &amp; SMP Expert</p>
+<p class="text-sm text-text-secondary dark:text-gray-400">15 Years of Experience</p>
+</div>
+<span class="material-symbols-outlined text-text-secondary dark:text-gray-400">arrow_forward_ios</span>
+</div>
+</div>
+<!-- Gallery Section -->
+<div class="px-4 pt-8 pb-2">
+<h3 class="text-xl font-bold text-text-primary dark:text-text-light">Results Gallery</h3>
+</div>
+<div class="grid grid-cols-2 gap-4 px-4">
+<div class="flex flex-col gap-2">
+<img class="rounded-lg object-cover aspect-square" data-alt="Before photo of a patient with hair loss" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDD9ubXihELdaWqbAHcS7nFbFeGrNGd3pAKwG67fXJLEE0N4h99R_MBF3zQoLX91APG16DGewrTDRkSXWRou2WT-ONmQ-MMlW8KEu-JpbiqPdyt984Llexh_qJR7FT3S9Q2G29T_Fd3X83V_gW_glOJg2M3UjyjEpXWZxPcwHGap2s9H1IIcegNMx0PFGCPfs-jm6vhzVkMXzlOPPPici14N0GXK7rPKkqAHxmLqRmIPplEvl4SUJEXxWpQzHRbY0pV1sb2kl-x3A"/>
+<p class="text-center text-sm font-semibold text-text-secondary dark:text-gray-400">Before</p>
+</div>
+<div class="flex flex-col gap-2">
+<img class="rounded-lg object-cover aspect-square" data-alt="After photo of the same patient with restored hair" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBtVpptidLu1IGmN35Llk3qmfoKIFMt2Eu3pj7ObagDNxn39twm_JwdUJvEuTzMJUHENFsBFmOQ3VG_oNnIB-qcKDZW4GX-FMABFJm2PJLFyqfpWSMqXkWIpvbH1jFop_Fx8e0CG3nsdXg5Yyof4iRisRWdH-DRD--pnV1h-Gy_bVDuC6obuQjKbDpk7ZMDcCcTa_jZ27_UW_6fM4oa_iQGg7-Ep3GSVBGz-sCxT9CQzajdsTo8kbDsHyohIQFMmy_XdTprU5AaCQ"/>
+<p class="text-center text-sm font-semibold text-text-secondary dark:text-gray-400">After</p>
+</div>
+<div class="flex flex-col gap-2">
+<img class="rounded-lg object-cover aspect-square" data-alt="Before photo of a second patient with thinning hair" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgKiZWkSCyNOVnDPzoJZzolFTIVGLWRuX8VYqhnmN_SYWNJtnYm4m1YlUFW72wkqrSvmtfEaUh3slIX0jtF9y_zqrq3nWbNmV_mqUehDqrY29JK-9PU0q7ZSnIcxI4uI_wzN5HfxLQsOm_Kc_YnyMaczY25FVVW0oAlntiH_1p13K0UYZRSvXvvLt31vv-TR56FqimkUkZKxw1HFVx_MAjnYks5CQI0Wup991qE-xat3pl4YVo-2kBZeuo4DQF-mUEy6zndC_RdA"/>
+<p class="text-center text-sm font-semibold text-text-secondary dark:text-gray-400">Before</p>
+</div>
+<div class="flex flex-col gap-2">
+<img class="rounded-lg object-cover aspect-square" data-alt="After photo of the second patient with a full head of hair" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDDxy4nh4OzXOdzl9T41P_4fMI19BJ0BAWesYQnUUVo_ygt-hubYSTiZjQPrO4tKu8LrGG7sWYPcipxWMkjTqwOcBXbEZx1wkXA_zLnGR6nPN8SaotY3DpYoBZ_IsylTOOeovheBUIkL-DJhNIPdlWRqQwcwFfWFZHLI1-pkNaNYcXPcz5p8z3icbEmcuelz4-FcHtRx_ssbJeSg1uMB-4dIBIlaX21zb5NtAFQwTTg78DKKzfqR-l0Vyaz3pmXKAJogad5QQUaYw"/>
+<p class="text-center text-sm font-semibold text-text-secondary dark:text-gray-400">After</p>
+</div>
+</div>
+<!-- Treatments Section -->
+<div class="px-4 pt-8 pb-2">
+<h3 class="text-xl font-bold text-text-primary dark:text-text-light">Treatment Techniques</h3>
+</div>
+<div class="px-4 space-y-2">
+<div class="rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800">
+<button class="w-full flex justify-between items-center p-4">
+<span class="font-bold text-text-primary dark:text-text-light">Follicular Unit Extraction (FUE)</span>
+<span class="material-symbols-outlined text-text-secondary dark:text-gray-400">expand_more</span>
+</button>
+</div>
+<div class="rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800">
+<button class="w-full flex justify-between items-center p-4">
+<span class="font-bold text-text-primary dark:text-text-light">Direct Hair Implantation (DHI)</span>
+<span class="material-symbols-outlined text-text-secondary dark:text-gray-400">expand_more</span>
+</button>
+</div>
+<div class="rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800">
+<button class="w-full flex justify-between items-center p-4">
+<span class="font-bold text-text-primary dark:text-text-light">Scalp Micropigmentation (SMP)</span>
+<span class="material-symbols-outlined text-text-secondary dark:text-gray-400">expand_more</span>
+</button>
+</div>
+</div>
+<!-- CTA Section -->
+<div class="sticky bottom-0 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm p-4 mt-8">
+<button class="w-full flex items-center justify-center gap-2 h-12 rounded-lg bg-secondary text-text-light font-bold text-base leading-normal tracking-[0.015em]">
+            Book Consultation
+        </button>
+</div>
+</div>
+</body></html>

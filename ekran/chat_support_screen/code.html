@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Clinic Support Chat</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+    </style>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#004D40",
+              "background-light": "#F4F7F6",
+              "background-dark": "#101622",
+              "medium-gray": "#E0E0E0",
+              "charcoal": "#333333",
+              "soft-gold": "#C5A76D"
+            },
+            fontFamily: {
+              "display": ["Manrope", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark">
+<div class="relative mx-auto flex h-screen w-full max-w-lg flex-col font-display group/design-root" style='font-family: Manrope, "Noto Sans", sans-serif;'>
+<!-- Top App Bar -->
+<div class="sticky top-0 z-10 flex items-center bg-background-light dark:bg-background-dark p-4 shadow-sm">
+<button class="flex size-10 shrink-0 items-center justify-center rounded-full text-charcoal dark:text-background-light">
+<span class="material-symbols-outlined text-2xl">arrow_back</span>
+</button>
+<div class="flex flex-1 flex-col items-center justify-center pr-10">
+<h2 class="text-lg font-bold leading-tight tracking-[-0.015em] text-charcoal dark:text-background-light">Clinic Support</h2>
+<div class="flex items-center gap-1.5">
+<div class="size-2 rounded-full bg-green-500"></div>
+<p class="text-xs text-charcoal/70 dark:text-background-light/70">Online</p>
+</div>
+</div>
+</div>
+<!-- Chat Area -->
+<div class="flex-1 overflow-y-auto px-4 pt-4">
+<!-- Date Separator -->
+<p class="py-3 text-center text-sm font-normal leading-normal text-charcoal/60 dark:text-background-light/60">--- Today ---</p>
+<!-- Incoming Message -->
+<div class="flex items-end gap-3 py-2">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 shrink-0" data-alt="Clinic Support team logo" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAI249oOXyP7G0THe1giVuIVQFZTej6Jm5tKFpnIOlvYKJE0kS6Duq4vDtoiJXjbHsp-83wPNqFLfsMgyLPNZMS57zmtQ-kONPdTNlWrNZYIze1xNJCW7u0S-qW2s3-yf3ZdJWRt370jVca0cPtc4vA1oTb7jzNdEfFBeLSyMpjte67yYtar6eNY2UYszgK1IFqG3wm_YPOQa0dWh3V3cF6AGypvF_WpKqejhvse2N8KE2GJHVN1LwzRwHQemcDp5bCsAfm3-rLNA");'></div>
+<div class="flex flex-1 flex-col items-start gap-1">
+<p class="max-w-[360px] rounded-lg rounded-bl-none bg-medium-gray px-4 py-3 text-base font-normal leading-normal text-charcoal dark:bg-gray-700 dark:text-background-light">
+                        Welcome! How can we help you today? Our team typically replies within an hour.
+                    </p>
+<span class="text-xs text-charcoal/60 dark:text-background-light/60">10:30 AM</span>
+</div>
+</div>
+<!-- Outgoing Message -->
+<div class="flex items-end justify-end gap-3 py-2">
+<div class="flex flex-1 flex-col items-end gap-1">
+<p class="flex max-w-[360px] rounded-lg rounded-br-none bg-primary px-4 py-3 text-base font-normal leading-normal text-white">Hello, I'd like to ask about my treatment plan.</p>
+<span class="text-xs text-charcoal/60 dark:text-background-light/60">10:31 AM</span>
+</div>
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 shrink-0" data-alt="User's profile picture" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBsWFF62RvevHcoPQLaXgY3La2p_aRugt45O7D7Mx6uZ8SuswzkumonQi1tumfhiMoCKJiZTjFNuzGeh17k2iWdPz9e6didzydt9E0J_dCdhu01KrTCQfUKEwBmVeKDuyj045Ebt8eOn2G1cgR_3Wiu_kMOrXbhuh2GaNsb7C9dnwM8ze9PlywOX2rSzEkVvt-pNHt2YfGI1W-8HlT_TZL4yqcJN2KFGlrkfbVu-fCr-F-KC7XypOi321PJ7K_AfwmLnamfcpfA9g");'></div>
+</div>
+<!-- Incoming Message with Typing Indicator -->
+<div class="flex items-end gap-3 py-2">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 shrink-0" data-alt="Clinic Support team logo" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDjaGVRwTa0cFe2YTzMFWbuS74jBKwuK4qYbWCyDYl7o1pq7ikzqo7K--fr6l3CsH8IFMo9Salp_1D12oypg_LwttBPTDpiriAosZADQ7fV4rM-L6b_LzZYjTrpEpfDVZKbIi76_MOuwAEfjEfz32TR2BNBXTr3mwbNq_Jvlu0KbE_IMLczPDe33rum7JdnzXBS3i4I_K0K0s7xKJKM2d-OKQYJclNOGMQ-qG6M1HNFe5hhKTxlImVVRU-NsgLNHPgPvkXg2cW9ww");'></div>
+<div class="flex flex-1 flex-col items-start gap-1">
+<div class="flex items-center gap-2 rounded-lg rounded-bl-none bg-medium-gray px-4 py-3 dark:bg-gray-700">
+<span class="size-1.5 animate-pulse rounded-full bg-charcoal/40 dark:bg-background-light/40 [animation-delay:-0.3s]"></span>
+<span class="size-1.5 animate-pulse rounded-full bg-charcoal/40 dark:bg-background-light/40 [animation-delay:-0.15s]"></span>
+<span class="size-1.5 animate-pulse rounded-full bg-charcoal/40 dark:bg-background-light/40"></span>
+</div>
+</div>
+</div>
+</div>
+<!-- Message Composer Area -->
+<div class="sticky bottom-0 bg-background-light dark:bg-background-dark pt-2">
+<!-- Quick Reply Chips -->
+<div class="flex gap-2 overflow-x-auto p-3 scrollbar-hide">
+<button class="shrink-0 rounded-full bg-medium-gray/60 px-4 py-2 text-sm font-medium text-charcoal dark:bg-gray-700 dark:text-background-light">Book an appointment</button>
+<button class="shrink-0 rounded-full bg-medium-gray/60 px-4 py-2 text-sm font-medium text-charcoal dark:bg-gray-700 dark:text-background-light">My treatment plan</button>
+<button class="shrink-0 rounded-full bg-medium-gray/60 px-4 py-2 text-sm font-medium text-charcoal dark:bg-gray-700 dark:text-background-light">Request a follow-up</button>
+<button class="shrink-0 rounded-full bg-medium-gray/60 px-4 py-2 text-sm font-medium text-charcoal dark:bg-gray-700 dark:text-background-light">Pricing info</button>
+</div>
+<!-- Input Field -->
+<div class="flex w-full items-center gap-2 border-t border-medium-gray/50 p-4 dark:border-gray-700">
+<button class="flex size-10 shrink-0 items-center justify-center rounded-full text-charcoal/80 dark:text-background-light/80">
+<span class="material-symbols-outlined text-2xl">add_photo_alternate</span>
+</button>
+<input class="flex-1 rounded-full border border-medium-gray bg-background-light px-4 py-2.5 text-charcoal placeholder-charcoal/50 focus:border-primary focus:ring-primary dark:border-gray-600 dark:bg-gray-800 dark:text-background-light dark:placeholder-background-light/50 dark:focus:border-primary/80 dark:focus:ring-primary/80" placeholder="Type your message here..." type="text"/>
+<button class="flex size-10 shrink-0 items-center justify-center rounded-full bg-primary text-white">
+<span class="material-symbols-outlined text-2xl">send</span>
+</button>
+</div>
+</div>
+</div>
+</body></html>

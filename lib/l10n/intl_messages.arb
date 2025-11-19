@@ -1,0 +1,4266 @@
+{
+  "@@locale": "en",
+  "@@last_modified": "2024-01-01T00:00:00.000Z",
+  
+  "appName": "Smile Hair Clinic",
+  "@appName": {
+    "description": "Application name"
+  },
+  
+  "editProfile": "Edit Profile",
+  "@editProfile": {
+    "description": "Edit profile screen title"
+  },
+  
+  "save": "Save",
+  "@save": {
+    "description": "Save button text"
+  },
+  
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel button text"
+  },
+  
+  "close": "Close",
+  "@close": {
+    "description": "Close button text"
+  },
+  
+  "changePhoto": "Change Photo",
+  "@changePhoto": {
+    "description": "Change profile photo button"
+  },
+  
+  "patientId": "Patient ID",
+  "@patientId": {
+    "description": "Patient ID label"
+  },
+  
+  "fullName": "Full Name",
+  "@fullName": {
+    "description": "Full name field label"
+  },
+  
+  "email": "Email",
+  "@email": {
+    "description": "Email field label"
+  },
+  
+  "phone": "Phone",
+  "@phone": {
+    "description": "Phone field label"
+  },
+  
+  "address": "Address",
+  "@address": {
+    "description": "Address field label"
+  },
+  
+  "birthDate": "Date of Birth",
+  "@birthDate": {
+    "description": "Date of birth field label"
+  },
+  
+  "gender": "Gender",
+  "@gender": {
+    "description": "Gender field label"
+  },
+  
+  "emergencyContact": "Emergency Contact",
+  "@emergencyContact": {
+    "description": "Emergency contact field label"
+  },
+  
+  "saveChanges": "Save Changes",
+  "@saveChanges": {
+    "description": "Save changes button"
+  },
+  
+  "nameRequired": "Full name cannot be empty",
+  "@nameRequired": {
+    "description": "Validation error for empty name"
+  },
+  
+  "emailInvalid": "Please enter a valid email address",
+  "@emailInvalid": {
+    "description": "Validation error for invalid email"
+  },
+  
+  "phoneRequired": "Phone number cannot be empty",
+  "@phoneRequired": {
+    "description": "Validation error for empty phone"
+  },
+  
+  "addressRequired": "Address cannot be empty",
+  "@addressRequired": {
+    "description": "Validation error for empty address"
+  },
+  
+  "birthDateRequired": "Please select date of birth",
+  "@birthDateRequired": {
+    "description": "Validation error for empty birth date"
+  },
+  
+  "profileUpdatedSuccessfully": "Profile information updated successfully",
+  "@profileUpdatedSuccessfully": {
+    "description": "Success message after profile update"
+  },
+  
+  "male": "Male",
+  "@male": {
+    "description": "Gender option: Male"
+  },
+  
+  "female": "Female",
+  "@female": {
+    "description": "Gender option: Female"
+  },
+  
+  "preferNotToSay": "Prefer not to say",
+  "@preferNotToSay": {
+    "description": "Gender option: Prefer not to say"
+  },
+  
+  "currentPassword": "Current Password",
+  "@currentPassword": {
+    "description": "Current password field"
+  },
+  
+  "newPassword": "New Password",
+  "@newPassword": {
+    "description": "New password field"
+  },
+  
+  "confirmNewPassword": "Confirm New Password",
+  "@confirmNewPassword": {
+    "description": "Confirm new password field"
+  },
+  
+  "change": "Change",
+  "@change": {
+    "description": "Change button"
+  },
+  
+  "passwordsDoNotMatch": "New passwords do not match",
+  "@passwordsDoNotMatch": {
+    "description": "Password mismatch error"
+  },
+  
+  "passwordTooShort": "Password must be at least 6 characters",
+  "@passwordTooShort": {
+    "description": "Password length validation"
+  },
+  
+  "passwordChangedSuccessfully": "Password changed successfully",
+  "@passwordChangedSuccessfully": {
+    "description": "Success message after password change"
+  },
+  
+  "currentPasswordRequired": "Please enter your current password",
+  "@currentPasswordRequired": {
+    "description": "Validation error for empty current password"
+  },
+  
+  "newPasswordRequired": "Please enter your new password",
+  "@newPasswordRequired": {
+    "description": "Validation error for empty new password"
+  },
+  
+  "photoChangeFeatureComingSoon": "Photo change feature coming soon",
+  "@photoChangeFeatureComingSoon": {
+    "description": "Message for upcoming photo change feature"
+  },
+  
+  "description": "Description",
+  "@description": {
+    "description": "Description label in about dialog"
+  },
+  
+  "version": "Version {version}",
+  "@version": {
+    "description": "App version with parameter",
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  
+  "viewAndManageNotifications": "View and manage notifications",
+  "@viewAndManageNotifications": {
+    "description": "Subtitle for notifications settings"
+  },
+  
+  "privacyPolicyError": "Privacy policy page could not be opened. Please check your internet connection.",
+  "@privacyPolicyError": {
+    "description": "Error message when privacy policy cannot be opened"
+  },
+  
+  "termsOfServiceError": "Terms of service page could not be opened. Please check your internet connection.",
+  "@termsOfServiceError": {
+    "description": "Error message when terms of service cannot be opened"
+  },
+  
+  "anErrorOccurred": "An error occurred: {error}",
+  "@anErrorOccurred": {
+    "description": "Generic error message",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  
+  "appDescription": "A modern mobile application designed for hair transplant and care services. You can analyze by taking your own photos, track your treatment process and contact the clinic.",
+  "@appDescription": {
+    "description": "About dialog app description"
+  },
+  
+  "appCopyright": "© 2024 Hair Clinic. All rights reserved.",
+  "@appCopyright": {
+    "description": "About dialog copyright text"
+  },
+  
+  "emergencyContactHint": "Name - Phone",
+  "@emergencyContactHint": {
+    "description": "Emergency contact field hint"
+  },
+  
+  "appointmentDetails": "Appointment Details",
+  "@appointmentDetails": {
+    "description": "Appointment details modal title"
+  },
+  
+  "dateLabel": "Date",
+  "@dateLabel": {
+    "description": "Date label in appointment details"
+  },
+  
+  "timeLabel": "Time",
+  "@timeLabel": {
+    "description": "Time label in appointment details"
+  },
+  
+  "doctorLabel": "Doctor",
+  "@doctorLabel": {
+    "description": "Doctor label in appointment details"
+  },
+  
+  "appointmentTypeLabel": "Appointment Type",
+  "@appointmentTypeLabel": {
+    "description": "Appointment type label in appointment details"
+  },
+  
+  "locationLabel": "Location",
+  "@locationLabel": {
+    "description": "Location label in appointment details"
+  },
+  
+  "phoneLabel": "Phone",
+  "@phoneLabel": {
+    "description": "Phone label in appointment details"
+  },
+  
+  "followUpConsultation": "Follow-up Consultation",
+  "@followUpConsultation": {
+    "description": "Follow-up consultation appointment type"
+  },
+  
+  "cancelAppointment": "Cancel Appointment",
+  "@cancelAppointment": {
+    "description": "Cancel appointment button"
+  },
+  
+  "addReminder": "Add Reminder",
+  "@addReminder": {
+    "description": "Add reminder button"
+  },
+  
+  "appointmentReminderSet": "Appointment reminder has been set",
+  "@appointmentReminderSet": {
+    "description": "Success message when appointment reminder is set"
+  },
+  
+  "cameraPermissionRequired": "We cannot continue without camera permission. Please grant permission from settings.",
+  "@cameraPermissionRequired": {
+    "description": "Camera permission error message"
+  },
+  
+  "sensorPermissionRequired": "Motion sensor permission is required for top and back angle shots.",
+  "@sensorPermissionRequired": {
+    "description": "Sensor permission error message"
+  },
+  
+  "recoveryProgress": "Recovery Progress",
+  "@recoveryProgress": {
+    "description": "Recovery progress label"
+  },
+  
+  "dayOfTotal": "Day {current} of {total}",
+  "@dayOfTotal": {
+    "description": "Day count display",
+    "placeholders": {
+      "current": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  
+  "weekNumberHealingPhase": "Week {week}: Healing Phase",
+  "@weekNumberHealingPhase": {
+    "description": "Week and healing phase display",
+    "placeholders": {
+      "week": {
+        "type": "String"
+      }
+    }
+  },
+  
+  "todaysCareRoutine": "Today's Care Routine",
+  "@todaysCareRoutine": {
+    "description": "Today's care routine title"
+  },
+  
+  "takeMedicationMorning": "Take medication (Morning)",
+  "@takeMedicationMorning": {
+    "description": "Morning medication reminder"
+  },
+  
+  "applyTopicalSolution": "Apply topical solution",
+  "@applyTopicalSolution": {
+    "description": "Topical solution reminder"
+  },
+  
+  "takeMedicationEvening": "Take medication (Evening)",
+  "@takeMedicationEvening": {
+    "description": "Evening medication reminder"
+  },
+  
+  "upcomingAppointment": "Upcoming Appointment",
+  "@upcomingAppointment": {
+    "description": "Upcoming appointment label"
+  },
+  
+  "nextFollowUpConsultation": "Your next follow-up consultation.",
+  "@nextFollowUpConsultation": {
+    "description": "Next follow-up consultation message"
+  },
+  
+  "viewDetails": "View Details",
+  "@viewDetails": {
+    "description": "View details button"
+  },
+  
+  "notifications": "Notifications",
+  "@notifications": {
+    "description": "Notifications title"
+  },
+  
+  "appointmentReminder": "Appointment Reminder",
+  "@appointmentReminder": {
+    "description": "Appointment reminder notification type"
+  },
+  
+  "appointmentReminderMessage": "You have an appointment tomorrow at {time}",
+  "@appointmentReminderMessage": {
+    "description": "Appointment reminder message",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  
+  "hoursAgo": "{hours} hours ago",
+  "@hoursAgo": {
+    "description": "Hours ago display",
+    "placeholders": {
+      "hours": {
+        "type": "String"
+      }
+    }
+  },
+  
+  "medicationReminder": "Medication Reminder",
+  "@medicationReminder": {
+    "description": "Medication reminder notification type"
+  },
+  
+  "morningMedicationReminder": "Don't forget to take your morning medication",
+  "@morningMedicationReminder": {
+    "description": "Morning medication reminder message"
+  },
+  
+  "photoReminder": "Photo Reminder",
+  "@photoReminder": {
+    "description": "Photo reminder notification type"
+  },
+  
+  "weeklyProgressPhotoReminder": "Don't forget to take your weekly progress photo",
+  "@weeklyProgressPhotoReminder": {
+    "description": "Weekly progress photo reminder message"
+  },
+  
+  "daysAgo": "{days} days ago",
+  "@daysAgo": {
+    "description": "Days ago display",
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  
+  "weeksAgo": "{weeks} weeks ago",
+  "@weeksAgo": {
+    "description": "Weeks ago display",
+    "placeholders": {
+      "weeks": {
+        "type": "String"
+      }
+    }
+  },
+  
+  "monthsAgo": "{months} months ago",
+  "@monthsAgo": {
+    "description": "Months ago display",
+    "placeholders": {
+      "months": {
+        "type": "String"
+      }
+    }
+  },
+  
+  "yearsAgo": "{years} years ago",
+  "@yearsAgo": {
+    "description": "Years ago display",
+    "placeholders": {
+      "years": {
+        "type": "String"
+      }
+    }
+  },
+  
+  "notificationOpened": "{title} notification opened",
+  "@notificationOpened": {
+    "description": "Notification opened message",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  
+  "appointmentCancellation": "Appointment Cancellation",
+  "@appointmentCancellation": {
+    "description": "Appointment cancellation dialog title"
+  },
+  
+  "cancelAppointmentConfirmation": "Are you sure you want to cancel this appointment? This action cannot be undone.",
+  "@cancelAppointmentConfirmation": {
+    "description": "Appointment cancellation confirmation message"
+  },
+  
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel button in appointment cancellation"
+  },
+  
+  "appointmentCancelledSuccessfully": "Appointment cancelled successfully",
+  "@appointmentCancelledSuccessfully": {
+    "description": "Success message after appointment cancellation"
+  },
+  
+  "everyDay": "Every day",
+  "@everyDay": {
+    "description": "Every day display for notification schedule"
+  },
+  
+  "weekends": "Weekends",
+  "@weekends": {
+    "description": "Weekends display for notification schedule"
+  },
+  
+  "weekdays": "Weekdays",
+  "@weekdays": {
+    "description": "Weekdays display for notification schedule"
+  },
+  
+  "mondayShort": "Mon",
+  "@mondayShort": {
+    "description": "Monday short name"
+  },
+  
+  "tuesdayShort": "Tue",
+  "@tuesdayShort": {
+    "description": "Tuesday short name"
+  },
+  
+  "wednesdayShort": "Wed",
+  "@wednesdayShort": {
+    "description": "Wednesday short name"
+  },
+  
+  "thursdayShort": "Thu",
+  "@thursdayShort": {
+    "description": "Thursday short name"
+  },
+  
+  "fridayShort": "Fri",
+  "@fridayShort": {
+    "description": "Friday short name"
+  },
+  
+  "saturdayShort": "Sat",
+  "@saturdayShort": {
+    "description": "Saturday short name"
+  },
+  
+  "sundayShort": "Sun",
+  "@sundayShort": {
+    "description": "Sunday short name"
+  },
+  
+  "titleCannotBeEmpty": "Title cannot be empty",
+  "@titleCannotBeEmpty": {
+    "description": "Validation error for empty title"
+  },
+  
+  "messageCannotBeEmpty": "Message cannot be empty",
+  "@messageCannotBeEmpty": {
+    "description": "Validation error for empty message"
+  },
+  
+  "pleaseEnterValidEmail": "Please enter a valid email address",
+  "@pleaseEnterValidEmail": {
+    "description": "Validation error for invalid email"
+  },
+  
+  "selectAtLeastOneDay": "Please select at least one day",
+  "@selectAtLeastOneDay": {
+    "description": "Validation error for no day selected"
+  },
+  
+  "dailyEmailScheduled": "Daily email has been scheduled",
+  "@dailyEmailScheduled": {
+    "description": "Success message when daily email is scheduled"
+  },
+  
+  "deleteTaskConfirmation": "Are you sure you want to delete the task \"{title}\"?",
+  "@deleteTaskConfirmation": {
+    "description": "Delete task confirmation message",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  
+  "taskDeleted": "Task deleted",
+  "@taskDeleted": {
+    "description": "Success message when task is deleted"
+  },
+  
+  "deleteTask": "Delete Task",
+  "@deleteTask": {
+    "description": "Delete task button"
+  },
+  
+  "newScheduledEmail": "New Scheduled Email",
+  "@newScheduledEmail": {
+    "description": "New scheduled email button/title"
+  },
+  
+  "createDailyEmailTasks": "Create daily email tasks",
+  "@createDailyEmailTasks": {
+    "description": "Subtitle for scheduled emails screen"
+  },
+  
+  "titleLabel": "Title",
+  "@titleLabel": {
+    "description": "Title field label"
+  },
+  
+  "messageLabel": "Message",
+  "@messageLabel": {
+    "description": "Message field label"
+  },
+  
+  "recipientNameLabel": "Recipient Name",
+  "@recipientNameLabel": {
+    "description": "Recipient name field label"
+  },
+  
+  "timeLabel": "Time",
+  "@timeLabel": {
+    "description": "Time field label"
+  },
+  
+  "delete": "Delete",
+  "@delete": {
+    "description": "Delete button"
+  },
+  
+  "daysLabel": "Days",
+  "@daysLabel": {
+    "description": "Days label for scheduling"
+  },
+  
+  "clinicName": "Smile Hair Clinic",
+  "@clinicName": {
+    "description": "Clinic name"
+  },
+  
+  "clinicShortDescription": "One of Turkey's leading clinics in Istanbul, specializing in hair transplantation.",
+  "@clinicShortDescription": {
+    "description": "Short clinic description"
+  },
+  
+  "clinicAboutDescription": "Smile Hair Clinic is one of Turkey's leading clinics in Istanbul, specializing in hair transplantation. Led by internationally recognized Dr. Gökay Bilgin and Dr. Mehmet Erdoğan, patient satisfaction is always prioritized at Smile Hair Clinic.",
+  "@clinicAboutDescription": {
+    "description": "About clinic description"
+  },
+  
+  "clinicAboutDescription2": "All operational processes are personally followed by doctors, and every team member consists of professionals with medical training. To date, successful hair transplantation procedures have been performed on numerous patients from all around the world.",
+  "@clinicAboutDescription2": {
+    "description": "Second paragraph of about clinic description"
+  },
+  
+  "clinicEthicsDescription": "As Smile Hair Clinic, we serve in accordance with our principles of respect for patient rights, transparency, honesty, and professionalism. We act in compliance with ethical rules in all treatment processes, protect patient confidentiality, and aim to provide the highest quality service.",
+  "@clinicEthicsDescription": {
+    "description": "Clinic ethics description"
+  },
+  
+  "clinicPressDescription": "Smile Hair Clinic has been featured in various media outlets for its successful results and patient satisfaction. It has presented at international hair transplantation conferences and has been a pioneer in the field.",
+  "@clinicPressDescription": {
+    "description": "Clinic press description"
+  },
+  
+  "mediaOutlets": "Media Outlets We've Been Featured In:",
+  "@mediaOutlets": {
+    "description": "Media outlets section title"
+  },
+  
+  "clinicFoundingPartner": "is a founding partner of Smile Hair Clinic.",
+  "@clinicFoundingPartner": {
+    "description": "Founding partner description"
+  },
+  
+  "clinicTeamMember": "works at Smile Hair Clinic.",
+  "@clinicTeamMember": {
+    "description": "Team member description"
+  },
+  
+  "clinicExperiencedDoctor": "is an experienced physician working at Smile Hair Clinic, prioritizing patient satisfaction.",
+  "@clinicExperiencedDoctor": {
+    "description": "Experienced doctor description"
+  },
+  
+  "viewFaqPage": "View FAQ Page",
+  "@viewFaqPage": {
+    "description": "View FAQ page button text"
+  },
+  
+  "clinicDefaultLocation": "Smile Hair Clinic, Istanbul",
+  "@clinicDefaultLocation": {
+    "description": "Default clinic location"
+  },
+  
+  "chatWelcomeMessage": "Welcome! How can we help you today? Our team usually responds within an hour.",
+  "@chatWelcomeMessage": {
+    "description": "Chat welcome message"
+  },
+  
+  "chatSampleMessage": "Hello, I would like to ask about my treatment plan.",
+  "@chatSampleMessage": {
+    "description": "Sample chat message"
+  },
+  
+  "cameraNotFoundWithType": "Camera not found on device: {type}",
+  "@cameraNotFoundWithType": {
+    "description": "Camera not found error message with type",
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  
+  "frontCamera": "front",
+  "@frontCamera": {
+    "description": "Front camera type"
+  },
+  
+  "backCamera": "back",
+  "@backCamera": {
+    "description": "Back camera type"
+  },
+  
+  "patientNameSample": "James Peterson",
+  "@patientNameSample": {
+    "description": "Sample patient name"
+  },
+  
+  "timelineView": "Timeline",
+  "@timelineView": {
+    "description": "Timeline view label"
+  },
+  
+  "visibleImprovementDescription": "Visible improvement in density across the crown. Patient reports high satisfaction.",
+  "@visibleImprovementDescription": {
+    "description": "Timeline item description for improvement"
+  },
+  
+  "procedureDetails": "Type: FUE Restoration\nGrafts: 2,450",
+  "@procedureDetails": {
+    "description": "Procedure details text"
+  },
+  
+  "scheduledEmails": "Scheduled Emails",
+  "@scheduledEmails": {
+    "description": "Scheduled emails screen title"
+  },
+  
+  "noScheduledEmails": "No scheduled emails",
+  "@noScheduledEmails": {
+    "description": "Empty state message for scheduled emails"
+  },
+  
+  "sampleAppointmentDate": "Tue, Nov 9, 10:30 AM",
+  "@sampleAppointmentDate": {
+    "description": "Sample appointment date"
+  },
+  
+  "sampleAppointmentDateFull": "Tuesday, November 9, 2023",
+  "@sampleAppointmentDateFull": {
+    "description": "Sample appointment date full format"
+  },
+  
+  "sampleDoctorName": "Dr. Ahmet Yılmaz",
+  "@sampleDoctorName": {
+    "description": "Sample doctor name"
+  },
+  
+  "samplePhoneNumber": "+90 (212) 555 0123",
+  "@samplePhoneNumber": {
+    "description": "Sample phone number"
+  },
+  
+  "samplePatientName": "David",
+  "@samplePatientName": {
+    "description": "Sample patient name"
+  },
+  
+  "sampleCityCountry": "Istanbul, Turkey",
+  "@sampleCityCountry": {
+    "description": "Sample city and country"
+  },
+  
+  "male": "Male",
+  "@male": {
+    "description": "Male gender"
+  },
+  
+  "sampleEmergencyContact": "Ahmet Yılmaz - +90 555 987 6543",
+  "@sampleEmergencyContact": {
+    "description": "Sample emergency contact"
+  },
+  
+  "welcomeTitle": "Smile Hair Clinic",
+  "@welcomeTitle": {
+    "description": "Welcome screen title"
+  },
+  
+  "welcomeSubtitle": "Hair Restoration & Care",
+  "@welcomeSubtitle": {
+    "description": "Welcome screen subtitle"
+  },
+  
+  "welcomeLogin": "Login",
+  "@welcomeLogin": {
+    "description": "Login button on welcome screen"
+  },
+  
+  "welcomeRegister": "Sign Up",
+  "@welcomeRegister": {
+    "description": "Register button on welcome screen"
+  },
+  
+  "loginTitle": "Welcome Back",
+  "@loginTitle": {
+    "description": "Login screen title"
+  },
+  
+  "loginSubtitle": "Sign in to your account",
+  "@loginSubtitle": {
+    "description": "Login screen subtitle"
+  },
+  
+  "loginEmail": "Email",
+  "@loginEmail": {
+    "description": "Email field label on login"
+  },
+  
+  "loginEmailHint": "Enter your email address",
+  "@loginEmailHint": {
+    "description": "Email field hint on login"
+  },
+  
+  "loginPassword": "Password",
+  "@loginPassword": {
+    "description": "Password field label on login"
+  },
+  
+  "loginPasswordHint": "Enter your password",
+  "@loginPasswordHint": {
+    "description": "Password field hint on login"
+  },
+  
+  "loginForgotPassword": "Forgot your password?",
+  "@loginForgotPassword": {
+    "description": "Forgot password link"
+  },
+  
+  "loginLoginButton": "Login",
+  "@loginLoginButton": {
+    "description": "Login button text"
+  },
+  
+  "loginOr": "or",
+  "@loginOr": {
+    "description": "Or separator on login"
+  },
+  
+  "loginGoogleLogin": "Continue with Google",
+  "@loginGoogleLogin": {
+    "description": "Google login button"
+  },
+
+  "loginNeedAccount": "Need an account?",
+  "@loginNeedAccount": {
+    "description": "Prompt shown to users without an account on the login screen"
+  },
+
+  "forgotPasswordTitle": "Reset your password",
+  "@forgotPasswordTitle": {
+    "description": "Forgot password screen title"
+  },
+
+  "forgotPasswordSubtitle": "Enter your registered email and we will send a link to reset your password.",
+  "@forgotPasswordSubtitle": {
+    "description": "Forgot password screen subtitle"
+  },
+
+  "forgotPasswordSendButton": "Send reset email",
+  "@forgotPasswordSendButton": {
+    "description": "Forgot password button text"
+  },
+
+  "forgotPasswordEmailSent": "Password reset email sent. Please check your inbox.",
+  "@forgotPasswordEmailSent": {
+    "description": "Message after successfully sending forgot password email"
+  },
+  
+  "registrationTitle": "Create Your Account",
+  "@registrationTitle": {
+    "description": "Registration screen title"
+  },
+  
+  "registrationSubtitle": "Create a new account",
+  "@registrationSubtitle": {
+    "description": "Registration screen subtitle"
+  },
+  
+  "registrationName": "Full Name",
+  "@registrationName": {
+    "description": "Name field label on registration"
+  },
+  
+  "registrationNameHint": "Enter your first and last name",
+  "@registrationNameHint": {
+    "description": "Name field hint on registration"
+  },
+  
+  "registrationEmail": "Email",
+  "@registrationEmail": {
+    "description": "Email field label on registration"
+  },
+  
+  "registrationEmailHint": "Enter your email address",
+  "@registrationEmailHint": {
+    "description": "Email field hint on registration"
+  },
+  
+  "registrationPassword": "Password",
+  "@registrationPassword": {
+    "description": "Password field label on registration"
+  },
+  
+  "registrationPasswordHint": "Create your password",
+  "@registrationPasswordHint": {
+    "description": "Password field hint on registration"
+  },
+  
+  "registrationConfirmPassword": "Confirm Password",
+  "@registrationConfirmPassword": {
+    "description": "Confirm password field label"
+  },
+  
+  "registrationConfirmPasswordHint": "Re-enter your password",
+  "@registrationConfirmPasswordHint": {
+    "description": "Confirm password field hint"
+  },
+  
+  "registrationTerms": "I accept the Terms of Use and Privacy Policy.",
+  "@registrationTerms": {
+    "description": "Terms acceptance text"
+  },
+  
+  "registrationRegisterButton": "Create Account",
+  "@registrationRegisterButton": {
+    "description": "Register button text"
+  },
+  
+  "registrationAlreadyHaveAccount": "Already have an account?",
+  "@registrationAlreadyHaveAccount": {
+    "description": "Already have account text"
+  },
+  
+  "registrationLoginLink": "Login",
+  "@registrationLoginLink": {
+    "description": "Login link text"
+  },
+  
+  "dashboardHelloParam": "Hello, {name}",
+  "@dashboardHelloParam": {
+    "description": "Dashboard greeting with name parameter",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  
+  "dashboardHome": "Home",
+  "@dashboardHome": {
+    "description": "Home navigation item"
+  },
+  
+  "dashboardChatbot": "ChatBot",
+  "@dashboardChatbot": {
+    "description": "ChatBot navigation item"
+  },
+  
+  "dashboardAnalysis": "Analysis",
+  "@dashboardAnalysis": {
+    "description": "Analysis navigation item"
+  },
+  
+  "dashboardMyAppointments": "My Appointments",
+  "@dashboardMyAppointments": {
+    "description": "Quick action label to open appointments"
+  },
+  
+  "dashboardResources": "Resources",
+  "@dashboardResources": {
+    "description": "Resources navigation item"
+  },
+  
+  "dashboardCareGuide": "Care Guide",
+  "@dashboardCareGuide": {
+    "description": "Care guide resource"
+  },
+  
+  "dashboardCareGuideSubtitle": "Post-transplant care instructions",
+  "@dashboardCareGuideSubtitle": {
+    "description": "Care guide subtitle"
+  },
+  
+  "dashboardDefaultUserName": "Guest User",
+  "@dashboardDefaultUserName": {
+    "description": "Fallback display name when user profile has no name"
+  },
+  
+  "dashboardHairTransplantTitle": "Hair Transplant",
+  "@dashboardHairTransplantTitle": {
+    "description": "Hair transplant resource card title"
+  },
+  
+  "dashboardHairTransplantSubtitle": "Explore every transplant technique",
+  "@dashboardHairTransplantSubtitle": {
+    "description": "Hair transplant resource card subtitle"
+  },
+  
+  "dashboardOnlineConsultationTitle": "Online Consultation",
+  "@dashboardOnlineConsultationTitle": {
+    "description": "Online consultation resource card title"
+  },
+  
+  "dashboardOnlineConsultationSubtitle": "Get free expert advice",
+  "@dashboardOnlineConsultationSubtitle": {
+    "description": "Online consultation resource card subtitle"
+  },
+  
+  "dashboardDoctorsTitle": "Our Doctors",
+  "@dashboardDoctorsTitle": {
+    "description": "Doctors resource card title"
+  },
+  
+  "dashboardDoctorsSubtitle": "Meet our specialist surgeons",
+  "@dashboardDoctorsSubtitle": {
+    "description": "Doctors resource card subtitle"
+  },
+  
+  "dashboardAboutUsTitle": "About Us",
+  "@dashboardAboutUsTitle": {
+    "description": "About us resource card title"
+  },
+  
+  "dashboardAboutUsSubtitle": "Learn about our clinic",
+  "@dashboardAboutUsSubtitle": {
+    "description": "About us resource card subtitle"
+  },
+  
+  "dashboardContactTitle": "Contact",
+  "@dashboardContactTitle": {
+    "description": "Contact resource card title"
+  },
+  
+  "dashboardContactSubtitle": "Get in touch with us",
+  "@dashboardContactSubtitle": {
+    "description": "Contact resource card subtitle"
+  },
+  
+  "dashboardProgressTracking": "Progress Tracking",
+  "@dashboardProgressTracking": {
+    "description": "Progress tracking resource"
+  },
+  
+  "dashboardProgressTrackingSubtitle": "Track your treatment progress",
+  "@dashboardProgressTrackingSubtitle": {
+    "description": "Progress tracking subtitle"
+  },
+  
+  "dashboardPastAnalysesSubtitle": "Your previous photo analyses",
+  "@dashboardPastAnalysesSubtitle": {
+    "description": "Past analyses subtitle"
+  },
+  
+  "settingsProfile": "Profile",
+  "@settingsProfile": {
+    "description": "Settings profile section"
+  },
+  
+  "settingsPreferences": "Preferences",
+  "@settingsPreferences": {
+    "description": "Settings preferences section"
+  },
+  
+  "settingsLanguage": "Language",
+  "@settingsLanguage": {
+    "description": "Language setting"
+  },
+  
+  "settingsLanguageSubtitle": "Select your preferred language",
+  "@settingsLanguageSubtitle": {
+    "description": "Language setting subtitle"
+  },
+  
+  "settingsDarkMode": "Dark Mode",
+  "@settingsDarkMode": {
+    "description": "Dark mode setting"
+  },
+  
+  "settingsDarkModeSubtitle": "Enable dark theme",
+  "@settingsDarkModeSubtitle": {
+    "description": "Dark mode setting subtitle"
+  },
+  
+  "settingsNotifications": "Notifications",
+  "@settingsNotifications": {
+    "description": "Notifications setting"
+  },
+  
+  "settingsNotificationsSubtitle": "Enable all notifications",
+  "@settingsNotificationsSubtitle": {
+    "description": "Notifications setting subtitle"
+  },
+  
+  "settingsEmailNotifications": "Email Notifications",
+  "@settingsEmailNotifications": {
+    "description": "Email notifications setting"
+  },
+  
+  "settingsEmailNotificationsSubtitle": "Receive notifications via email",
+  "@settingsEmailNotificationsSubtitle": {
+    "description": "Email notifications subtitle"
+  },
+  
+  "settingsPushNotifications": "Push Notifications",
+  "@settingsPushNotifications": {
+    "description": "Push notifications setting"
+  },
+  
+  "settingsPushNotificationsSubtitle": "Receive push notifications",
+  "@settingsPushNotificationsSubtitle": {
+    "description": "Push notifications subtitle"
+  },
+  
+  "settingsAccount": "Account",
+  "@settingsAccount": {
+    "description": "Settings account section"
+  },
+  
+  "settingsChangePassword": "Change Password",
+  "@settingsChangePassword": {
+    "description": "Change password setting"
+  },
+  
+  "settingsChangePasswordSubtitle": "Update your password",
+  "@settingsChangePasswordSubtitle": {
+    "description": "Change password subtitle"
+  },
+  
+  "settingsPrivacyPolicy": "Privacy Policy",
+  "@settingsPrivacyPolicy": {
+    "description": "Privacy policy setting"
+  },
+  
+  "settingsPrivacyPolicySubtitle": "Read our privacy policy",
+  "@settingsPrivacyPolicySubtitle": {
+    "description": "Privacy policy subtitle"
+  },
+  
+  "settingsTermsOfService": "Terms of Service",
+  "@settingsTermsOfService": {
+    "description": "Terms of service setting"
+  },
+  
+  "settingsTermsOfServiceSubtitle": "Read our terms of service",
+  "@settingsTermsOfServiceSubtitle": {
+    "description": "Terms of service subtitle"
+  },
+  
+  "settingsSupport": "Support",
+  "@settingsSupport": {
+    "description": "Settings support section"
+  },
+  
+  "settingsHelpSupport": "Help & Support",
+  "@settingsHelpSupport": {
+    "description": "Help and support setting"
+  },
+  
+  "settingsHelpSupportSubtitle": "Get help and contact support",
+  "@settingsHelpSupportSubtitle": {
+    "description": "Help and support subtitle"
+  },
+  "settingsAddPhone": "Add phone number",
+  "@settingsAddPhone": {
+    "description": "Placeholder when phone number is empty"
+  },
+  "settingsThemeMode": "Theme Mode",
+  "@settingsThemeMode": {
+    "description": "Theme mode tile title"
+  },
+  "settingsThemeDescriptionSystem": "Follow system settings",
+  "@settingsThemeDescriptionSystem": {
+    "description": "Theme mode description for system"
+  },
+  "settingsThemeDescriptionLight": "Light theme",
+  "@settingsThemeDescriptionLight": {
+    "description": "Theme mode description for light"
+  },
+  "settingsThemeDescriptionDark": "Dark theme",
+  "@settingsThemeDescriptionDark": {
+    "description": "Theme mode description for dark"
+  },
+  "settingsThemeDialogTitle": "Choose Theme Mode",
+  "@settingsThemeDialogTitle": {
+    "description": "Theme selector dialog title"
+  },
+  "settingsThemeOptionSystem": "System",
+  "@settingsThemeOptionSystem": {
+    "description": "Theme selector option: system"
+  },
+  "settingsThemeOptionSystemSubtitle": "Match device settings",
+  "@settingsThemeOptionSystemSubtitle": {
+    "description": "Theme selector option subtitle: system"
+  },
+  "settingsThemeOptionLight": "Light",
+  "@settingsThemeOptionLight": {
+    "description": "Theme selector option: light"
+  },
+  "settingsThemeOptionLightSubtitle": "Bright color theme",
+  "@settingsThemeOptionLightSubtitle": {
+    "description": "Theme selector option subtitle: light"
+  },
+  "settingsThemeOptionDark": "Dark",
+  "@settingsThemeOptionDark": {
+    "description": "Theme selector option: dark"
+  },
+  "settingsThemeOptionDarkSubtitle": "Dim color theme",
+  "@settingsThemeOptionDarkSubtitle": {
+    "description": "Theme selector option subtitle: dark"
+  },
+  "settingsKvkkFormTitle": "KVKK Application Form",
+  "@settingsKvkkFormTitle": {
+    "description": "KVKK form card title"
+  },
+  "settingsKvkkFormSubtitle": "Submit a request about your personal data",
+  "@settingsKvkkFormSubtitle": {
+    "description": "KVKK form card subtitle"
+  },
+  "settingsGdprFormTitle": "GDPR Contact Form",
+  "@settingsGdprFormTitle": {
+    "description": "GDPR form card title"
+  },
+  "settingsGdprFormSubtitle": "Information notice for KVKK and GDPR",
+  "@settingsGdprFormSubtitle": {
+    "description": "GDPR form card subtitle"
+  },
+  "settingsRecordsTitle": "My Records",
+  "@settingsRecordsTitle": {
+    "description": "Records section title"
+  },
+  "settingsTreatmentHistoryTitle": "Treatment History",
+  "@settingsTreatmentHistoryTitle": {
+    "description": "Treatment history card title"
+  },
+  "settingsTreatmentHistorySubtitle": "View your appointments and surgery records",
+  "@settingsTreatmentHistorySubtitle": {
+    "description": "Treatment history card subtitle"
+  },
+  "settingsDocumentsTitle": "Documents",
+  "@settingsDocumentsTitle": {
+    "description": "Documents card title"
+  },
+  "settingsDocumentsSubtitle": "Reports, prescriptions and shared files",
+  "@settingsDocumentsSubtitle": {
+    "description": "Documents card subtitle"
+  },
+  "settingsInvoicesTitle": "Invoices",
+  "@settingsInvoicesTitle": {
+    "description": "Invoices card title"
+  },
+  "settingsInvoicesSubtitle": "Manage your payments and invoices",
+  "@settingsInvoicesSubtitle": {
+    "description": "Invoices card subtitle"
+  },
+  "settingsSupportCenterSubtitle": "24/7 support and contact channels",
+  "@settingsSupportCenterSubtitle": {
+    "description": "Support center card subtitle"
+  },
+  "settingsContactTitle": "Contact",
+  "@settingsContactTitle": {
+    "description": "Contact card title"
+  },
+  "settingsContactSubtitle": "Address, phone and contact options",
+  "@settingsContactSubtitle": {
+    "description": "Contact card subtitle"
+  },
+  "settingsProfileLoginRequired": "Please sign in to change your profile photo.",
+  "@settingsProfileLoginRequired": {
+    "description": "Message when user must log in before changing profile photo"
+  },
+  "settingsProfilePhotoUpdated": "Your profile photo has been updated.",
+  "@settingsProfilePhotoUpdated": {
+    "description": "Profile photo updated confirmation"
+  },
+  "settingsProfilePhotoUpdateError": "Error while updating the photo: {error}",
+  "@settingsProfilePhotoUpdateError": {
+    "description": "Profile photo update error message",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  
+  "supportCenterTitle": "Support Center",
+  "@supportCenterTitle": {
+    "description": "Support center screen title"
+  },
+  
+  "supportCenterHeroTitle": "Here for you 24/7",
+  "@supportCenterHeroTitle": {
+    "description": "Support center hero heading"
+  },
+  
+  "supportCenterHeroDescription": "The Smile Hair Clinic support team is with you at every step of your treatment journey.",
+  "@supportCenterHeroDescription": {
+    "description": "Support center hero description"
+  },
+  
+  "supportCenterQuickContact": "Quick Contact",
+  "@supportCenterQuickContact": {
+    "description": "Quick contact section title"
+  },
+  
+  "supportCenterWhatsappTitle": "Chat via WhatsApp",
+  "@supportCenterWhatsappTitle": {
+    "description": "WhatsApp action title"
+  },
+  
+  "supportCenterWhatsappSubtitle": "Talk to our live support team instantly",
+  "@supportCenterWhatsappSubtitle": {
+    "description": "WhatsApp action subtitle"
+  },
+  
+  "supportCenterCallTitle": "Call us",
+  "@supportCenterCallTitle": {
+    "description": "Call action title"
+  },
+  
+  "supportCenterEmailTitle": "Send us an email",
+  "@supportCenterEmailTitle": {
+    "description": "Email action title"
+  },
+  
+  "supportCenterKnowledgeBase": "Knowledge Center",
+  "@supportCenterKnowledgeBase": {
+    "description": "Knowledge center section title"
+  },
+  
+  "supportCenterFaqSubtitle": "Questions before and after the operation",
+  "@supportCenterFaqSubtitle": {
+    "description": "FAQ link subtitle"
+  },
+  
+  "supportCenterKnowledgeBaseTitle": "Knowledge Base",
+  "@supportCenterKnowledgeBaseTitle": {
+    "description": "Knowledge base link title"
+  },
+  
+  "supportCenterKnowledgeBaseSubtitle": "All of our hair transplant articles",
+  "@supportCenterKnowledgeBaseSubtitle": {
+    "description": "Knowledge base link subtitle"
+  },
+  
+  "supportCenterAppointmentSupportTitle": "Appointment & Treatment Support",
+  "@supportCenterAppointmentSupportTitle": {
+    "description": "Appointment support link title"
+  },
+  
+  "supportCenterAppointmentSupportSubtitle": "Get information about your treatment plan",
+  "@supportCenterAppointmentSupportSubtitle": {
+    "description": "Appointment support link subtitle"
+  },
+  
+  "supportCenterMessageSectionTitle": "Send us a message",
+  "@supportCenterMessageSectionTitle": {
+    "description": "Message section title"
+  },
+  
+  "supportCenterMessageLabel": "Your message",
+  "@supportCenterMessageLabel": {
+    "description": "Message field label"
+  },
+  
+  "supportCenterMessageHint": "Write your question or request...",
+  "@supportCenterMessageHint": {
+    "description": "Message hint text"
+  },
+  
+  "supportCenterMessageEmpty": "Please write a message",
+  "@supportCenterMessageEmpty": {
+    "description": "Empty message validation error"
+  },
+  
+  "supportCenterMessageSuccess": "We received your message. We will get back to you shortly.",
+  "@supportCenterMessageSuccess": {
+    "description": "Message sent confirmation"
+  },
+  
+  "supportCenterSendButton": "Send",
+  "@supportCenterSendButton": {
+    "description": "Send button label"
+  },
+  "treatmentHistoryTitle": "Treatment History",
+  "@treatmentHistoryTitle": {
+    "description": "Treatment history screen title"
+  },
+  "treatmentHistoryLoginRequired": "You need to sign in to view this feature.",
+  "@treatmentHistoryLoginRequired": {
+    "description": "Message shown when user must log in"
+  },
+  "treatmentHistoryEmpty": "You don't have any recorded treatment history yet.",
+  "@treatmentHistoryEmpty": {
+    "description": "Empty state message"
+  },
+  "treatmentHistoryDatePending": "Date pending",
+  "@treatmentHistoryDatePending": {
+    "description": "Placeholder when appointment date missing"
+  },
+  "treatmentHistoryDefaultType": "Check-up",
+  "@treatmentHistoryDefaultType": {
+    "description": "Default appointment type text"
+  },
+  "treatmentHistoryDoctorPending": "To be assigned",
+  "@treatmentHistoryDoctorPending": {
+    "description": "Placeholder when doctor is not assigned"
+  },
+  "treatmentHistoryStatusCompleted": "Completed",
+  "@treatmentHistoryStatusCompleted": {
+    "description": "Status label completed"
+  },
+  "treatmentHistoryStatusCancelled": "Cancelled",
+  "@treatmentHistoryStatusCancelled": {
+    "description": "Status label cancelled"
+  },
+  "treatmentHistoryStatusInProgress": "In progress",
+  "@treatmentHistoryStatusInProgress": {
+    "description": "Status label in progress"
+  },
+  "treatmentHistoryStatusScheduled": "Scheduled",
+  "@treatmentHistoryStatusScheduled": {
+    "description": "Status label scheduled"
+  },
+  
+  "settingsAbout": "About",
+  "@settingsAbout": {
+    "description": "About setting"
+  },
+  
+  "settingsAboutSubtitle": "App version and information",
+  "@settingsAboutSubtitle": {
+    "description": "About subtitle"
+  },
+  
+  "settingsLogout": "Logout",
+  "@settingsLogout": {
+    "description": "Logout button"
+  },
+  
+  "clinicProfileTitle": "Smile Hair Clinic",
+  "@clinicProfileTitle": {
+    "description": "Clinic profile title"
+  },
+  
+  "clinicProfilePremiumRestoration": "Premium Hair Restoration",
+  "@clinicProfilePremiumRestoration": {
+    "description": "Clinic premium restoration text"
+  },
+  
+  "clinicProfileAbout": "About",
+  "@clinicProfileAbout": {
+    "description": "About tab"
+  },
+  
+  "clinicProfileDoctors": "Doctors",
+  "@clinicProfileDoctors": {
+    "description": "Doctors tab"
+  },
+  
+  "clinicProfileGallery": "Gallery",
+  "@clinicProfileGallery": {
+    "description": "Gallery tab"
+  },
+  
+  "clinicProfileTreatments": "Treatments",
+  "@clinicProfileTreatments": {
+    "description": "Treatments tab"
+  },
+  
+  "clinicProfileBookConsultation": "Book Consultation",
+  "@clinicProfileBookConsultation": {
+    "description": "Book consultation button"
+  },
+  
+  "clinicProfileAboutTitle": "About Us",
+  "@clinicProfileAboutTitle": {
+    "description": "About section title"
+  },
+  
+  "clinicProfileEthicsTitle": "Our Ethics",
+  "@clinicProfileEthicsTitle": {
+    "description": "Ethics section title"
+  },
+  
+  "clinicProfilePressTitle": "In the Press",
+  "@clinicProfilePressTitle": {
+    "description": "Press section title"
+  },
+  
+  "clinicProfileContactTitle": "Contact Information",
+  "@clinicProfileContactTitle": {
+    "description": "Contact section title"
+  },
+  
+  "clinicProfileDoctorsTitle": "Our Doctors",
+  "@clinicProfileDoctorsTitle": {
+    "description": "Doctors section title"
+  },
+  
+  "clinicProfileGalleryTitle": "Results Gallery",
+  "@clinicProfileGalleryTitle": {
+    "description": "Gallery section title"
+  },
+  
+  "clinicProfileHairSurgeon": "Hair Surgeon",
+  "@clinicProfileHairSurgeon": {
+    "description": "Hair surgeon specialty"
+  },
+  
+  "pastAnalysesTitle": "Past Analyses",
+  "@pastAnalysesTitle": {
+    "description": "Past analyses screen title"
+  },
+  
+  "faqTitle": "Frequently Asked Questions",
+  "@faqTitle": {
+    "description": "FAQ screen title"
+  },
+  
+  "faqSubtitle": "For your questions",
+  "@faqSubtitle": {
+    "description": "FAQ screen subtitle"
+  },
+  
+  "splashTagline": "Hair Transplant and Aesthetic Specialist",
+  "@splashTagline": {
+    "description": "Splash screen tagline"
+  },
+  
+  "captureFlowTitle": "Self Capture",
+  "@captureFlowTitle": {
+    "description": "Capture flow screen title"
+  },
+  
+  "captureFlowSubtitle": "Automatic capture from 5 critical angles for hair and scalp.\nMake sure you are in a well-lit environment before starting.",
+  "@captureFlowSubtitle": {
+    "description": "Capture flow screen subtitle"
+  },
+  
+  "captureFlowStartCapture": "Start Capture",
+  "@captureFlowStartCapture": {
+    "description": "Start capture button"
+  },
+  
+  "captureFlowFaceDetection": "Position your face in the frame and look at the camera.",
+  "@captureFlowFaceDetection": {
+    "description": "Face detection instruction"
+  },
+  
+  "captureFlowPositionCorrect": "Position correct, hold still ({seconds} sec)",
+  "@captureFlowPositionCorrect": {
+    "description": "Position correct message with seconds",
+    "placeholders": {
+      "seconds": {
+        "type": "String"
+      }
+    }
+  },
+  
+  "captureFlowTurnRightMore": "Turn your head a bit more to the right.",
+  "@captureFlowTurnRightMore": {
+    "description": "Turn right more instruction"
+  },
+  
+  "captureFlowTooMuchRight": "You turned a bit too much, adjust slightly to the left.",
+  "@captureFlowTooMuchRight": {
+    "description": "Too much right adjustment"
+  },
+  
+  "captureFlowKeepHeadStill": "Keep your head still and don't move your shoulders.",
+  "@captureFlowKeepHeadStill": {
+    "description": "Keep head still instruction"
+  },
+  
+  "captureFlowTurnLeftMore": "Turn your head a bit more to the left.",
+  "@captureFlowTurnLeftMore": {
+    "description": "Turn left more instruction"
+  },
+  
+  "captureFlowTooMuchLeft": "You turned a bit too much, adjust slightly to the right.",
+  "@captureFlowTooMuchLeft": {
+    "description": "Too much left adjustment"
+  },
+  
+  "captureFlowCaptured": "captured",
+  "@captureFlowCaptured": {
+    "description": "Captured text"
+  },
+  
+  "captureFlowInitializingCamera": "Initializing camera...",
+  "@captureFlowInitializingCamera": {
+    "description": "Initializing camera message"
+  },
+  
+  "captureFlowCapturedPhotos": "Captured Photos",
+  "@captureFlowCapturedPhotos": {
+    "description": "Captured photos title"
+  },
+  
+  "captureFlowEndSession": "End Session",
+  "@captureFlowEndSession": {
+    "description": "End session button"
+  },
+  
+  "captureFlowReviewPhotos": "Review Photos",
+  "@captureFlowReviewPhotos": {
+    "description": "Review photos button"
+  },
+  
+  "captureFlowPhotosCaptured": "photos captured",
+  "@captureFlowPhotosCaptured": {
+    "description": "Photos captured text"
+  },
+  
+  "captureFlowSelected": "Selected",
+  "@captureFlowSelected": {
+    "description": "Selected text"
+  },
+  
+  "captureFlowContinueToAnalysis": "Continue to Analysis",
+  "@captureFlowContinueToAnalysis": {
+    "description": "Continue to analysis button"
+  },
+  
+  "captureFlowNewCapture": "Start New Capture",
+  "@captureFlowNewCapture": {
+    "description": "New capture button"
+  },
+  
+  "captureFlowPhotosFrom5Angles": "Photos from 5 angles",
+  "@captureFlowPhotosFrom5Angles": {
+    "description": "Photos from 5 angles text"
+  },
+  
+  "captureStageFrontTitle": "Front View",
+  "@captureStageFrontTitle": {
+    "description": "Front stage title"
+  },
+  "captureStageFrontBaseInstruction": "Look straight at the camera and keep your head still.",
+  "@captureStageFrontBaseInstruction": {
+    "description": "Front stage base instruction"
+  },
+  "captureStageFrontReminder": "Keep your head straight and look at the camera.",
+  "@captureStageFrontReminder": {
+    "description": "Front stage reminder"
+  },
+  "captureStageRight45Title": "Right 45°",
+  "@captureStageRight45Title": {
+    "description": "Right 45 stage title"
+  },
+  "captureStageRight45BaseInstruction": "Turn your head 45 degrees to the right.",
+  "@captureStageRight45BaseInstruction": {
+    "description": "Right 45 stage base instruction"
+  },
+  "captureStageRight45Reminder": "Turn your head more to the right.",
+  "@captureStageRight45Reminder": {
+    "description": "Right 45 stage reminder"
+  },
+  "captureStageLeft45Title": "Left 45°",
+  "@captureStageLeft45Title": {
+    "description": "Left 45 stage title"
+  },
+  "captureStageLeft45BaseInstruction": "Turn your head 45 degrees to the left.",
+  "@captureStageLeft45BaseInstruction": {
+    "description": "Left 45 stage base instruction"
+  },
+  "captureStageLeft45Reminder": "Turn your head more to the left.",
+  "@captureStageLeft45Reminder": {
+    "description": "Left 45 stage reminder"
+  },
+  "captureStageVertexTitle": "Top View",
+  "@captureStageVertexTitle": {
+    "description": "Vertex stage title"
+  },
+  "captureStageVertexBaseInstruction": "Hold your phone horizontally above your head.",
+  "@captureStageVertexBaseInstruction": {
+    "description": "Vertex stage base instruction"
+  },
+  "captureStageVertexReminder": "Hold your phone flat above your head.",
+  "@captureStageVertexReminder": {
+    "description": "Vertex stage reminder"
+  },
+  "captureStageDonorTitle": "Donor Area",
+  "@captureStageDonorTitle": {
+    "description": "Donor stage title"
+  },
+  "captureStageDonorBaseInstruction": "Turn your head and hold the phone behind your head.",
+  "@captureStageDonorBaseInstruction": {
+    "description": "Donor stage base instruction"
+  },
+  "captureStageDonorReminder": "Hold the phone steady behind your head.",
+  "@captureStageDonorReminder": {
+    "description": "Donor stage reminder"
+  },
+  
+  "photoCaptureFrontView": "Front View",
+  "@photoCaptureFrontView": {
+    "description": "Front view label"
+  },
+  
+  "photoCapturePositionHead": "Position your head within the outline",
+  "@photoCapturePositionHead": {
+    "description": "Position head instruction"
+  },
+  
+  "photoCaptureFront": "Front",
+  "@photoCaptureFront": {
+    "description": "Front label"
+  },
+  
+  "photoCaptureTop": "Top",
+  "@photoCaptureTop": {
+    "description": "Top label"
+  },
+  
+  "photoCaptureLeft": "Left",
+  "@photoCaptureLeft": {
+    "description": "Left label"
+  },
+  
+  "photoCaptureRight": "Right",
+  "@photoCaptureRight": {
+    "description": "Right label"
+  },
+  
+  "chatOnline": "Online",
+  "@chatOnline": {
+    "description": "Online status"
+  },
+  
+  "chatToday": "--- Today ---",
+  "@chatToday": {
+    "description": "Today separator"
+  },
+  
+  "chatMessageHint": "Type your message...",
+  "@chatMessageHint": {
+    "description": "Message hint text"
+  },
+  
+  "chatQuickRepliesAppointment": "Book appointment",
+  "@chatQuickRepliesAppointment": {
+    "description": "Quick reply: appointment"
+  },
+  
+  "chatQuickRepliesTreatmentPlan": "My treatment plan",
+  "@chatQuickRepliesTreatmentPlan": {
+    "description": "Quick reply: treatment plan"
+  },
+  
+  "chatQuickRepliesFollowup": "Request follow-up",
+  "@chatQuickRepliesFollowup": {
+    "description": "Quick reply: follow-up"
+  },
+  
+  "chatQuickRepliesPriceInfo": "Price information",
+  "@chatQuickRepliesPriceInfo": {
+    "description": "Quick reply: price info"
+  },
+  
+  "progressPatientIdParam": "Patient ID: {id}",
+  "@progressPatientIdParam": {
+    "description": "Patient ID with parameter",
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  
+  "progressStatistics": "Statistics",
+  "@progressStatistics": {
+    "description": "Statistics label"
+  },
+  
+  "progressMonthsPostOpParam": "{months} Months Post-Op",
+  "@progressMonthsPostOpParam": {
+    "description": "Months post-op with parameter",
+    "placeholders": {
+      "months": {
+        "type": "String"
+      }
+    }
+  },
+  
+  "progressProcedureDay": "Procedure Day",
+  "@progressProcedureDay": {
+    "description": "Procedure day label"
+  },
+  
+  "progressInitialConsultation": "Initial Consultation",
+  "@progressInitialConsultation": {
+    "description": "Initial consultation label"
+  },
+  
+  "progressUploadPhoto": "Upload New Photo",
+  "@progressUploadPhoto": {
+    "description": "Upload photo button"
+  },
+  
+  "analysisCaptureAndAnalyze": "Capture and Analyze",
+  "@analysisCaptureAndAnalyze": {
+    "description": "Capture and analyze button"
+  },
+  
+  "analysisPastAnalyses": "Past Analyses",
+  "@analysisPastAnalyses": {
+    "description": "Past analyses label"
+  },
+  
+  "analysisAnalysisDate1": "October 15, 2023",
+  "@analysisAnalysisDate1": {
+    "description": "Analysis date 1"
+  },
+  
+  "analysisAnalysisDesc1": "Slight thinning in the crown area",
+  "@analysisAnalysisDesc1": {
+    "description": "Analysis description 1"
+  },
+  
+  "analysisAnalysisDate2": "July 12, 2023",
+  "@analysisAnalysisDate2": {
+    "description": "Analysis date 2"
+  },
+  
+  "analysisAnalysisDesc2": "Signs of inflammation on the scalp",
+  "@analysisAnalysisDesc2": {
+    "description": "Analysis description 2"
+  },
+  
+  "analysisAnalysisDate3": "April 05, 2023",
+  "@analysisAnalysisDate3": {
+    "description": "Analysis date 3"
+  },
+  
+  "analysisAnalysisDesc3": "Overall scalp health is good",
+  "@analysisAnalysisDesc3": {
+    "description": "Analysis description 3"
+  },
+  
+  "analysisAnalysisDate4": "January 20, 2023",
+  "@analysisAnalysisDate4": {
+    "description": "Analysis date 4"
+  },
+  
+  "analysisAnalysisDesc4": "Initial analysis for treatment",
+  "@analysisAnalysisDesc4": {
+    "description": "Analysis description 4"
+  },
+  
+  "faqQuestion1": "How long does the hair transplant procedure take?",
+  "@faqQuestion1": {
+    "description": "FAQ question 1"
+  },
+  
+  "faqAnswer1": "The hair transplant procedure typically takes 4-8 hours depending on the number of grafts to be transplanted. Since local anesthesia is used during the procedure, the patient does not feel pain.",
+  "@faqAnswer1": {
+    "description": "FAQ answer 1"
+  },
+  
+  "faqQuestion2": "When can I return to normal life after hair transplant?",
+  "@faqQuestion2": {
+    "description": "FAQ question 2"
+  },
+  
+  "faqAnswer2": "You can do light activities 2-3 days after hair transplant. It is recommended to wait 2 weeks for heavy sports and physical activities. Return to work is usually possible 3-5 days later.",
+  "@faqAnswer2": {
+    "description": "FAQ answer 2"
+  },
+  
+  "faqQuestion3": "When do the transplanted hairs start to grow?",
+  "@faqQuestion3": {
+    "description": "FAQ question 3"
+  },
+  
+  "faqAnswer3": "Transplanted hairs fall out in the first 2-3 weeks (shock loss). New hairs start to grow 3-4 months later and full results are seen within 6-12 months.",
+  "@faqAnswer3": {
+    "description": "FAQ answer 3"
+  },
+  
+  "faqQuestion4": "Is the hair transplant procedure painful?",
+  "@faqQuestion4": {
+    "description": "FAQ question 4"
+  },
+  
+  "faqAnswer4": "Since local anesthesia is used during the procedure, no pain is felt. There may be mild pain after the procedure, but this can be controlled with painkillers.",
+  "@faqAnswer4": {
+    "description": "FAQ answer 4"
+  },
+  
+  "faqQuestion5": "What is the success rate of hair transplant?",
+  "@faqQuestion5": {
+    "description": "FAQ question 5"
+  },
+  
+  "faqAnswer5": "Hair transplant has a very high success rate, typically 95-98%. The success depends on the patient's health, the quality of the donor area, and following post-operative care instructions.",
+  "@faqAnswer5": {
+    "description": "FAQ answer 5"
+  },
+  
+  "faqQuestion6": "Can women have hair transplant?",
+  "@faqQuestion6": {
+    "description": "FAQ question 6"
+  },
+  
+  "faqAnswer6": "Yes, women can have hair transplant. Female pattern hair loss is common and can be treated with hair transplant procedures. A consultation is needed to determine if the patient is a suitable candidate.",
+  "@faqAnswer6": {
+    "description": "FAQ answer 6"
+  },
+  
+  "faqQuestion7": "How many grafts are needed for a hair transplant?",
+  "@faqQuestion7": {
+    "description": "FAQ question 7"
+  },
+  
+  "faqAnswer7": "The number of grafts needed depends on the extent of hair loss and the desired density. Typically, 1,500-3,000 grafts are used for moderate hair loss, while 3,000-5,000 grafts may be needed for extensive hair loss.",
+  "@faqAnswer7": {
+    "description": "FAQ answer 7"
+  },
+  
+  "faqQuestion8": "Is there an age limit for hair transplant?",
+  "@faqQuestion8": {
+    "description": "FAQ question 8"
+  },
+  
+  "faqAnswer8": "There is no strict age limit, but the procedure is generally recommended for patients over 25 years old when hair loss pattern is more stable. Each case is evaluated individually.",
+  "@faqAnswer8": {
+    "description": "FAQ answer 8"
+  },
+  
+  "faqQuestion9": "What is the recovery time after hair transplant?",
+  "@faqQuestion9": {
+    "description": "FAQ question 9"
+  },
+  
+  "faqAnswer9": "Most patients can return to work within 3-5 days. The scabs typically fall off within 7-10 days. Full recovery and normal activities can resume after 2 weeks.",
+  "@faqAnswer9": {
+    "description": "FAQ answer 9"
+  },
+  
+  "faqQuestion10": "Are the results of hair transplant permanent?",
+  "@faqQuestion10": {
+    "description": "FAQ question 10"
+  },
+  
+  "faqAnswer10": "Yes, the transplanted hair is permanent because it is taken from the donor area which is genetically resistant to hair loss. The transplanted hair will continue to grow naturally for the rest of your life.",
+  "@faqAnswer10": {
+    "description": "FAQ answer 10"
+  },
+  
+  "pastAnalysesListView": "List View",
+  "@pastAnalysesListView": {
+    "description": "List view label"
+  },
+  
+  "pastAnalysesGridView": "Grid View",
+  "@pastAnalysesGridView": {
+    "description": "Grid view label"
+  },
+  
+  "pastAnalysesDetailedView": "Detailed View",
+  "@pastAnalysesDetailedView": {
+    "description": "Detailed view label"
+  },
+  
+  "pastAnalysesDensityModerate": "Density: Moderate",
+  "@pastAnalysesDensityModerate": {
+    "description": "Density moderate label"
+  },
+  
+  "pastAnalysesDensityLow": "Density: Low",
+  "@pastAnalysesDensityLow": {
+    "description": "Density low label"
+  },
+  
+  "privacyPolicyTitle": "Personal Data Processing and Protection Policy",
+  "@privacyPolicyTitle": {
+    "description": "Privacy policy document title"
+  },
+  
+  "privacyPolicyDocumentDate": "Document Date:",
+  "@privacyPolicyDocumentDate": {
+    "description": "Privacy policy document date label"
+  },
+  
+  "privacyPolicyRevisionDate": "Revision Date:",
+  "@privacyPolicyRevisionDate": {
+    "description": "Privacy policy revision date label"
+  },
+  
+  "privacyPolicyRevisionNumber": "Revision Number:",
+  "@privacyPolicyRevisionNumber": {
+    "description": "Privacy policy revision number label"
+  },
+  
+  "privacyPolicySection1": "I. INTRODUCTION",
+  "@privacyPolicySection1": {
+    "description": "Privacy policy section 1 title"
+  },
+  
+  "privacyPolicySection1A": "A. Purpose and Scope",
+  "@privacyPolicySection1A": {
+    "description": "Privacy policy section 1A title"
+  },
+  
+  "privacyPolicySection1AContent": "This Policy regulates the principles adopted by Smile Hair Clinic regarding the protection and processing of personal data.\n\nWithin the scope of this Policy, Smile Hair Clinic provides explanations regarding the processing activities of personal data and the systems adopted for the protection of personal data. This includes informing and ensuring transparency for Relevant Persons, primarily including Product or Service Recipients, Employees and Employee Candidates, Potential Customers, Shareholders, Visitors, Participants, Suppliers and Third Parties, establishing and ensuring standards in the management of personal data; determining and supporting organizational goals and obligations; establishing control mechanisms compatible with acceptable risk levels, compliance with principles and rules brought by international conventions, the Constitution, laws, regulations, contracts and other legislation regarding the protection of personal data, and ensuring the best protection of the fundamental rights and freedoms of the Relevant Person. Additionally, this Policy covers all physical and electronic data recording systems and environments used for processing personal and special category personal data automatically or as part of a data recording system by non-automatic means.",
+  "@privacyPolicySection1AContent": {
+    "description": "Privacy policy section 1A content"
+  },
+  
+  "privacyPolicySection1B": "B. Definitions",
+  "@privacyPolicySection1B": {
+    "description": "Privacy policy section 1B title"
+  },
+
+  "photoAnalysisTitle": "Photo Analysis",
+  "@photoAnalysisTitle": { "description": "App bar title for photo analysis chat" },
+  "photosUploadedCount": "{count} photos uploaded",
+  "@photosUploadedCount": {
+    "description": "Subtitle showing number of uploaded photos",
+    "placeholders": { "count": { "type": "String" } }
+  },
+  "autoAnalysisStarting": "5 photos uploaded. Starting automatic analysis...",
+  "@autoAnalysisStarting": { "description": "Auto analysis starting message" },
+  "stageUploaded": "{stage} angle uploaded",
+  "@stageUploaded": {
+    "description": "Message when a stage photo is uploaded",
+    "placeholders": { "stage": { "type": "String" } }
+  },
+  "stageCaptured": "{stage} angle captured",
+  "@stageCaptured": {
+    "description": "Message when a stage photo is captured",
+    "placeholders": { "stage": { "type": "String" } }
+  },
+  "errorLoadingPhoto": "An error occurred while loading the photo: {error}",
+  "@errorLoadingPhoto": {
+    "description": "Error when picking a single image",
+    "placeholders": { "error": { "type": "String" } }
+  },
+  "errorLoadingMultiplePhotos": "An error occurred while loading multiple photos: {error}",
+  "@errorLoadingMultiplePhotos": {
+    "description": "Error when picking multiple images",
+    "placeholders": { "error": { "type": "String" } }
+  },
+  "errorCapturingPhoto": "An error occurred while capturing the photo: {error}",
+  "@errorCapturingPhoto": {
+    "description": "Error when taking a photo with camera",
+    "placeholders": { "error": { "type": "String" } }
+  },
+  "imageSourceTitle": "Photo Source",
+  "@imageSourceTitle": { "description": "Image source dialog title" },
+  "imageSourceCamera": "Camera",
+  "@imageSourceCamera": { "description": "Image source: Camera" },
+  "imageSourceGallery": "Gallery",
+  "@imageSourceGallery": { "description": "Image source: Gallery" },
+  "imageSourceMultiGallery": "Select Multiple from Gallery",
+  "@imageSourceMultiGallery": { "description": "Image source: Multiple gallery selection" },
+  "promptNoPhotosForAnalysis": "Please upload a photo first. Tap the 📷 button to upload.",
+  "@promptNoPhotosForAnalysis": { "description": "Prompt to upload photo before analysis" },
+  "analyzingPhotos": "Your photos are being analyzed...",
+  "@analyzingPhotos": { "description": "Typing/analyzing indicator text" },
+  "visualAnalysisHeader": "📸 Visual Analysis - What I See:",
+  "@visualAnalysisHeader": { "description": "Header for visual analysis section" },
+  "importantWarningHeader": "⚠️ IMPORTANT WARNING:",
+  "@importantWarningHeader": { "description": "Header for important warning section" },
+  "differentPersonsDetected": "Different persons were detected in the photos! All photos must belong to the same person.",
+  "@differentPersonsDetected": { "description": "Message when different persons detected" },
+  "pleaseCaptureSamePerson": "Please take photos of the same person from 5 different angles.",
+  "@pleaseCaptureSamePerson": { "description": "Instruction to capture same person from all angles" },
+  "detectedAnglesHeader": "📐 Detected Angles:",
+  "@detectedAnglesHeader": { "description": "Header for detected angles list" },
+  "analysisCompleted": "✅ Analysis Completed!",
+  "@analysisCompleted": { "description": "Header when analysis is completed successfully" },
+  "allPhotosLookGood": "All photos look suitable.",
+  "@allPhotosLookGood": { "description": "Fallback message when all is valid" },
+  "savedToFirebase": "✅ Photos have been saved to Firebase!",
+  "@savedToFirebase": { "description": "Saved to Firebase message" },
+  "analysisIdLabel": "Analysis ID: {id}",
+  "@analysisIdLabel": {
+    "description": "Label for analysis ID",
+    "placeholders": { "id": { "type": "String" } }
+  },
+  "savedLocationLabel": "Saved Location: Firebase Storage & Firestore",
+  "@savedLocationLabel": { "description": "Saved location info" },
+  "analysisResultHeader": "⚠️ Analysis Result",
+  "@analysisResultHeader": { "description": "Header for analysis result when invalid" },
+  "retakeRequiredAngles": "❌ Angles that need to be retaken:",
+  "@retakeRequiredAngles": { "description": "Label for list of angles to retake" },
+  "errorDetailsHeader": "Error Details:",
+  "@errorDetailsHeader": { "description": "Header for error details list" },
+  "retakeTheseAnglesQuestion": "Would you like to retake these angles?",
+  "@retakeTheseAnglesQuestion": { "description": "Prompt asking to retake" },
+  "retakeFirstInvalidQuestion": "Would you like to retake the first invalid angle?",
+  "@retakeFirstInvalidQuestion": { "description": "Prompt to retake first invalid angle" },
+  "retake": "Retake",
+  "@retake": { "description": "Retake button" },
+  "aiAnalysisTitle": "AI Analysis",
+  "@aiAnalysisTitle": { "description": "Title for AI analysis section" },
+  "aiAnalysisDescription": "The AI analyzes your photos and provides feedback on your hair transplant progress.",
+  "@aiAnalysisDescription": { "description": "Description for AI analysis section" },
+  "aiAnalysisInProgress": "AI analysis is in progress. Please wait...",
+  "@aiAnalysisInProgress": { "description": "AI analysis in progress message" },
+  "aiAnalysisCompleted": "AI analysis completed. Please check the results.",
+  "@aiAnalysisCompleted": { "description": "AI analysis completed message" },
+  "aiAnalysisError": "Error occurred during AI analysis: {error}",
+  "@aiAnalysisError": {
+    "description": "Error message for AI analysis",
+    "placeholders": { "error": { "type": "String" } }
+  },
+  "uploadAndAnalyze": "Upload and Analyze",
+  "@uploadAndAnalyze": {
+    "description": "Button to upload and analyze photos"
+  },
+  "captureWithFaceDetection": "Capture with Face Detection",
+  "@captureWithFaceDetection": {
+    "description": "Button to capture photos with face detection"
+  },
+  "takeMedicationMorning": "Take medication (Morning)",
+  "@takeMedicationMorning": {
+    "description": "Morning medication task"
+  },
+  
+  "applyTopicalSolution": "Apply topical solution",
+  "@applyTopicalSolution": {
+    "description": "Topical solution task"
+  },
+  
+  "takeMedicationEvening": "Take medication (Evening)",
+  "@takeMedicationEvening": {
+    "description": "Evening medication task"
+  },
+  
+  "errorSavingMedicationTime": "Failed to save medication time: {error}",
+  "@errorSavingMedicationTime": {
+    "description": "Error when saving medication time",
+    "placeholders": { "error": { "type": "String" } }
+  },
+  "selectTime": "Select Time",
+  "@selectTime": {
+    "description": "Button to select time"
+  },
+  "nextFollowUpConsultation": "Your next follow-up consultation.",
+  "@nextFollowUpConsultation": {
+    "description": "Description for next appointment"
+  },
+  "dateNotAvailable": "Date not available",
+  "@dateNotAvailable": {
+    "description": "When date is not available"
+  },
+  "viewDetails": "View Details",
+  "@viewDetails": {
+    "description": "Button to view details"
+  },
+  "setReminder": "Set Reminder",
+  "@setReminder": {
+    "description": "Button to set reminder"
+  },
+  "enableDailyMedicationReminder": "Enable Daily Medication Reminder",
+  "@enableDailyMedicationReminder": {
+    "description": "Button to enable daily medication reminder"
+  },
+  "dailyMedication": "Daily Medication",
+  "@dailyMedication": {
+    "description": "Label for daily medication"
+  },
+  "dailyMedicationReminderSet": "Daily medication reminder set for {time}",
+  "@dailyMedicationReminderSet": {
+    "description": "Message when daily medication reminder is set",
+    "placeholders": { "time": { "type": "String" } }
+  },
+  "notifications": "Notifications",
+  "@notifications": {
+    "description": "Notifications button/title"
+  },
+  "quickAccess": "Quick Access",
+  "@quickAccess": {
+    "description": "Quick access section title"
+  },
+  "quickActions": "Quick Actions",
+  "@quickActions": {
+    "description": "Quick actions section title"
+  },
+  "preparation": "Preparation",
+  "@preparation": {
+    "description": "Analysis step: Preparation"
+  },
+  "uploading": "Uploading",
+  "@uploading": {
+    "description": "Analysis step: Uploading"
+  },
+  "aiAnalysis": "AI Analysis",
+  "@aiAnalysis": {
+    "description": "Analysis step: AI Analysis"
+  },
+  "saving": "Saving",
+  "@saving": {
+    "description": "Analysis step: Saving"
+  },
+  "done": "Done",
+  "@done": {
+    "description": "Analysis step: Done"
+  },
+  "frontAngle": "Front (Front)",
+  "@frontAngle": {
+    "description": "Front angle label with English term"
+  },
+  "right45Angle": "Right 45° (Right45)",
+  "@right45Angle": {
+    "description": "Right 45 angle label with English term"
+  },
+  "left45Angle": "Left 45° (Left45)",
+  "@left45Angle": {
+    "description": "Left 45 angle label with English term"
+  },
+  "vertexAngle": "Vertex (Vertex)",
+  "@vertexAngle": {
+    "description": "Vertex angle label with English term"
+  },
+  "donorAngle": "Donor (Donor)",
+  "@donorAngle": {
+    "description": "Donor angle label with English term"
+  },
+  "ok": "OK",
+  "@ok": {
+    "description": "OK button text"
+  },
+  "noUpcomingAppointments": "No Upcoming Appointments",
+  "upcomingAppointment": "Upcoming Appointment",
+  "nextFollowUpConsultation": "Your next follow-up consultation.",
+  "viewDetails": "View Details",
+  "setReminder": "Set Reminder",
+  "onlineConsultation": "Online Consultation",
+  "@onlineConsultation": {
+    "description": "Online consultation screen title"
+  },
+  "freeConsultation": "Free Consultation",
+  "@freeConsultation": {
+    "description": "Free consultation header title"
+  },
+  "freeConsultationSubtitle": "Contact us to get more information",
+  "@freeConsultationSubtitle": {
+    "description": "Free consultation subtitle"
+  },
+  "fullNameLabel": "Full Name *",
+  "@fullNameLabel": {
+    "description": "Full name field label with required indicator"
+  },
+  "fullNameHint": "Full Name",
+  "@fullNameHint": {
+    "description": "Full name field hint"
+  },
+  "emailExample": "example@email.com",
+  "@emailExample": {
+    "description": "Email field example"
+  },
+  "phoneHint": "5XX XXX XX XX",
+  "@phoneHint": {
+    "description": "Phone number field hint"
+  },
+  "messageHint": "Write your message here...",
+  "@messageHint": {
+    "description": "Message field hint"
+  },
+  "or": "or",
+  "@or": {
+    "description": "Divider text between options"
+  },
+  "messageSentSuccessfully": "Your message has been sent successfully!",
+  "@messageSentSuccessfully": {
+    "description": "Success message when form is submitted"
+  },
+  "aboutUsTitle": "About Us",
+  "@aboutUsTitle": {
+    "description": "About us screen title"
+  },
+  "whoWeAre": "Who We Are?",
+  "@whoWeAre": {
+    "description": "About us section title"
+  },
+  "aboutUsDescription": "Smile Hair Clinic is one of the leading clinics in Istanbul, Turkey, providing hair transplant services. Under the leadership of internationally recognized Dr. Gökay Bilgin and Dr. Mehmet Erdoğan, patient satisfaction is always prioritized at Smile Hair Clinic.\n\nAll operation processes are personally followed by doctors, and every member of the team consists of professionals with medical training. Successful hair transplant applications have been performed for many patients from all over the world.",
+  "@aboutUsDescription": {
+    "description": "About us main description"
+  },
+  "ourValues": "Our Values",
+  "@ourValues": {
+    "description": "Our values section title"
+  },
+  "professionalism": "Professionalism",
+  "@professionalism": {
+    "description": "Professionalism value title"
+  },
+  "professionalismDescription": "Our internationally certified expert doctors",
+  "@professionalismDescription": {
+    "description": "Professionalism value description"
+  },
+  "patientSatisfaction": "Patient Satisfaction",
+  "@patientSatisfaction": {
+    "description": "Patient satisfaction value title"
+  },
+  "patientSatisfactionDescription": "Our priority is always our patients' happiness",
+  "@patientSatisfactionDescription": {
+    "description": "Patient satisfaction value description"
+  },
+  "medicalEducation": "Medical Education",
+  "@medicalEducation": {
+    "description": "Medical education value title"
+  },
+  "medicalEducationDescription": "Every member of our team consists of professionals with medical training",
+  "@medicalEducationDescription": {
+    "description": "Medical education value description"
+  },
+  "internationalService": "International Service",
+  "@internationalService": {
+    "description": "International service value title"
+  },
+  "internationalServiceDescription": "Serving patients from all over the world",
+  "@internationalServiceDescription": {
+    "description": "International service value description"
+  },
+  "byNumbers": "By Numbers",
+  "@byNumbers": {
+    "description": "Statistics section title"
+  },
+  "successfulOperations": "Successful\nOperations",
+  "@successfulOperations": {
+    "description": "Successful operations stat label"
+  },
+  "patientsFromCountries": "Patients from\nCountries",
+  "@patientsFromCountries": {
+    "description": "Patients from countries stat label"
+  },
+  "expertDoctors": "Expert\nDoctors",
+  "@expertDoctors": {
+    "description": "Expert doctors stat label"
+  },
+  "patientSatisfactionRate": "Patient\nSatisfaction",
+  "@patientSatisfactionRate": {
+    "description": "Patient satisfaction rate stat label"
+  },
+  "experience": "Experience",
+  "@experience": {
+    "description": "Experience label"
+  },
+  "successfulOperation": "Successful Operation",
+  "@successfulOperation": {
+    "description": "Successful operation label"
+  },
+  "about": "About",
+  "@about": {
+    "description": "About label"
+  },
+  "expertiseAreas": "Areas of Expertise",
+  "@expertiseAreas": {
+    "description": "Expertise areas section title"
+  },
+  "interview": "Interview",
+  "@interview": {
+    "description": "Interview section title"
+  },
+  "contactUs": "Contact Us",
+  "@contactUs": {
+    "description": "Contact us header title"
+  },
+  "call": "Call",
+  "@call": {
+    "description": "Call button text"
+  },
+  "workingHours": "Working Hours",
+  "@workingHours": {
+    "description": "Working hours section title"
+  },
+  "mondayFriday": "Monday - Friday",
+  "@mondayFriday": {
+    "description": "Monday to Friday text"
+  },
+  "saturday": "Saturday",
+  "@saturday": {
+    "description": "Saturday text"
+  },
+  "sunday": "Sunday",
+  "@sunday": {
+    "description": "Sunday text"
+  },
+  "closed": "Closed",
+  "@closed": {
+    "description": "Closed text"
+  },
+  "notificationsTitle": "Notifications",
+  "@notificationsTitle": {
+    "description": "Notifications screen title"
+  },
+  "all": "All",
+  "@all": {
+    "description": "All tab label"
+  },
+  "unread": "Unread",
+  "@unread": {
+    "description": "Unread tab label"
+  },
+  "scheduled": "Scheduled",
+  "@scheduled": {
+    "description": "Scheduled tab label"
+  },
+  "markAllAsRead": "Mark All as Read",
+  "@markAllAsRead": {
+    "description": "Mark all notifications as read button"
+  },
+  "noNotificationsYet": "No notifications yet",
+  "@noNotificationsYet": {
+    "description": "No notifications empty state"
+  },
+  "newNotificationsWillAppearHere": "New notifications will appear here",
+  "@newNotificationsWillAppearHere": {
+    "description": "New notifications empty state subtitle"
+  },
+  "noScheduledEmails": "No scheduled emails",
+  "@noScheduledEmails": {
+    "description": "No scheduled emails empty state"
+  },
+  "captureAndAnalyze": "Capture and Analyze",
+  "@captureAndAnalyze": {
+    "description": "Capture and analyze screen title"
+  },
+  "captureAndAnalyzeSubtitle": "Capture photos from 5 critical angles and analyze them",
+  "@captureAndAnalyzeSubtitle": {
+    "description": "Capture and analyze subtitle"
+  },
+  "uploadAndAnalyzeSubtitle": "Upload photos from your gallery and analyze them",
+  "@uploadAndAnalyzeSubtitle": {
+    "description": "Upload and analyze subtitle"
+  },
+  "captureWithFaceDetectionSubtitle": "Automatic capture with face detection technology",
+  "@captureWithFaceDetectionSubtitle": {
+    "description": "Capture with face detection subtitle"
+  },
+  "showFaceToCamera": "Show your face to the camera...",
+  "@showFaceToCamera": {
+    "description": "Face detection status message"
+  },
+  "cameraNotFound": "Camera not found",
+  "@cameraNotFound": {
+    "description": "Camera not found error"
+  },
+  "phoneAppCannotOpen": "Phone app cannot be opened. Please make sure the phone app is installed on your device.",
+  "@phoneAppCannotOpen": {
+    "description": "Phone app cannot open error"
+  },
+  "emailAppCannotOpen": "Email app cannot be opened. Please make sure the email app is installed on your device.",
+  "@emailAppCannotOpen": {
+    "description": "Email app cannot open error"
+  },
+  "mapCannotOpen": "Map cannot be opened. Please check your internet connection.",
+  "@mapCannotOpen": {
+    "description": "Map cannot open error"
+  },
+  "noPhotosSelectedYet": "No photos selected yet",
+  "@noPhotosSelectedYet": {
+    "description": "No photos selected empty state"
+  },
+  "addPhotosFromGalleryOrCamera": "Add photos from gallery or camera",
+  "@addPhotosFromGalleryOrCamera": {
+    "description": "Add photos from gallery or camera hint"
+  },
+  "ourDoctors": "Our Doctors",
+  "contact": "Contact",
+  "history": "History",
+  "dateNotAvailable": "Date not available",
+  "timeNotAvailable": "Time not available",
+  "appointmentDetails": "Appointment Details",
+  "date": "Date",
+  "time": "Time",
+  "doctor": "Doctor",
+  "doctorNamePlaceholder": "Dr. Sarah Johnson",
+
+  "type": "Type",
+  "consultationTypePlaceholder": "Follow-up Consultation",
+  "location": "Location",
+  "notes": "Notes",
+  "yourDoctor": "Your Doctor",
+  "appointment": "Appointment",
+  "soon": "Soon",
+  "appointmentReminder": "Appointment Reminder",
+  "reminderAdded": "Reminder added",
+  "reminderAddError": "Could not add reminder: {error}",
+  "appointmentWith": "{doctorName} with {type}",
+  "@reminderAddError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "@appointmentWith": {
+    "placeholders": {
+      "doctorName": {},
+      "type": {}
+    }
+  },
+  "cameraInitError": "Error initializing camera: {error}",
+  "@cameraInitError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "cameraRefreshError": "Could not refresh camera: {error}",
+  "@cameraRefreshError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "photoCaptureError": "Error capturing photo: {error}",
+  "@photoCaptureError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "panoramaComplete": "Panoramic capture complete.",
+  "panoramaVertexInstruction": "Hold phone above your head, horizontal with screen facing down.",
+  "sensorDataWaiting": "Waiting for sensor data...",
+  "panoramaContinueToDonor": "Continue towards the back of the head",
+  "@panoramaContinueToDonor": {
+    "description": "Panorama continue to donor instruction"
+  },
+  "panoramaHoldSteady": "Hold phone steady, capturing back photo.",
+  "turnHeadRightInstruction": "Turn your head significantly to the RIGHT (approx 70–90°). Keep chin level.",
+  "turnHeadLeftCorrection": "Turned too much; come back LEFT a bit. Keep chin level.",
+  "holdSteadyNearTarget": "Don't move, very close to alignment. Stay steady.",
+  "turnHeadLeftInstruction": "Turn your head significantly to the LEFT (approx 70–90°). Keep chin level.",
+  "turnHeadRightCorrection": "Turned too much; come back RIGHT a bit. Keep chin level.",
+  "holdPhoneFlatInstruction": "Hold phone COMPLETELY FLAT! Screen must face up.",
+  "holdPhoneFlatter": "Hold phone a bit flatter. Screen must face exactly up.",
+  "dontTiltForward": "Hold phone flatter, don't tilt forward.",
+  "dontTiltBackward": "Hold phone flatter, don't tilt backward.",
+  "dontTiltRight": "Hold phone flatter, don't tilt right.",
+  "dontTiltLeft": "Hold phone flatter, don't tilt left.",
+  "perfectHoldStill": "Perfect! Hold still... ({seconds} sec)",
+  "@perfectHoldStill": {
+    "placeholders": {
+      "seconds": {}
+    }
+  },
+  "donorInstruction": "Hold phone behind your head to capture donor area. Hold still...",
+  "dontTiltUpOrDown": "Hold phone straight, don't tilt up/down.",
+  "dontTiltSideToSide": "Hold phone straight, don't tilt side to side.",
+  "movePhoneBack": "Move phone completely to the back, must be in opposite direction.",
+  "positionCorrectHoldStill": "Position correct, hold still ({seconds} sec)",
+  "@positionCorrectHoldStill": {
+    "placeholders": {
+      "seconds": {}
+    }
+  },
+  "holdStill": "Hold still.",
+  "lookStraight": "Look straight. Keep your head level.",
+  "turnHeadRight": "Turn your head to the right. Keep chin level.",
+  "turnHeadLeft": "Turn your head to the left. Keep chin level.",
+  "holdPhoneFlat": "Hold the phone flat above your head, screen up.",
+  "movePhoneBehind": "Move the phone behind your head and keep it steady.",
+  "continueButton": "Continue",
+  "firstPhotoCaptured": "1st Photo Captured",
+  "turkishTR": "Turkish (TR)",
+  "englishEN": "English (EN)",
+  "voiceLanguage": "Voice Language",
+  "myMessages": "My Messages",
+  "doctorSessionNotFound": "Doctor session not found.",
+  "newMessage": "New Message",
+  "errorWithDetails": "Error: {error}",
+  "noMessagesYet": "No messages yet",
+  "startNewMessageHint": "Click + button to start a new message",
+  "doctorInfoNotFoundLoginAgain": "Doctor information not found. Please log in again.",
+  "noPatientsFound": "No patients found yet",
+  "selectPatient": "Select Patient",
+  "unknown": "Unknown",
+  "patientOrDoctorInfoNotFound": "Patient or doctor information not found",
+  "doctorFallbackName": "Doctor",
+  "hoursAgo": "{hours} hours ago",
+  "minutesAgo": "{minutes} min ago",
+  "justNow": "Just now",
+  "cancel": "Cancel",
+  "@errorWithDetails": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "@hoursAgo": {
+    "placeholders": {
+      "hours": {}
+    }
+  },
+  "@minutesAgo": {
+    "placeholders": {
+      "minutes": {}
+    }
+  },
+  "refresh": "Refresh",
+  "refreshingList": "Refreshing list...",
+  "todaysAppointments": "Today's Appointments",
+  "appointmentCount": "appointment",
+  "appointmentDataLoadFailed": "Failed to load appointment data",
+  "tryAgain": "Try Again",
+  "noPendingAppointments": "No pending appointments",
+  "appointmentsWillAppearHere": "Appointments will appear here when patients create them",
+  "noConfirmedAppointments": "No confirmed appointments",
+  "confirmedAppointmentsWillAppearHere": "Confirmed appointments will appear here",
+  "noCompletedAppointments": "No completed appointments",
+  "completedAppointmentsWillAppearHere": "Completed appointments will appear here",
+  "noCancelledAppointments": "No cancelled appointments",
+  "cancelledAppointmentsWillAppearHere": "Cancelled appointments will appear here",
+  "photosCount": "Photos ({count})",
+  "front": "Front",
+  "right45": "Right 45°",
+  "left45": "Left 45°",
+  "top": "Top",
+  "donorArea": "Donor Area",
+  "approve": "Approve",
+  "reject": "Reject",
+  "markAsCompleted": "Mark as Completed",
+  "appointmentApproved": "Appointment Approved",
+  "appointmentApprovedMessage": "Your appointment with {doctorName} on {date} has been approved.",
+  "appointmentApprovedNotification": "Appointment approved and patient notified",
+  "appointmentApprovalError": "Error approving appointment",
+  "appointmentApprovalPermissionDenied": "Permission denied to approve appointment. Please check Firebase Firestore rules.",
+  "appointmentNotFound": "Appointment not found. Please refresh the page.",
+  "firebaseUnavailable": "Firebase service is currently unavailable. Please check your internet connection.",
+  "rejectAppointment": "Reject Appointment",
+  "rejectionReason": "Rejection Reason",
+  "rejectionReasonHint": "Please enter the reason for rejection",
+  "appointmentRejected": "Appointment Rejected",
+  "appointmentRejectedMessage": "Your appointment with {doctorName} on {date} has been rejected. Reason: {reason}",
+  "appointmentRejectedNotification": "Appointment rejected and patient notified",
+  "appointmentRejectionError": "Error rejecting appointment",
+  "appointmentRejectionPermissionDenied": "Permission denied to reject appointment. Please check Firebase Firestore rules.",
+  "completeAppointment": "Complete Appointment",
+  "completeAppointmentConfirmation": "Are you sure you want to mark this appointment as completed?",
+  "completed": "Completed",
+  "appointmentCompleted": "Appointment Completed",
+  "appointmentCompletedMessage": "Your appointment with {doctorName} on {date} has been completed.",
+  "appointmentCompletedNotification": "Appointment completed and patient notified",
+  "appointmentCompletionError": "Error completing appointment",
+  "appointmentCompletionPermissionDenied": "Permission denied to complete appointment. Please check Firebase Firestore rules.",
+  "appointmentNote": "Appointment Note",
+  "noteVisibleToPatient": "Description / note visible to patient",
+  "save": "Save",
+  "appointmentNoteMessage": "{doctorName} added a note to your appointment: {note}",
+  "noteSavedNotification": "Note saved and patient notified",
+  "noteAddError": "Error adding note",
+  "noteAddPermissionDenied": "Permission denied to add note. Please check Firebase Firestore rules.",
+  "deleteAppointment": "Delete Appointment",
+  "deleteAppointmentConfirmation": "Are you sure you want to permanently delete this appointment? This action cannot be undone.",
+  "delete": "Delete",
+  "appointmentCancellation": "Appointment Cancellation",
+  "appointmentCancelledMessage": "Your appointment with {doctorName} on {date} has been cancelled.",
+  "appointmentDeletedNotification": "Appointment deleted and patient notified",
+  "appointmentDeletionError": "Error deleting appointment",
+  "appointmentDeletionPermissionDenied": "Permission denied to delete appointment. Please check Firebase Firestore rules.",
+  "addNote": "Add Note",
+  "emptyNote": "(empty note)",
+  "@photosCount": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "@appointmentApprovedMessage": {
+    "placeholders": {
+      "doctorName": {},
+      "date": {}
+    }
+  },
+  "@appointmentRejectedMessage": {
+    "placeholders": {
+      "doctorName": {},
+      "date": {},
+      "reason": {}
+    }
+  },
+  "@appointmentCompletedMessage": {
+    "placeholders": {
+      "doctorName": {},
+      "date": {}
+    }
+  },
+  "@appointmentNoteMessage": {
+    "placeholders": {
+      "doctorName": {},
+      "note": {}
+    }
+  },
+  "@appointmentCancelledMessage": {
+    "placeholders": {
+      "doctorName": {},
+      "date": {}
+    }
+  },
+  "doctorUnknown": "Dr. Unknown",
+  "loginRequiredToSend": "You must be logged in as a doctor to send messages",
+  "doctor": "Doctor",
+  "messageSendError": "Message could not be sent: {error}",
+  "messagesWithTitle": "Messages - {title}",
+  "patient": "Patient",
+  "patientInfoMissing": "Patient information missing",
+  "noMessages": "No messages",
+  "typeMessage": "Type a message...",
+  "@messageSendError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "@messagesWithTitle": {
+    "placeholders": {
+      "title": {}
+    }
+  },
+  "doctorPanel": "Doctor Panel",
+  "myPatients": "My Patients",
+  "appointments": "Appointments",
+  "approvals": "Approvals",
+  "messages": "Messages",
+  "aiAssistant": "AI Assistant",
+  "settings": "Settings",
+  "noPatientsFound": "No patients found.",
+  "sendMessage": "Send Message",
+  "doctorInfoNotFound": "Doctor information not found.",
+  "doctorSessionNotFound": "Doctor session not found.",
+  "aiAssistantDescription": "Get AI-powered answers to your medical questions",
+  "chatWithAI": "Chat with AI",
+  "logoutDoctor": "Log Out (Doctor)",
+  "errorWithDetail": "Error: {error}",
+  "noMessagesYet": "No messages yet.",
+  "@errorWithDetail": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "noDate": "No date",
+  "statusApproved": "Approved",
+  "statusRejected": "Rejected",
+  "statusPending": "Pending",
+  "photoReview": "Photo Review",
+  "reviewAndApproveAnalyses": "Review and approve analyses",
+  "pending": "Pending",
+  "noCompletedAnalyses": "No completed analyses yet",
+  "analysesWillAppearHere": "Will appear here when patients complete photo analysis",
+  "analysisProcess": "Analysis process:\n• Patient takes photo\n• AI analyzes it\n• Valid analyses are listed here",
+  "noApprovedPhotos": "No approved photos yet",
+  "approvedPhotosWillAppearHere": "Photos you approved will appear here",
+  "description": "Description",
+  "photoCountSuffix": "photos",
+  "processing": "Processing...",
+  "photoApproved": "✅ Photo approved",
+  "approvalFailed": "❌ Approval failed",
+  "approvalPermissionDenied": "Approval permission denied. Please check Firebase rules.",
+  "networkError": "Network error. Please check your internet connection.",
+  "photoRejected": "❌ Photo rejected. Notification sent to patient.",
+  "rejectionFailed": "❌ Rejection failed",
+  "rejectionPermissionDenied": "Rejection permission denied. Please check Firebase rules.",
+  "patientAdded": "Patient added: {name}",
+  "@patientAdded": {
+    "description": "Message shown when a sample patient is added",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "allSamplePatientsAdded": "All sample patients and analyses added!",
+  "patientAddError": "Error adding patient: {error}",
+  "@patientAddError": {
+    "description": "Error message when adding a patient fails",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "firebasePatientListError": "Could not fetch Firebase patient list: {error}",
+  "@firebasePatientListError": {
+    "description": "Error message when fetching patient list fails",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "analysisPhoto": "Analysis Photo",
+  "scalpHealthGood": "Good",
+  "recommendationContinue": "Continue current treatment",
+  "sampleAnalysisData": "Sample analysis data",
+  "errorPrefix": "Error: ",
+  "errorTitle": "Error",
+  "@errorTitle": {
+    "description": "Generic error title"
+  },
+  "profileLoadError": "Could not load profile information",
+  "profileReadPermissionDenied": "Permission denied to read profile information",
+  "firebaseServiceUnavailable": "Firebase service is unavailable",
+  "profileSaveError": "Could not save profile information",
+  "profileSavePermissionDenied": "Permission denied to save profile information",
+  "saveError": "Save error: {error}",
+  "@saveError": {
+    "description": "Error message when saving fails",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "profileSavedSuccessfully": "Profile saved successfully",
+  "photoUploadedSaveRequired": "Photo uploaded. Please click Save button to make changes permanent.",
+  "photoUploadError": "Photo upload error",
+  "photoUploadPermissionDenied": "Permission denied to upload photo",
+  "photoUploadUnauthorized": "Unauthorized to upload photo",
+  "photoUploadCancelled": "Photo upload cancelled",
+  "doctorLoginNotFound": "Doctor login information not found",
+  "doctorIdLabel": "Doctor ID: {id}",
+  "@doctorIdLabel": {
+    "description": "Label for doctor ID",
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "patientInfoLoadError": "Could not load patient information",
+  "analysesLoadError": "Could not load analyses",
+  "noAnalysesFound": "No analyses found",
+  "imageNotFound": "Image not found",
+  "tryAgainFromPatientList": "Please try again from the patient list",
+  "cameraInitError": "Error initializing camera: {error}",
+  "@cameraInitError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "cameraRefreshError": "Could not refresh camera: {error}",
+  "@cameraRefreshError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "photoCaptureError": "Error capturing photo: {error}",
+  "@photoCaptureError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "rememberMe": "Keep me signed in",
+  "@rememberMe": {
+    "description": "Remember me checkbox label"
+  },
+  "doctorLogin": "Doctor Login",
+  "@doctorLogin": {
+    "description": "Doctor login button text"
+  },
+  "signingIn": "Signing in...",
+  "@signingIn": {
+    "description": "Signing in loading text"
+  },
+  "emailAndPasswordRequired": "Email and password fields must be filled.",
+  "@emailAndPasswordRequired": {
+    "description": "Validation error when email or password is empty"
+  },
+  "googleSignInFailed": "Google sign in failed: {error}",
+  "@googleSignInFailed": {
+    "description": "Google sign in error message",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "invalidEmailFormat": "Invalid email format.",
+  "@invalidEmailFormat": {
+    "description": "Invalid email format error"
+  },
+  "accountDisabled": "This account has been disabled.",
+  "@accountDisabled": {
+    "description": "Account disabled error"
+  },
+  "userNotFound": "No user found with this email address.",
+  "@userNotFound": {
+    "description": "User not found error"
+  },
+  "wrongPassword": "Wrong password.",
+  "@wrongPassword": {
+    "description": "Wrong password error"
+  },
+  "tooManyRequests": "Too many failed login attempts. Please try again later.",
+  "@tooManyRequests": {
+    "description": "Too many requests error"
+  },
+  "loginError": "An error occurred while logging in. Please try again.",
+  "@loginError": {
+    "description": "Generic login error"
+  },
+  "emailAlreadyInUse": "This email address has already been used.",
+  "@emailAlreadyInUse": {
+    "description": "Email already in use error"
+  },
+  "weakPassword": "Password must be at least 6 characters.",
+  "@weakPassword": {
+    "description": "Weak password error"
+  },
+  "registrationError": "An error occurred while registering. Please try again.",
+  "@registrationError": {
+    "description": "Generic registration error"
+  },
+  "acceptTermsPrefix": "By registering, you accept the ",
+  "@acceptTermsPrefix": {
+    "description": "Terms acceptance prefix text"
+  },
+  "termsOfServiceLink": "Terms of Service",
+  "@termsOfServiceLink": {
+    "description": "Terms of service link text"
+  },
+  "and": " and ",
+  "@and": {
+    "description": "And conjunction"
+  },
+  "privacyPolicyLink": "Privacy Policy",
+  "@privacyPolicyLink": {
+    "description": "Privacy policy link text"
+  },
+  "acceptTermsSuffix": " texts.",
+  "@acceptTermsSuffix": {
+    "description": "Terms acceptance suffix text"
+  },
+  "loginRequired": "You need to sign in",
+  "@loginRequired": {
+    "description": "Login required message"
+  },
+  "noAnalysesYet": "No Analyses Yet",
+  "@noAnalysesYet": {
+    "description": "No analyses yet message"
+  },
+  "goToMainPage": "Go to the main page to make your first analysis",
+  "@goToMainPage": {
+    "description": "Go to main page instruction"
+  },
+  "unknownDate": "Unknown Date",
+  "@unknownDate": {
+    "description": "Unknown date placeholder"
+  },
+  "january": "January",
+  "@january": {
+    "description": "January month name"
+  },
+  "february": "February",
+  "@february": {
+    "description": "February month name"
+  },
+  "march": "March",
+  "@march": {
+    "description": "March month name"
+  },
+  "april": "April",
+  "@april": {
+    "description": "April month name"
+  },
+  "may": "May",
+  "@may": {
+    "description": "May month name"
+  },
+  "june": "June",
+  "@june": {
+    "description": "June month name"
+  },
+  "july": "July",
+  "@july": {
+    "description": "July month name"
+  },
+  "august": "August",
+  "@august": {
+    "description": "August month name"
+  },
+  "september": "September",
+  "@september": {
+    "description": "September month name"
+  },
+  "october": "October",
+  "@october": {
+    "description": "October month name"
+  },
+  "november": "November",
+  "@november": {
+    "description": "November month name"
+  },
+  "december": "December",
+  "@december": {
+    "description": "December month name"
+  },
+  "analysisCompletedShort": "Completed",
+  "@analysisCompletedShort": {
+    "description": "Short completed status"
+  },
+  "retakeDialogTitle": "Retake Required",
+  "@retakeDialogTitle": {
+    "description": "Retake dialog title"
+  },
+  "retakeDialogBody": "According to AI analysis, the following angles need to be retaken:",
+  "@retakeDialogBody": {
+    "description": "Retake dialog body text"
+  },
+  "retakeFirstInvalidQuestionShort": "Would you like to retake the first invalid angle?",
+  "@retakeFirstInvalidQuestionShort": {
+    "description": "Retake first invalid question"
+  },
+  "noExistingPhotosFound": "No existing photos found",
+  "@noExistingPhotosFound": {
+    "description": "No existing photos found message"
+  },
+  "noValidPhotosToUpload": "No valid photos to upload found",
+  "@noValidPhotosToUpload": {
+    "description": "No valid photos to upload message"
+  },
+  "errorOccurred": "Error: {error}",
+  "@errorOccurred": {
+    "description": "Generic error message with error parameter",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "uploadAndAnalyzeTitle": "Upload and Analyze",
+  "@uploadAndAnalyzeTitle": {
+    "description": "Upload and analyze screen title"
+  },
+  "loading": "Loading...",
+  "@loading": {
+    "description": "Loading text"
+  },
+  "okUnderstood": "OK, Understood",
+  "@okUnderstood": {
+    "description": "OK understood button"
+  },
+  "pendingStatus": "Pending",
+  "@pendingStatus": {
+    "description": "Pending status text"
+  },
+  "monday": "Monday",
+  "@monday": {
+    "description": "Monday full name"
+  },
+  "tuesday": "Tuesday",
+  "@tuesday": {
+    "description": "Tuesday full name"
+  },
+  "wednesday": "Wednesday",
+  "@wednesday": {
+    "description": "Wednesday full name"
+  },
+  "thursday": "Thursday",
+  "@thursday": {
+    "description": "Thursday full name"
+  },
+  "friday": "Friday",
+  "@friday": {
+    "description": "Friday full name"
+  },
+  "saturday": "Saturday",
+  "@saturday": {
+    "description": "Saturday full name"
+  },
+  "sunday": "Sunday",
+  "@sunday": {
+    "description": "Sunday full name"
+  },
+  "active": "Active",
+  "@active": {
+    "description": "Active status"
+  },
+  "inactive": "Inactive",
+  "@inactive": {
+    "description": "Inactive status"
+  },
+  "noTitle": "No Title",
+  "@noTitle": {
+    "description": "No title placeholder"
+  },
+  "photoSelectAngle": "Photo {current}/{total} - Select Angle",
+  "@photoSelectAngle": {
+    "description": "Photo selection dialog title",
+    "placeholders": {
+      "current": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "alreadySelected": "Already selected",
+  "@alreadySelected": {
+    "description": "Already selected stage indicator"
+  },
+  "importantWarning": "⚠️ IMPORTANT WARNING:",
+  "@importantWarning": {
+    "description": "Important warning header"
+  },
+  "differentPersonsDetected": "Different persons were detected in the photos! All photos must belong to the same person.",
+  "@differentPersonsDetected": {
+    "description": "Different persons detected message"
+  },
+  "pleaseCaptureSamePerson": "Please take photos of the same person from 5 different angles.",
+  "@pleaseCaptureSamePerson": {
+    "description": "Instruction to capture same person"
+  },
+  "detectedAnglesHeader": "📐 Detected Angles:",
+  "@detectedAnglesHeader": {
+    "description": "Detected angles header"
+  },
+  "allPhotosLookGood": "All photos look suitable.",
+  "@allPhotosLookGood": {
+    "description": "All photos look good message"
+  },
+  "somePhotosNeedRetake": "Some photos need to be retaken.",
+  "@somePhotosNeedRetake": {
+    "description": "Some photos need retake message"
+  },
+  "anglesThatNeedRetake": "Angles that need to be retaken:",
+  "@anglesThatNeedRetake": {
+    "description": "Angles that need retake header"
+  },
+  "userHasPhotosNote": "Note: User has {count} photos uploaded. You can ask questions about photo analysis.",
+  "@userHasPhotosNote": {
+    "description": "Note when user has photos",
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "userNoPhotosNote": "Note: User has no photos yet. You can help with photo upload.",
+  "@userNoPhotosNote": {
+    "description": "Note when user has no photos"
+  },
+  "analysisCompleted": "Analysis completed",
+  "@analysisCompleted": {
+    "description": "Analysis completed message"
+  },
+  "frontShort": "Front",
+  "@frontShort": {
+    "description": "Front short name"
+  },
+  "right45Short": "Right 45°",
+  "@right45Short": {
+    "description": "Right 45 short name"
+  },
+  "left45Short": "Left 45°",
+  "@left45Short": {
+    "description": "Left 45 short name"
+  },
+  "vertexShort": "Top",
+  "@vertexShort": {
+    "description": "Vertex short name"
+  },
+  "donorShort": "Back",
+  "@donorShort": {
+    "description": "Donor short name"
+  },
+  "retakeRequired": "Retake Required",
+  "@retakeRequired": {
+    "description": "Retake required dialog title"
+  },
+  "retakeButton": "Retake",
+  "@retakeButton": {
+    "description": "Retake button text"
+  },
+  "analysisWaitingDoctorApproval": "Analysis is waiting for doctor approval.",
+  "@analysisWaitingDoctorApproval": {
+    "description": "Analysis waiting for approval message"
+  },
+  "retakeFirstInvalidQuestion": "Would you like to retake the first invalid angle?",
+  "@retakeFirstInvalidQuestion": {
+    "description": "Retake first invalid question"
+  },
+  "orWriteAnalyze": "Or write \"Analyze\" to start manual analysis",
+  "@orWriteAnalyze": {
+    "description": "Instruction to write analyze"
+  },
+  "analysisCompletedSuccess": "✅ Analysis Completed!",
+  "@analysisCompletedSuccess": {
+    "description": "Analysis completed success message"
+  },
+  "detectedAnglesLabel": "📐 Detected Angles:",
+  "@detectedAnglesLabel": {
+    "description": "Detected angles label"
+  },
+  "analysisResultHeader": "⚠️ Analysis Result",
+  "@analysisResultHeader": {
+    "description": "Analysis result header"
+  },
+  "pastAnalyses": "Past Analyses",
+  "@pastAnalyses": {
+    "description": "Past analyses title"
+  },
+  "noSavedAnalyses": "No saved analyses yet.",
+  "@noSavedAnalyses": {
+    "description": "No saved analyses message"
+  },
+  "welcomeGreeting": "Welcome, {name}",
+  "@welcomeGreeting": {
+    "description": "Welcome greeting with name",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "loginRequiredForMessaging": "You must sign in to send messages",
+  "@loginRequiredForMessaging": {
+    "description": "Login required for messaging"
+  },
+  "chatWithMyDoctor": "Chat with my doctor",
+  "@chatWithMyDoctor": {
+    "description": "Chat with doctor button"
+  },
+  "analysisSavedSuccessfully": "Analysis saved successfully!",
+  "@analysisSavedSuccessfully": {
+    "description": "Analysis saved successfully message"
+  },
+  "allPhotosAnalyzedAndSaved": "All photos have been successfully analyzed and saved.",
+  "@allPhotosAnalyzedAndSaved": {
+    "description": "All photos analyzed and saved message"
+  },
+  "reanalyzing": "Re-analyzing...",
+  "@reanalyzing": {
+    "description": "Re-analyzing status"
+  },
+  "someAnglesNotCapturedCorrectly": "Some angles were not captured correctly",
+  "@someAnglesNotCapturedCorrectly": {
+    "description": "Some angles not captured correctly message"
+  },
+  "photosUploadingStatus": "Photos uploading...",
+  "@photosUploadingStatus": {
+    "description": "Photos uploading status"
+  },
+  "aiAnalysisInProgress": "AI analysis in progress...",
+  "@aiAnalysisInProgress": {
+    "description": "AI analysis in progress status"
+  },
+  "temporaryRecordAndAnalysis": "Temporary Record and Analysis",
+  "@temporaryRecordAndAnalysis": {
+    "description": "Temporary record and analysis screen title"
+  },
+  "capturedPhotos": "Captured Photos",
+  "@capturedPhotos": {
+    "description": "Captured photos label"
+  },
+  "anglesThatNeedRetakeHeader": "Angles That Need to Be Retaken:",
+  "@anglesThatNeedRetakeHeader": {
+    "description": "Angles that need retake header"
+  },
+  "messages": "Messages",
+  "@messages": {
+    "description": "Messages label"
+  },
+  "myAppointments": "My Appointments",
+  "@myAppointments": {
+    "description": "My appointments label"
+  },
+  "myMessages": "My Messages",
+  "@myMessages": {
+    "description": "My messages title"
+  },
+  "noMessagesYet": "No messages yet.",
+  "@noMessagesYet": {
+    "description": "No messages yet message"
+  },
+  "faceDetectionCapture": "Face Detection Capture",
+  "@faceDetectionCapture": {
+    "description": "Face detection capture screen title"
+  },
+  "showYourFaceToCamera": "Please show your face to the camera",
+  "@showYourFaceToCamera": {
+    "description": "Show face to camera instruction"
+  },
+  "showFaceToCamera": "Show your face to the camera...",
+  "@showFaceToCamera": {
+    "description": "Show face to camera status"
+  },
+  "cameraNotFound": "Camera not found",
+  "@cameraNotFound": {
+    "description": "Camera not found error"
+  },
+  "cameraCouldNotStart": "Camera could not start: {error}",
+  "@cameraCouldNotStart": {
+    "description": "Camera could not start error",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "faceDetected": "Face detected! Counting starts...",
+  "@faceDetected": {
+    "description": "Face detected message"
+  },
+  "photoCapturing": "Capturing photo...",
+  "@photoCapturing": {
+    "description": "Photo capturing status"
+  },
+  "photoCaptured": "Photo captured!",
+  "@photoCaptured": {
+    "description": "Photo captured status"
+  },
+  "photoCouldNotCapture": "Photo could not be captured: {error}",
+  "@photoCouldNotCapture": {
+    "description": "Photo could not capture error",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "photoPreparing": "Photo preparing...",
+  "@photoPreparing": {
+    "description": "Photo preparing status"
+  },
+  "photoUploading": "Photo uploading...",
+  "@photoUploading": {
+    "description": "Photo uploading status"
+  },
+  "aiAnalysisInProgressStatus": "AI analysis in progress...",
+  "@aiAnalysisInProgressStatus": {
+    "description": "AI analysis in progress status"
+  },
+  "resultsSaving": "Saving results...",
+  "@resultsSaving": {
+    "description": "Results saving status"
+  },
+  "analysisSuccessful": "Analysis Successful!",
+  "@analysisSuccessful": {
+    "description": "Analysis successful message"
+  },
+  "analyzeButton": "Analyze",
+  "@analyzeButton": {
+    "description": "Analyze button text"
+  },
+  "update": "Update",
+  "@update": {
+    "description": "Update button text"
+  },
+  "cancelAppointment": "Cancel Appointment",
+  "@cancelAppointment": {
+    "description": "Cancel appointment title"
+  },
+  "confirmCancelAppointment": "Are you sure you want to cancel this appointment?",
+  "@confirmCancelAppointment": {
+    "description": "Confirm cancel appointment message"
+  },
+  "cancelReasonOptional": "Cancel Reason (optional)",
+  "@cancelReasonOptional": {
+    "description": "Cancel reason optional label"
+  },
+  "cancelReasonExample": "E.g.: Personal reasons",
+  "@cancelReasonExample": {
+    "description": "Cancel reason example hint"
+  },
+  "appointmentCancelled": "Appointment cancelled",
+  "@appointmentCancelled": {
+    "description": "Appointment cancelled message"
+  },
+  "newAppointment": "New Appointment",
+  "@newAppointment": {
+    "description": "New appointment title"
+  },
+  "notesOptional": "Notes (optional)",
+  "@notesOptional": {
+    "description": "Notes optional label"
+  },
+  "appointmentNotesHint": "Notes about the appointment...",
+  "@appointmentNotesHint": {
+    "description": "Appointment notes hint"
+  },
+  "createAppointment": "Create Appointment",
+  "@createAppointment": {
+    "description": "Create appointment button"
+  },
+  "updateAppointment": "Update Appointment",
+  "@updateAppointment": {
+    "description": "Update appointment title"
+  },
+  "currentDate": "Current Date:",
+  "@currentDate": {
+    "description": "Current date label"
+  },
+  "appointmentCreatedWaitingApproval": "✅ Appointment created! Waiting for approval.",
+  "@appointmentCreatedWaitingApproval": {
+    "description": "Appointment created waiting approval message"
+  },
+  "errorSelectingPhoto": "An error occurred while selecting photo: {error}",
+  "@errorSelectingPhoto": {
+    "description": "Error selecting photo",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "pleaseSelectAtLeastOnePhoto": "Please select at least one photo",
+  "@pleaseSelectAtLeastOnePhoto": {
+    "description": "Please select at least one photo message"
+  },
+  "noValidPhotoFound": "No valid photo found",
+  "@noValidPhotoFound": {
+    "description": "No valid photo found message"
+  },
+  "photosAnalyzedAndSavedSuccessfully": "Photos have been successfully analyzed and saved!",
+  "@photosAnalyzedAndSavedSuccessfully": {
+    "description": "Photos analyzed and saved successfully message"
+  },
+  "allNotificationsMarkedAsRead": "All notifications marked as read",
+  "@allNotificationsMarkedAsRead": {
+    "description": "All notifications marked as read message"
+  },
+  "selectNewDate": "Select New Date",
+  "@selectNewDate": {
+    "description": "Select new date label"
+  },
+  "document": "Document",
+  "@document": {
+    "description": "Document default title"
+  },
+  "defaultDocumentDescription": "No description available",
+  "@defaultDocumentDescription": {
+    "description": "Default document description"
+  },
+  "download": "Download",
+  "@download": {
+    "description": "Download button"
+  },
+  "viewDocument": "View Document",
+  "@viewDocument": {
+    "description": "View document button"
+  },
+  "contactAddress": "Address",
+  "@contactAddress": {
+    "description": "Contact address title"
+  },
+  "contactEmail": "Email",
+  "@contactEmail": {
+    "description": "Contact email title"
+  },
+  "contactPhone": "Phone",
+  "@contactPhone": {
+    "description": "Contact phone title"
+  },
+  "contactWhatsApp": "WhatsApp",
+  "@contactWhatsApp": {
+    "description": "Contact WhatsApp title"
+  },
+  "patientCareGuideTitle": "Patient Care Guide",
+  "@patientCareGuideTitle": {
+    "description": "Patient care guide title"
+  },
+  "planningTab": "Planning",
+  "@planningTab": {
+    "description": "Planning tab"
+  },
+  "operationTab": "Operation",
+  "@operationTab": {
+    "description": "Operation tab"
+  },
+  "recoveryTab": "Recovery",
+  "@recoveryTab": {
+    "description": "Recovery tab"
+  },
+  "resourcesTab": "Resources",
+  "@resourcesTab": {
+    "description": "Resources tab"
+  },
+  "personalizedPlanning": "Personalized Planning",
+  "@personalizedPlanning": {
+    "description": "Personalized planning section"
+  },
+  "contactAndQuickSupport": "Contact & Quick Support",
+  "@contactAndQuickSupport": {
+    "description": "Contact and quick support section"
+  },
+  "preOperationPreparation": "Pre-Operation Preparation",
+  "@preOperationPreparation": {
+    "description": "Pre-operation preparation section"
+  },
+  "operationDayFlow": "Operation Day Flow",
+  "@operationDayFlow": {
+    "description": "Operation day flow section"
+  },
+  "operationDayExperience": "Operation Day Experience",
+  "@operationDayExperience": {
+    "description": "Operation day experience section"
+  },
+  "sterilizationAndHygieneStandards": "Sterilization & Hygiene Standards",
+  "@sterilizationAndHygieneStandards": {
+    "description": "Sterilization and hygiene standards section"
+  },
+  "recoveryJourney": "Recovery Journey",
+  "@recoveryJourney": {
+    "description": "Recovery journey section"
+  },
+  "postOperationCare": "Post-Operation Care",
+  "@postOperationCare": {
+    "description": "Post-operation care section"
+  },
+  "hairWashingProtocol": "Hair Washing Protocol",
+  "@hairWashingProtocol": {
+    "description": "Hair washing protocol section"
+  },
+  "knowledgeBase": "Knowledge Base",
+  "@knowledgeBase": {
+    "description": "Knowledge base section"
+  },
+  "frequentlyAskedQuestions": "Frequently Asked Questions",
+  "@frequentlyAskedQuestions": {
+    "description": "Frequently asked questions section"
+  },
+  "visualGuide": "Visual Guide",
+  "@visualGuide": {
+    "description": "Visual guide section"
+  },
+  "tapToSeeDetails": "Tap to see details",
+  "@tapToSeeDetails": {
+    "description": "Tap to see details hint"
+  },
+  "connectionCannotOpen": "Connection cannot be opened",
+  "@connectionCannotOpen": {
+    "description": "Connection cannot be opened error"
+  },
+  "pleaseEnterDoctorEmail": "Please enter your doctor email",
+  "@pleaseEnterDoctorEmail": {
+    "description": "Please enter doctor email error"
+  },
+  "emailAndCodeRequired": "Email and code are required",
+  "@emailAndCodeRequired": {
+    "description": "Email and code required error"
+  },
+  "codeMustBe6Digits": "Code must be 6 digits",
+  "@codeMustBe6Digits": {
+    "description": "Code must be 6 digits error"
+  },
+  "codeInvalidOrExpired": "Code is invalid or expired. Please check console logs.",
+  "@codeInvalidOrExpired": {
+    "description": "Code invalid or expired error"
+  },
+  "verificationFailed": "Verification failed: {error}",
+  "@verificationFailed": {
+    "description": "Verification failed error",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "doctorLoginDescription": "Enter your registered doctor email, request verification code and login.",
+  "@doctorLoginDescription": {
+    "description": "Doctor login description"
+  },
+  "doctorEmail": "Doctor Email",
+  "@doctorEmail": {
+    "description": "Doctor email label"
+  },
+  "doctorEmailHint": "doctor@example.com",
+  "@doctorEmailHint": {
+    "description": "Doctor email hint"
+  },
+  "verificationCode": "6-Digit Verification Code",
+  "@verificationCode": {
+    "description": "Verification code label"
+  },
+  "verificationCodeHint": "000000",
+  "@verificationCodeHint": {
+    "description": "Verification code hint"
+  },
+  "sending": "Sending...",
+  "@sending": {
+    "description": "Sending status"
+  },
+  "requestCode": "Request Code",
+  "@requestCode": {
+    "description": "Request code button"
+  },
+  "login": "Login",
+  "@login": {
+    "description": "Login button"
+  },
+  "message": "Messages",
+  "@message": {
+    "description": "Messages label"
+  },
+  "photo": "Photos",
+  "@photo": {
+    "description": "Photos label"
+  },
+  "patientIdNotFound": "Patient ID not found",
+  "@patientIdNotFound": {
+    "description": "Patient ID not found error"
+  },
+  "analyses": "Analyses",
+  "@analyses": {
+    "description": "Analyses label"
+  },
+  "approved": "Approved",
+  "@approved": {
+    "description": "Approved status"
+  },
+  "rejected": "Rejected",
+  "@rejected": {
+    "description": "Rejected status"
+  },
+  "examplePhotoFrontTitle": "Front View Example",
+  "@examplePhotoFrontTitle": {
+    "description": "Example photo front title"
+  },
+  "examplePhotoFrontInstructions": "Look straight at the camera",
+  "@examplePhotoFrontInstructions": {
+    "description": "Example photo front instructions"
+  },
+  "examplePhotoRight45Title": "Right 45° View Example",
+  "@examplePhotoRight45Title": {
+    "description": "Example photo right 45 title"
+  },
+  "examplePhotoRight45Instructions": "Turn your head 45° to the right",
+  "@examplePhotoRight45Instructions": {
+    "description": "Example photo right 45 instructions"
+  },
+  "examplePhotoLeft45Title": "Left 45° View Example",
+  "@examplePhotoLeft45Title": {
+    "description": "Example photo left 45 title"
+  },
+  "examplePhotoLeft45Instructions": "Turn your head 45° to the left",
+  "@examplePhotoLeft45Instructions": {
+    "description": "Example photo left 45 instructions"
+  },
+  "examplePhotoVertexTitle": "Top View Example",
+  "@examplePhotoVertexTitle": {
+    "description": "Example photo vertex title"
+  },
+  "examplePhotoVertexInstructions": "Hold phone above your head",
+  "@examplePhotoVertexInstructions": {
+    "description": "Example photo vertex instructions"
+  },
+  "examplePhotoDonorTitle": "Back View Example",
+  "@examplePhotoDonorTitle": {
+    "description": "Example photo donor title"
+  },
+  "examplePhotoDonorInstructions": "Move phone behind your head",
+  "@examplePhotoDonorInstructions": {
+    "description": "Example photo donor instructions"
+  },
+  "camera": "Camera",
+  "@camera": {
+    "description": "Camera option"
+  },
+  "gallery": "Gallery",
+  "@gallery": {
+    "description": "Gallery option"
+  },
+  "deleteForMe": "Delete for Me",
+  "@deleteForMe": {
+    "description": "Delete for me option"
+  },
+  "messageDeleted": "Message deleted",
+  "@messageDeleted": {
+    "description": "Message deleted notification"
+  },
+  "deleteForEveryone": "Delete for Everyone",
+  "@deleteForEveryone": {
+    "description": "Delete for everyone option"
+  },
+  "deleteMessage": "Delete Message",
+  "@deleteMessage": {
+    "description": "Delete message dialog title"
+  },
+  "deleteMessageReadWarning": "This message has been read by the recipient. Do you want to delete it anyway?",
+  "@deleteMessageReadWarning": {
+    "description": "Delete message read warning"
+  },
+  "deleteMessageConfirm": "This message will be deleted for everyone. Are you sure?",
+  "@deleteMessageConfirm": {
+    "description": "Delete message confirmation"
+  },
+  "messageDeletedForEveryone": "Message deleted for everyone",
+  "@messageDeletedForEveryone": {
+    "description": "Message deleted for everyone notification"
+  },
+  "userNotLoggedIn": "User is not logged in",
+  "@userNotLoggedIn": {
+    "description": "User not logged in error"
+  },
+  "messagesLoadingError": "An error occurred while loading messages",
+  "@messagesLoadingError": {
+    "description": "Messages loading error"
+  },
+  "loadingMessages": "Loading messages...",
+  "@loadingMessages": {
+    "description": "Loading messages status"
+  },
+  "startConversation": "Start a conversation by sending a message",
+  "@startConversation": {
+    "description": "Start conversation message"
+  },
+  "loadOlderMessages": "Load Older Messages",
+  "@loadOlderMessages": {
+    "description": "Load older messages button"
+  },
+  "sendPhoto": "Send Photo",
+  "@sendPhoto": {
+    "description": "Send photo tooltip"
+  },
+  "appointmentManagement": "Appointment Management",
+  "@appointmentManagement": {
+    "description": "Appointment management title"
+  },
+  "pendingApproval": "Pending Approval",
+  "@pendingApproval": {
+    "description": "Pending approval status"
+  },
+  "cancelled": "Cancelled",
+  "@cancelled": {
+    "description": "Cancelled status"
+  },
+  "photos": "Photos ({count})",
+  "@photos": {
+    "description": "Photos with count",
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "needLoginForAnalysis": "You need to login for analysis",
+  "@needLoginForAnalysis": {
+    "description": "Need login for analysis message"
+  },
+  "openCaptureFlowError": "An error occurred while opening capture screen: {error}",
+  "@openCaptureFlowError": {
+    "description": "Open capture flow error",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "sessionExpired": "Your session has expired. Please login again.",
+  "@sessionExpired": {
+    "description": "Session expired message"
+  },
+  "photosAnalyzedAndSaved": "Photos have been successfully analyzed and saved!",
+  "@photosAnalyzedAndSaved": {
+    "description": "Photos analyzed and saved message"
+  },
+  "photoNotFoundForAnalysis": "No photos found for analysis",
+  "@photoNotFoundForAnalysis": {
+    "description": "Photo not found for analysis message"
+  },
+  "noValidPhotosFound": "No valid photos found",
+  "@noValidPhotosFound": {
+    "description": "No valid photos found message"
+  },
+  "analysisPreparing": "Preparing photos...",
+  "@analysisPreparing": {
+    "description": "Analysis preparing status"
+  },
+  "photosUploading": "Uploading photos...",
+  "@photosUploading": {
+    "description": "Photos uploading status"
+  },
+  "errorUploadingPhotos": "An error occurred while uploading photos",
+  "@errorUploadingPhotos": {
+    "description": "Error uploading photos"
+  },
+  "geminiChecking": "Checking Gemini API connection...",
+  "@geminiChecking": {
+    "description": "Gemini checking status"
+  },
+  "geminiFailed": "Gemini API connection failed. Please check your internet connection.",
+  "@geminiFailed": {
+    "description": "Gemini failed error"
+  },
+  "aiAnalyzing": "AI analysis in progress...",
+  "@aiAnalyzing": {
+    "description": "AI analyzing status"
+  },
+  "someAnglesNeedRetake": "Some angles need to be retaken...",
+  "@someAnglesNeedRetake": {
+    "description": "Some angles need retake message"
+  },
+  "analysisSaved": "Analysis saved successfully!",
+  "@analysisSaved": {
+    "description": "Analysis saved message"
+  },
+  "analysisCompletedSuccessfully": "Analysis completed successfully!",
+  "@analysisCompletedSuccessfully": {
+    "description": "Analysis completed successfully message"
+  },
+  "invalidAnglesCountNeedRetake": "{count} angles need to be retaken...",
+  "@invalidAnglesCountNeedRetake": {
+    "description": "Invalid angles count need retake",
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "errorDuringAnalysis": "An error occurred during analysis",
+  "@errorDuringAnalysis": {
+    "description": "Error during analysis"
+  },
+  "geminiApiError": "Gemini API connection error. Please check your internet connection.",
+  "@geminiApiError": {
+    "description": "Gemini API error"
+  },
+  "firebaseError": "Firebase connection error. Please try again.",
+  "@firebaseError": {
+    "description": "Firebase error"
+  },
+  "photoProcessingError": "Photo processing error. Please try again.",
+  "@photoProcessingError": {
+    "description": "Photo processing error"
+  },
+  "authErrorLoginAgain": "Authorization error. Please login again.",
+  "@authErrorLoginAgain": {
+    "description": "Auth error login again"
+  },
+  "analysisSuccessfulTitle": "Analysis Successful",
+  "@analysisSuccessfulTitle": {
+    "description": "Analysis successful title"
+  },
+  "analysisResultsTitle": "Analysis Results",
+  "@analysisResultsTitle": {
+    "description": "Analysis results title"
+  },
+  "detailedAnalysisHeader": "Detailed Analysis:",
+  "@detailedAnalysisHeader": {
+    "description": "Detailed analysis header"
+  },
+  "retakeRequiredAnglesHeader": "Angles That Need Retake:",
+  "@retakeRequiredAnglesHeader": {
+    "description": "Retake required angles header"
+  },
+  "dialogError": "An error occurred while opening dialog: {error}",
+  "@dialogError": {
+    "description": "Dialog error",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "baselinePhotoNotFound": "Baseline photo not found",
+  "@baselinePhotoNotFound": {
+    "description": "Baseline photo not found error"
+  },
+  "noPhotosToUpdate": "No photos to update found",
+  "@noPhotosToUpdate": {
+    "description": "No photos to update error"
+  },
+  "analysisErrorDuringRetake": "An error occurred during retake analysis: {error}",
+  "@analysisErrorDuringRetake": {
+    "description": "Analysis error during retake",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "retakeError": "An error occurred during retake: {error}",
+  "@retakeError": {
+    "description": "Retake error",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "aiSupport": "AI Support",
+  "@aiSupport": {
+    "description": "AI support label"
+  },
+  "myPhotos": "My Photos",
+  "@myPhotos": {
+    "description": "My photos label"
+  },
+  "photoAnalysisChatbot": "Photo Analysis Chatbot",
+  "@photoAnalysisChatbot": {
+    "description": "Photo analysis chatbot label"
+  },
+  "disableMedicationReminder": "Disable Medication Reminder",
+  "@disableMedicationReminder": {
+    "description": "Disable medication reminder label"
+  },
+  "medicationReminderDisabled": "Daily medication reminder has been disabled",
+  "@medicationReminderDisabled": {
+    "description": "Medication reminder disabled message"
+  },
+  "medicationTime": "Medication Time",
+  "@medicationTime": {
+    "description": "Medication time label"
+  },
+  "selectMedicationReminderTime": "Select Daily Medication Reminder Time",
+  "@selectMedicationReminderTime": {
+    "description": "Select medication reminder time title"
+  },
+  "selectMedicationTime": "Select Medication Time",
+  "@selectMedicationTime": {
+    "description": "Select medication time help text"
+  },
+  "medicationReminderSetAt": "Daily medication reminder set for {time}",
+  "@medicationReminderSetAt": {
+    "description": "Medication reminder set at message",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "noDateInfo": "No date information",
+  "@noDateInfo": {
+    "description": "No date info message"
+  },
+  "invalidDate": "Invalid date",
+  "@invalidDate": {
+    "description": "Invalid date message"
+  },
+  "today": "Today",
+  "@today": {
+    "description": "Today label"
+  },
+  "yesterday": "Yesterday",
+  "@yesterday": {
+    "description": "Yesterday label"
+  },
+  "valid": "Valid",
+  "@valid": {
+    "description": "Valid status"
+  },
+  "samePerson": "Same person",
+  "@samePerson": {
+    "description": "Same person status"
+  },
+  "differentPersonSuspicion": "Different person suspicion",
+  "@differentPersonSuspicion": {
+    "description": "Different person suspicion status"
+  },
+  "logoutConfirmation": "Are you sure you want to logout?",
+  "@logoutConfirmation": {
+    "description": "Logout confirmation message"
+  },
+  "profileSettings": "Profile Settings",
+  "@profileSettings": {
+    "description": "Profile settings title"
+  },
+  "specialty": "Specialty",
+  "@specialty": {
+    "description": "Specialty label"
+  },
+  "hairTransplantTitle": "Hair Transplant",
+  "@hairTransplantTitle": {
+    "description": "Hair transplant page title"
+  },
+  "hairTransplantSectionCount": "Sections",
+  "@hairTransplantSectionCount": {
+    "description": "Hair transplant section count label"
+  },
+  "hairTransplantVideo": "Video",
+  "@hairTransplantVideo": {
+    "description": "Hair transplant video label"
+  },
+  "hairTransplantFreeConsultation": "Get Free Consultation",
+  "@hairTransplantFreeConsultation": {
+    "description": "Hair transplant free consultation button"
+  },
+  "hairTransplantWatchVideo": "Watch Video",
+  "@hairTransplantWatchVideo": {
+    "description": "Hair transplant watch video button"
+  },
+  "hairTransplantWatchVideoSubtitle": "Watch the hair transplant procedure video",
+  "@hairTransplantWatchVideoSubtitle": {
+    "description": "Hair transplant watch video subtitle"
+  },
+  "photosUploadingStatus": "Uploading photos...",
+  "@photosUploadingStatus": {
+    "description": "Photos uploading status"
+  },
+  "noValidPhotosToUpload": "No valid photos to upload found",
+  "@noValidPhotosToUpload": {
+    "description": "No valid photos to upload error"
+  },
+  "photosSavedSuccessfully": "Photos saved successfully!",
+  "@photosSavedSuccessfully": {
+    "description": "Photos saved successfully message"
+  },
+  "analysisSavedSuccessfully": "Analysis saved successfully!",
+  "@analysisSavedSuccessfully": {
+    "description": "Analysis saved successfully message"
+  },
+  "someAnglesNotCapturedCorrectly": "Some angles were not captured correctly",
+  "@someAnglesNotCapturedCorrectly": {
+    "description": "Some angles not captured correctly message"
+  },
+  "errorDuringRetake": "An error occurred during retake: {error}",
+  "@errorDuringRetake": {
+    "description": "Error during retake",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "errorOpeningCaptureScreen": "An error occurred while opening capture screen: {error}",
+  "@errorOpeningCaptureScreen": {
+    "description": "Error opening capture screen",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "ok": "OK",
+  "@ok": {
+    "description": "OK button"
+  },
+  "errorDuringAnalysisShort": "Error during analysis: {error}",
+  "@errorDuringAnalysisShort": {
+    "description": "Error during analysis short",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "myDocuments": "My Documents",
+  "@myDocuments": {
+    "description": "My documents title"
+  },
+  "loginRequiredForDocuments": "You need to login to view documents",
+  "@loginRequiredForDocuments": {
+    "description": "Login required for documents"
+  },
+  "noDocumentsYet": "No documents yet",
+  "@noDocumentsYet": {
+    "description": "No documents yet message"
+  },
+  "errorOccurredWithNewLine": "An error occurred:\n{error}",
+  "@errorOccurredWithNewLine": {
+    "description": "Error occurred with new line",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "datePending": "Pending",
+  "@datePending": {
+    "description": "Date pending status"
+  },
+  "chatSupportWelcomeMessage": "Hello! I'm your AI assistant. How can I help you today?",
+  "@chatSupportWelcomeMessage": {
+    "description": "Chat support welcome message"
+  },
+  "newChat": "New Chat",
+  "@newChat": {
+    "description": "New chat button"
+  },
+  "chatSupportAiAssistantName": "AI Assistant",
+  "@chatSupportAiAssistantName": {
+    "description": "Chat support AI assistant name"
+  },
+  "historyTooltip": "History",
+  "@historyTooltip": {
+    "description": "History tooltip"
+  },
+  "typingIndicator": "AI is typing...",
+  "@typingIndicator": {
+    "description": "Typing indicator"
+  },
+  "chatHistoryTitle": "Chat History",
+  "@chatHistoryTitle": {
+    "description": "Chat history title"
+  },
+  "noSavedChats": "No saved chats",
+  "@noSavedChats": {
+    "description": "No saved chats message"
+  },
+  "genericErrorTryAgain": "An error occurred. Please try again.\nError: {error}",
+  "@genericErrorTryAgain": {
+    "description": "Generic error try again",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "whatsappCannotOpen": "WhatsApp could not be opened. Please make sure the WhatsApp app is installed.",
+  "@whatsappCannotOpen": {
+    "description": "WhatsApp cannot open message"
+  },
+  "whatsappOpenError": "An error occurred while opening WhatsApp: {error}",
+  "@whatsappOpenError": {
+    "description": "WhatsApp open error",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "openCaptureScreenError": "An error occurred while opening the capture screen: {error}",
+  "@openCaptureScreenError": {
+    "description": "Open capture screen error",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "retakeAnalyzing": "The retaken photo is being analyzed...",
+  "@retakeAnalyzing": {
+    "description": "Retake analyzing status"
+  },
+  "autoAnalysisOn": "Auto Analysis: On",
+  "@autoAnalysisOn": {
+    "description": "Auto analysis on"
+  },
+  "autoAnalysisOff": "Auto Analysis: Off",
+  "@autoAnalysisOff": {
+    "description": "Auto analysis off"
+  },
+  "clearPhotosTooltip": "Clear photos",
+  "@clearPhotosTooltip": {
+    "description": "Clear photos tooltip"
+  },
+  "messageHintAnalyze": "Type your message or write \"Analyze\"...",
+  "@messageHintAnalyze": {
+    "description": "Message hint analyze"
+  },
+  "send": "Send",
+  "@send": {
+    "description": "Send button"
+  },
+  "aiAssistantName": "AI Analysis Assistant",
+  "@aiAssistantName": {
+    "description": "AI assistant name"
+  },
+  "expertTeam": "Expert Team",
+  "@expertTeam": {
+    "description": "Expert team title"
+  },
+  "expertTeamDescription": "Our team consists of experienced specialists in hair transplant surgery.",
+  "@expertTeamDescription": {
+    "description": "Expert team description"
+  },
+  "comingSoon": "Coming Soon",
+  "@comingSoon": {
+    "description": "Coming soon message"
+  },
+  "loginToSendMessage": "Please login to send a message",
+  "@loginToSendMessage": {
+    "description": "Login to send message"
+  },
+  "doctorEmailMissing": "Doctor email is missing",
+  "@doctorEmailMissing": {
+    "description": "Doctor email missing"
+  },
+  "doctorNotFound": "Doctor {name} not found",
+  "@doctorNotFound": {
+    "description": "Doctor not found",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "messagingComingSoon": "Messaging feature coming soon",
+  "@messagingComingSoon": {
+    "description": "Messaging coming soon"
+  },
+  "years": "years",
+  "@years": {
+    "description": "Years text"
+  },
+  "watchWashingVideo": "Watch Washing Video",
+  "@watchWashingVideo": {
+    "description": "Watch washing video button"
+  },
+  "preCareTip1Title": "Choose the right surgeon",
+  "preCareTip1Body": "Sapphire FUE procedure requires an experienced surgeon and multidisciplinary team. Work with doctors who realistically explain your expectations, plan the operation end-to-end, and apply Smile Hair protocols.",
+  "preCareTip2Title": "Share your medical history",
+  "preCareTip2Body": "Share your chronic diseases, regular medications, and allergies with the team without hiding. This minimizes risks that may occur during anesthesia and surgery.",
+  "preCareTip3Title": "Blood thinners and approval process",
+  "preCareTip3Body": "Stop aspirin or similar blood thinners at least one week before the operation date with your prescribing doctor's approval. You can resume use two days after the procedure.",
+  "preCareTip4Title": "Infection screening",
+  "preCareTip4Body": "Keep your Hepatitis B/C and HIV test results up to date. Clinics without proper operating room conditions cannot perform operations for these infections, so your trip won't be wasted.",
+  "preCareTip5Title": "Supplements and vitamins",
+  "preCareTip5Body": "Supplements containing vitamins B and E increase bleeding; stop them one week before the procedure. If necessary, your doctor will plan supportive treatments.",
+  "preCareTip6Title": "Alcohol and smoking",
+  "preCareTip6Body": "Stop alcohol at least one week before the operation and do not consume it for 14 days after the procedure. Stay away from smoking 12 hours before and for two weeks after the operation, as it disrupts blood circulation.",
+  "preCareTip7Title": "Luggage and clothing plan",
+  "preCareTip7Body": "Choose buttoned or zippered clothing for your upper body. Tight-necked clothing can damage grafts. Prepare a large bag that can carry the care kit given after the operation.",
+  "preCareTip8Title": "Rest and hygiene",
+  "preCareTip8Body": "Get good sleep on the operation day, have a nutritious breakfast, and shower before coming to the clinic. Clean scalp reduces infection risk.",
+  "postCareTip1Title": "Protect the grafts",
+  "postCareTip1Body": "For the first 7 days, be careful not to hit your head anywhere. Sleep on your back using a neck pillow and prevent grafts from rubbing against the pillow.",
+  "postCareTip2Title": "First night and following days",
+  "postCareTip2Body": "Definitely spend the first night after the operation resting. If you need to go out, use an umbrella that protects from sun and rain.",
+  "postCareTip3Title": "Stick to the medication plan",
+  "postCareTip3Body": "Use antibiotics, painkillers, anti-inflammatory, and Panthenol spray exactly as prescribed. Make sure you understand the prescription and usage instructions before leaving the clinic team.",
+  "postCareTip4Title": "Moisturizing and sprays",
+  "postCareTip4Body": "Use only the given isotonic/Panthenol spray until the first wash. Apply antibiotic cream to the donor area for the first 5-7 days.",
+  "postCareTip5Title": "Washing protocol",
+  "postCareTip5Body": "The first wash is done at the clinic 48 hours later. Every day after, gently apply the foam with patting movements, use low-pressure warm water, and dry with paper towels.",
+  "postCareTip6Title": "Scabs and shock loss",
+  "postCareTip6Body": "From day 10, remove scabs with light pressure. Shock loss experienced between weeks 2-4 is normal; new hair becomes visible from month 3.",
+  "postCareTip7Title": "Activity and sports",
+  "postCareTip7Body": "Do not do sports for the first two weeks, you can do light walking after 3-4 days. Avoid pool, sauna, and activities that require heavy sweating for at least 1 month.",
+  "postCareTip8Title": "Comfort complaints",
+  "postCareTip8Body": "If there is burning or pain in the donor area, use steroid-containing cream with clinic approval. Apply cold compresses briefly for swelling.",
+  "operationDayTimeline1Title": "Accommodation and transfer",
+  "operationDayTimeline1Body": "Smile Gentle Care team arranges 4-5 star hotel accommodation. All transportation is planned from arrival at the hotel to transfers to the clinic.",
+  "operationDayTimeline2Title": "Multilingual support",
+  "operationDayTimeline2Body": "Professional translators are provided for patients from different countries around the world. You are informed in your own language at every step of the process.",
+  "operationDayTimeline3Title": "Pre-operation preparation",
+  "operationDayTimeline3Body": "Information forms are signed, your hairline is drawn, photos are taken, and HIV/HBV/HCV tests and vital signs are checked.",
+  "operationDayTimeline4Title": "Operation flow",
+  "operationDayTimeline4Body": "Steps of the 6-8 hour procedure: planning, graft harvesting, channel opening, and implantation. Your doctors share the entire process with you.",
+  "operationDayTimeline5Title": "Lunch and special preferences",
+  "operationDayTimeline5Body": "Vegetarian, halal, or kosher menus are prepared upon request. Smart TV and music options are available in operation areas.",
+  "operationDayTimeline6Title": "Next day care",
+  "operationDayTimeline6Body": "You come to the clinic for bandage change, wound check, and first wash training. Afterwards, the process is monitored with digital photo tracking.",
+  "sterilizationMeasure1": "Daily vacuum leak tests are performed to check the seal integrity of sterilizers.",
+  "sterilizationMeasure2": "Daily verification is done with Bowie-Dick test to ensure steam reaches all surfaces equally.",
+  "sterilizationMeasure3": "Ultrasonic washing tests document that we clean micro residues.",
+  "sterilizationMeasure4": "Biological indicator tests are performed every 15 days and it is reported that there is no reproduction.",
+  "sterilizationMeasure5": "Sterile and used instruments are stored separately in locked boxes; cross-contamination is prevented.",
+  "sterilizationMeasure6": "Each set is tracked with autoclave number, date, and expiration date labels.",
+  "sterilizationMeasure7": "All processes are carried out according to Ministry of Health DAS Guide, WHO and AAMI ST79 standards.",
+  "washStep1": "Do not wash your hair for the first 36-48 hours after the operation; wait for the first wash to be done at the clinic.",
+  "washStep2": "Apply lotion or foam to both donor and recipient areas with your fingertips in patting movements.",
+  "washStep3": "Foam the shampoo and gently spread it to the transplanted area with vertical touches; avoid circular movements.",
+  "washStep4": "Use warm and low-pressure water. For the first 14 days, it is safer to pour water with a bowl instead of a shower head.",
+  "washStep5": "Dry the graft area by gently pressing with paper towels, you can dry the donor area with a normal towel.",
+  "washStep6": "If you need to use a hair dryer, use it only in cold mode and from a distance.",
+  "faq1Question": "How long does recovery take?",
+  "faq1Answer": "The first two weeks are a sensitive period; hair goes through different stages for 6-12 months. Significant results are seen at month 6, final density at months 12-18.",
+  "faq2Question": "How should bandage and sleep schedule be?",
+  "faq2Answer": "Elastic bandage can be applied to reduce swelling in the forehead area. Sleep on your back with a neck pillow in a slightly elevated position for the first 7-10 days.",
+  "faq3Question": "Shower, washing and product use",
+  "faq3Answer": "Do not wet your hair for the first two days. After 48 hours, wash once a day with medical shampoo after the first wash at the clinic; keep shower time short, reduce steam.",
+  "faq4Question": "When can I dry, comb, or dye my hair?",
+  "faq4Answer": "Only natural drying is recommended within the first month. You can comb the donor area but do not touch the transplant area for 2 weeks. Stay away from chemical dyes for 6-8 weeks.",
+  "faq5Question": "Smoking, alcohol and exercise",
+  "faq5Answer": "Smoking is prohibited 12 hours before and 2 weeks after the operation. Alcohol should not be used for the first 14 days. Light walks are allowed after day 4, wait 1 month for heavy sports.",
+  "faq6Question": "Hat, sun, travel and return to work",
+  "faq6Answer": "Do not wear a hat for the first 10 days or prefer very loose models. Avoid direct sun. You can return to office work within 3-5 days; wait 2 weeks for physical work. You can travel but protect the grafts.",
+  "heroCardSubtitle1": "Smile Hair team manages the entire process for you, from pre-operation evaluation to travel planning.",
+  "heroCardSubtitle2": "Experience a comfortable experience with transfers, translator support and sterile operating rooms.",
+  "heroCardSubtitle3": "Safely protect grafts with planned medication use, proper washing and movement restrictions.",
+  "heroCardSubtitle4": "Track the entire process with frequently asked questions, visuals and digital guides.",
+  "imageBannerCaption1": "Apply gentle care with the shampoo and lotions given to you from the first wash.",
+  "@imageBannerCaption1": {
+    "description": "Image banner caption for washing"
+  },
+  "clinicAddress": "Tatlısu, Alptekin Cd. No:15, 34774 Ümraniye/İstanbul, Turkey",
+  "@clinicAddress": {
+    "description": "Clinic physical address"
+  },
+  "emailSubject": "Smile Hair Clinic Contact",
+  "@emailSubject": {
+    "description": "Email subject for contact form"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "877355345631",
+    "project_id": "smile-hair-clinic-app",
+    "storage_bucket": "smile-hair-clinic-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877355345631:android:638c4df07dc6dc3e62eb6a",
+        "android_client_info": {
+          "package_name": "com.example.hairclinic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877355345631-1okkn9ms0q5hl237laic4oa83cp01tbi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hairclinic",
+            "certificate_hash": "d99719183474e50ff1d384b06fdd121dae5f12c8"
+          }
+        },
+        {
+          "client_id": "877355345631-mmhbejpdr1apumrdl5a4271iaa47code.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hairclinic",
+            "certificate_hash": "ed8efcd04027b32bab426e56cc8243822125e448"
+          }
+        },
+        {
+          "client_id": "877355345631-r4rdsnb13ugbg64j43hfhe46kd8qbofm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtOr1lmWe-RpRFisn9YWJgAjdu1IBl9QY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877355345631-r4rdsnb13ugbg64j43hfhe46kd8qbofm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "877355345631-d7lleg9g4vcnd6suk4ei3viri5qntbkh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.hairclinic"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

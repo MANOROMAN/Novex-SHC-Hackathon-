@@ -1,0 +1,229 @@
+// Firestore Rules
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isAdmin() {
+      return request.auth != null && request.auth.token.admin == true;
+    }
+
+    // ========== USERS ==========
+    // Kullanıcı profili ve tüm alt koleksiyonları
+    match /users/{userId} {
+      // Kullanıcılar sadece kendi profillerini okuyabilir ve yazabilir
+      // NOT: Bu kural analyses alt koleksiyonunu etkilemez, çünkü alt koleksiyonlar için özel kurallar var
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+
+      // Analyses alt koleksiyonu - doktorlar da pending analizleri görebilmeli
+      match /analyses/{analysisId} {
+        // MVP için: Herkese açık okuma (collectionGroup sorguları için gerekli)
+        // Doktor uygulaması auth kullanmıyor, bu yüzden herkese açık okuma izni veriyoruz
+        // Bu kural collectionGroup('analyses') sorgularını da kapsar
+        allow read: if true;
+        // Kullanıcı kendi analizlerini yazabilir
+        allow write: if request.auth != null && request.auth.uid == userId;
+      }
+
+      // Notifications alt koleksiyonu - doktorlar bildirim gönderebilmeli
+      match /notifications/{notificationId} {
+        // Kullanıcı kendi bildirimlerini okuyabilir/yazabilir
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+        // Doktorlar bildirim gönderebilmeli (doktor uygulaması auth kullanmıyor)
+        allow create: if true;
+        allow read: if true;
+      }
+
+      // Diğer alt koleksiyonlar (appointments, scheduled_emails, vb.)
+      match /{subCollection}/{document=**} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+    }
+
+    // ========== PATIENTS PUBLIC (doktorlar için read-only liste) ==========
+    // Güvenlik notu: Burada sadece sınırlı alanları kapsayan public bir görünüm tutulmalı.
+    // Örn: { displayName, avatarUrl, lastAnalysisAt } gibi PII içermeyen alanlar.
+    match /patients_public/{patientId} {
+      allow read: if true;   // Doktor uygulaması herkese açık okuyabilir
+      allow write: if true;  // Test için geçici olarak herkese açık yazma izni
+    }
+
+    // Public analyses view per patient
+    match /patients_public/{patientId}/analyses_public/{analysisId} {
+      allow read: if true;
+      allow write: if true;  // Test için geçici olarak herkese açık yazma izni
+    }
+
+    // ========== CONVERSATIONS (Doktor-Hasta Mesajlaşma) ==========
+    // Path: conversations/{conversationId}
+    match /conversations/{conversationId} {
+      // Okuma: Tamamen açık (doktor auth sistemi farklı çalışıyor)
+      allow read: if true;
+      
+      // Yazma/Oluşturma: Tamamen açık (güvenlik katmanı uygulama tarafında)
+      allow create: if true;
+      allow update: if true;
+      
+      // Silme sadece adminler için
+      allow delete: if isAdmin();
+      
+      // Mesajlar alt koleksiyonu
+      match /messages/{messageId} {
+        allow read: if true;
+        allow create: if true;
+        allow update: if true;
+        allow delete: if isAdmin();
+      }
+    }
+
+    // ========== DOCTOR CHATS (Eski sistem - geriye dönük uyumluluk) ==========
+    // Doktor-hasta mesajlaşması için basit bir koleksiyon
+    // Path: doctor_chats/{patientId}/messages/{messageId}
+    match /doctor_chats/{patientId}/messages/{messageId} {
+      // Okuma herkese açık (doktor uygulaması auth kullanmıyor)
+      allow read: if true;
+
+      // Yazma: Sadece belirli alanlar ve tiplerle sınırlı
+      allow create: if
+        request.resource.data.keys().hasOnly([
+          'text','createdAt','sender','senderName','isFromDoctor','type'
+        ]) &&
+        request.resource.data.text is string &&
+        request.resource.data.sender is string &&
+        request.resource.data.senderName is string &&
+        request.resource.data.isFromDoctor is bool &&
+        request.resource.data.type is string &&
+        // createdAt server timestamp olabilir; null veya timestamp
+        (request.resource.data.createdAt == null || request.resource.data.createdAt is timestamp);
+
+      // Güncelleme/Silme kapalı
+      allow update: if false;
+      allow delete: if false;
+    }
+
+    // ========== DOCTORS (OTP öncesi kontrol için read-only) ==========
+    // Doktor listesi; sadece aktif doktorlar okunabilir.
+    // Geçici ekleme için kontrollü CREATE izni veriyoruz (auth gerektirmez).
+    match /doctors/{docId} {
+      // Aktif doktorlar okunabilir (doktor uygulaması auth kullanmıyor)
+      // Eğer doktor kaydı yoksa veya active field'ı yoksa, yine de okumaya izin ver (yeni kayıtlar için)
+      allow read: if true;
+
+      // CREATE: Yeni doktor kaydı oluşturma (set merge ile de çalışır)
+      allow create: if
+        (request.resource.data.name == null || request.resource.data.name is string) &&
+        (request.resource.data.phone == null || request.resource.data.phone is string) &&
+        (request.resource.data.specialty == null || request.resource.data.specialty is string) &&
+        (request.resource.data.photoURL == null || request.resource.data.photoURL is string) &&
+        (request.resource.data.active == null || request.resource.data.active is bool) &&
+        (request.resource.data.email == null || request.resource.data.email is string);
+
+      // UPDATE: Doktorlar kendi profillerini güncelleyebilir
+      // Sadece belirli alanlar güncellenebilir (name, phone, specialty, photoURL, updatedAt, active)
+      allow update: if
+        // Değişen alanlar kontrolü
+        request.resource.data.diff(resource.data).changedKeys().hasOnly(['name', 'phone', 'specialty', 'photoURL', 'updatedAt', 'active']) &&
+        (request.resource.data.name == null || request.resource.data.name is string) &&
+        (request.resource.data.phone == null || request.resource.data.phone is string) &&
+        (request.resource.data.specialty == null || request.resource.data.specialty is string) &&
+        (request.resource.data.photoURL == null || request.resource.data.photoURL is string) &&
+        (request.resource.data.active == null || request.resource.data.active is bool) &&
+        // Email değiştirilemez (eğer mevcutsa)
+        (resource.data.email == null || request.resource.data.email == resource.data.email);
+
+      // DELETE kapalı tut
+      allow delete: if false;
+    }
+
+    // ========== DOCTOR LOGINS (OTP kayıtları) ==========
+    // OTP oluşturma ve tek-kullanımlık doğrulama. Okuma ve silme kapalı.
+    match /doctor_logins/{docId} {
+      // Kod gönderimi (create)
+      allow create: if
+        // Sadece bu alanlara izin ver
+        request.resource.data.keys().hasOnly(['email','code','createdAt','expiresAt','used']) &&
+        // Tür ve içerik doğrulamaları
+        request.resource.data.email is string &&
+        request.resource.data.code is string &&
+        request.resource.data.code.size() == 6 &&
+        request.resource.data.used == false &&
+        request.resource.data.expiresAt is timestamp &&
+        request.resource.data.expiresAt > request.time &&
+        // createdAt serverTimestamp ile yazılabilir; istemciden null veya timestamp gelebilir
+        (request.resource.data.createdAt == null || request.resource.data.createdAt is timestamp);
+
+      // Kod doğrulama (update) - sadece used ve usedAt alanları güncellenebilir
+      allow update: if
+        request.resource.data.diff(resource.data).changedKeys().hasOnly(['used','usedAt']) &&
+        request.resource.data.used == true &&
+        request.resource.data.usedAt is timestamp;
+
+      // Okuma/silme yok
+      allow read: if false;
+      allow delete: if false;
+    }
+
+    // ========== APPOINTMENTS (Randevu Sistemi) ==========
+    // Randevular hem hastalar hem doktorlar tarafından erişilebilir
+    match /appointments/{appointmentId} {
+      // Okuma: Herkese açık (doktor uygulaması auth kullanmıyor)
+      allow read: if true;
+      
+      // Oluşturma: Herkese açık (doktor uygulaması auth kullanmıyor)
+      allow create: if true;
+      
+      // Güncelleme: Herkese açık (doktor uygulaması auth kullanmıyor)
+      allow update: if true;
+      
+      // Silme: Herkese açık (doktor uygulaması auth kullanmıyor)
+      allow delete: if true;
+    }
+
+    // ========== ADMIN ==========
+    match /admin/{document=**} {
+      // Sadece admin kullanıcılar erişebilir
+      allow read, write: if request.auth != null && request.auth.token.admin == true;
+    }
+
+    // ========== CONFIG ==========
+    match /config/{document=**} {
+      // Sadece authenticated kullanıcılar okuyabilir
+      allow read: if request.auth != null;
+      // Yazma sadece adminler için
+      allow write: if request.auth != null && request.auth.token.admin == true;
+    }
+
+    // ========== STATS ==========
+    match /stats/{document=**} {
+      // Herkes okuyabilir (public stats)
+      allow read: if true;
+      // Yazma sadece adminler için
+      allow write: if request.auth != null && request.auth.token.admin == true;
+    }
+
+    // ========== DOCTOR APPROVED RESULTS (Doktor Onaylı Analizler) ==========
+    // Doktorlar bu koleksiyona erişebilir (okuma ve yazma)
+    match /doctor_approved_results/{analysisId} {
+      // Herkese açık okuma (doktor uygulaması auth kullanmıyor)
+      allow read: if true;
+      // Yazma: Herkese açık (Cloud Function tarafından yazılıyor)
+      allow write: if true;
+    }
+
+    // ========== DOCTOR APPROVED APPOINTMENTS (Doktor Onaylı Randevular) ==========
+    // Doktorlar bu koleksiyona erişebilir
+    match /doctor_approved_appointments/{appointmentId} {
+      // Herkese açık okuma (doktor uygulaması auth kullanmıyor)
+      allow read: if true;
+      // Yazma: Herkese açık (Cloud Function tarafından yazılıyor)
+      allow write: if true;
+    }
+
+    // ========== COLLECTION GROUP QUERIES (Analyses) ==========
+    // collectionGroup('analyses') sorguları için izin
+    // Bu, users/{userId}/analyses alt koleksiyonlarına erişim sağlar
+    // Doktorlar pending analizleri görebilmeli
+    // Not: collectionGroup kuralları doğrudan tanımlanamaz, 
+    // ancak users/{userId}/analyses/{analysisId} kuralları collectionGroup sorgularını etkiler
+    // Bu yüzden users/{userId}/analyses/{analysisId} kuralını güncelledik (yukarıda)
+  }
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Patient Progress Timeline</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#1A237E",
+              "primary-light": "#5C6BC0",
+              "accent": "#66BB6A",
+              "background-light": "#F5F5F5",
+              "background-dark": "#101622",
+              "text-light": "#424242",
+              "text-light-secondary": "#757575",
+              "text-dark": "#E0E0E0",
+              "text-dark-secondary": "#BDBDBD",
+              "card-light": "#FFFFFF",
+              "card-dark": "#1E293B",
+              "border-light": "#E0E0E0",
+              "border-dark": "#334155",
+            },
+            fontFamily: {
+              "display": ["Manrope", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.5rem", "lg": "0.75rem", "xl": "1rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="relative flex h-auto min-h-screen w-full flex-col bg-background-light dark:bg-background-dark group/design-root overflow-x-hidden">
+<!-- Top App Bar -->
+<div class="sticky top-0 z-10 flex items-center bg-background-light dark:bg-background-dark p-4 pb-2 justify-between">
+<div class="text-text-light dark:text-text-dark flex size-12 shrink-0 items-center">
+<span class="material-symbols-outlined text-2xl">arrow_back</span>
+</div>
+<h2 class="text-text-light dark:text-text-dark text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center">Progress Timeline</h2>
+<div class="flex w-12 items-center justify-end">
+<button class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 w-10 text-text-light dark:text-text-dark">
+<span class="material-symbols-outlined text-2xl">more_vert</span>
+</button>
+</div>
+</div>
+<!-- Profile Header -->
+<div class="flex p-4 @container">
+<div class="flex w-full flex-col gap-4 @[520px]:flex-row @[520px]:justify-between @[520px]:items-center">
+<div class="flex gap-4 items-center">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full min-h-20 w-20 shrink-0" data-alt="Profile picture of James Peterson" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDd3oWg0vSfnzroHurBbcURJoBFpaLsaqdQs8tv9LQv72_OYRViUIwahkXEVbZRI4UTk_9xgBR3-BxfN8exwCDt_cmV7dATeRFK4B7cC_4aRfDSkxNA8nBSN4BIzlqGUJbZVGNdNSysmT_54ZDn1fwnzcfS1RoTVTCCnpYacpQoSDVylULzS4IW-sIra8QssRpMgFqIW30BND7d_KEnXgKnS83kZbEpCl8PGUwxO6z8xtcPR_KFwFhKnZ5CZzgK5HlPsrsS9Gw1JA");'></div>
+<div class="flex flex-col justify-center">
+<p class="text-text-light dark:text-text-dark text-[22px] font-bold leading-tight tracking-[-0.015em]">James Peterson</p>
+<p class="text-text-light-secondary dark:text-text-dark-secondary text-base font-normal leading-normal">Patient ID: 123456</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Segmented Buttons -->
+<div class="flex px-4 py-3 sticky top-[68px] z-10 bg-background-light dark:bg-background-dark">
+<div class="flex h-11 flex-1 items-center justify-center rounded-lg bg-gray-200 dark:bg-gray-800 p-1">
+<label class="flex cursor-pointer h-full grow items-center justify-center overflow-hidden rounded-md px-2 has-[:checked]:bg-card-light dark:has-[:checked]:bg-card-dark has-[:checked]:shadow-sm has-[:checked]:text-primary dark:has-[:checked]:text-primary-light text-text-light-secondary dark:text-text-dark-secondary text-sm font-bold leading-normal">
+<span class="truncate">Timeline</span>
+<input checked="" class="invisible w-0" name="view-toggle" type="radio" value="Timeline"/>
+</label>
+<label class="flex cursor-pointer h-full grow items-center justify-center overflow-hidden rounded-md px-2 has-[:checked]:bg-card-light dark:has-[:checked]:bg-card-dark has-[:checked]:shadow-sm has-[:checked]:text-primary dark:has-[:checked]:text-primary-light text-text-light-secondary dark:text-text-dark-secondary text-sm font-bold leading-normal">
+<span class="truncate">Statistics</span>
+<input class="invisible w-0" name="view-toggle" type="radio" value="Statistics"/>
+</label>
+</div>
+</div>
+<!-- Timeline Section -->
+<div class="px-4 pb-24">
+<!-- Timeline Item: Card with Photo Carousel -->
+<div class="grid grid-cols-[40px_1fr] gap-x-2">
+<!-- Timeline Marker -->
+<div class="flex flex-col items-center gap-1 pt-3">
+<div class="flex items-center justify-center rounded-full size-6 bg-primary text-white">
+<span class="material-symbols-outlined text-base">check</span>
+</div>
+<div class="w-[2px] bg-border-light dark:bg-border-dark h-full grow"></div>
+</div>
+<!-- Timeline Content Card -->
+<div class="flex flex-1 flex-col py-3">
+<div class="bg-card-light dark:bg-card-dark rounded-lg p-4 shadow-sm border border-border-light dark:border-border-dark">
+<p class="text-text-light dark:text-text-dark text-base font-bold leading-normal">6 Months Post-Op</p>
+<p class="text-text-light-secondary dark:text-text-dark-secondary text-sm font-normal leading-normal mb-3">June 15, 2024</p>
+<div class="relative w-full aspect-[16/9] rounded-md overflow-hidden">
+<div class="absolute inset-0 bg-center bg-cover" data-alt="Hair progress photo at 6 months post-op" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCsUCjVJ_MgR8YSwkt1E72FlUf9ZkeGFzfzETBoebIKS-OWRosLV-CI_EwQ_uG16sMWr9nWjIIAqdKFVgONHFTwb0NjftF01fzquXYFsWfiIvXQhXif-HH4d3W-bg3WgQEW7oIBAF3d_Q6NsFNSCrmdw0cfoq9Q6og8TLNUFo5zqA6kq4KPcr-hb9Uz819iAAVv57SikDpE6jONO2hbePvfiA9ZTIY8uSVinrT91497TxmPjXacVZhPqlCvdY9LYwocMxzbx77QUQ");'></div>
+<div class="absolute bottom-2 left-2 bg-black/50 text-white text-xs px-2 py-1 rounded-full">Top View</div>
+<div class="absolute top-0 right-0 p-2 flex gap-2">
+<button class="bg-white/80 dark:bg-black/60 rounded-full h-8 w-8 flex items-center justify-center text-text-light dark:text-text-dark"><span class="material-symbols-outlined text-lg">chevron_left</span></button>
+<button class="bg-white/80 dark:bg-black/60 rounded-full h-8 w-8 flex items-center justify-center text-text-light dark:text-text-dark"><span class="material-symbols-outlined text-lg">chevron_right</span></button>
+</div>
+</div>
+<p class="text-text-light-secondary dark:text-text-dark-secondary text-sm mt-3">Visible improvement in density across the crown. Patient reports high satisfaction.</p>
+</div>
+</div>
+<!-- Timeline Item: 3 Months -->
+<div class="flex flex-col items-center gap-1">
+<div class="w-[2px] bg-border-light dark:bg-border-dark h-2"></div>
+<div class="flex items-center justify-center rounded-full size-6 bg-primary text-white">
+<span class="material-symbols-outlined text-base">check</span>
+</div>
+<div class="w-[2px] bg-border-light dark:bg-border-dark h-full grow"></div>
+</div>
+<div class="flex flex-1 flex-col pb-3">
+<div class="bg-card-light dark:bg-card-dark rounded-lg p-4 shadow-sm border border-border-light dark:border-border-dark">
+<p class="text-text-light dark:text-text-dark text-base font-bold leading-normal">3 Months Post-Op</p>
+<p class="text-text-light-secondary dark:text-text-dark-secondary text-sm font-normal leading-normal">March 15, 2024</p>
+</div>
+</div>
+<!-- Timeline Item: Procedure Day -->
+<div class="flex flex-col items-center gap-1">
+<div class="w-[2px] bg-border-light dark:bg-border-dark h-2"></div>
+<div class="text-primary dark:text-primary-light flex items-center justify-center size-6">
+<span class="material-symbols-outlined text-3xl">health_and_safety</span>
+</div>
+<div class="w-[2px] bg-border-light dark:bg-border-dark h-full grow"></div>
+</div>
+<div class="flex flex-1 flex-col pb-3">
+<div class="bg-card-light dark:bg-card-dark rounded-lg p-4 shadow-sm border border-border-light dark:border-border-dark">
+<p class="text-text-light dark:text-text-dark text-base font-bold leading-normal">Procedure Day</p>
+<p class="text-text-light-secondary dark:text-text-dark-secondary text-sm font-normal leading-normal">December 15, 2023</p>
+<div class="mt-2 text-sm text-text-light dark:text-text-dark p-3 bg-gray-50 dark:bg-gray-800 rounded-md border border-border-light dark:border-border-dark">
+<p><span class="font-semibold">Type:</span> FUE Restoration</p>
+<p><span class="font-semibold">Grafts:</span> 2,450</p>
+</div>
+</div>
+</div>
+<!-- Timeline Item: Initial Consultation -->
+<div class="flex flex-col items-center gap-1 pb-3">
+<div class="w-[2px] bg-border-light dark:bg-border-dark h-2"></div>
+<div class="text-primary dark:text-primary-light flex items-center justify-center size-6">
+<span class="material-symbols-outlined text-3xl">chat_bubble</span>
+</div>
+</div>
+<div class="flex flex-1 flex-col pb-3">
+<div class="bg-card-light dark:bg-card-dark rounded-lg p-4 shadow-sm border border-border-light dark:border-border-dark">
+<p class="text-text-light dark:text-text-dark text-base font-bold leading-normal">Initial Consultation</p>
+<p class="text-text-light-secondary dark:text-text-dark-secondary text-sm font-normal leading-normal">November 1, 2023</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Floating Action Button -->
+<div class="fixed bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-background-light dark:from-background-dark to-transparent">
+<button class="flex w-full items-center justify-center gap-3 rounded-lg bg-primary h-12 px-6 text-base font-bold text-white shadow-lg hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 dark:focus:ring-offset-background-dark">
+<span class="material-symbols-outlined">add_a_photo</span>
+<span>Upload New Photo</span>
+</button>
+</div>
+</div>
+</body></html>

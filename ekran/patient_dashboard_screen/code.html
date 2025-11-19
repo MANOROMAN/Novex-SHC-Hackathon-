@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Patient Dashboard - Hair Clinic</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+<script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#004D40",
+              "accent": "#C0A172",
+              "text-primary": "#333333",
+              "text-secondary": "#555555",
+              "background-light": "#F0F2F5",
+              "border-light": "#E0E0E0"
+            },
+            fontFamily: {
+              "display": ["Poppins", "sans-serif"]
+            },
+            borderRadius: {
+                "DEFAULT": "0.5rem",
+                "lg": "0.75rem",
+                "xl": "1rem",
+                "full": "9999px"
+            },
+          },
+        },
+      }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light font-display">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<!-- Top App Bar -->
+<div class="flex items-center bg-background-light p-4 pb-2 justify-between sticky top-0 z-10 border-b border-border-light">
+<div class="flex size-12 shrink-0 items-center">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10" data-alt="Patient's profile picture" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDyXayJ-WS1scfowfip54izMi-Kbii8F63ikQ_HCGo9eNcstkYhzqJ37a_SoDu1ItwCMBKfbrbwyJYxzdjq8H4pCjYK9pVNLB2oUQQpFhpzm6muXO4C18kguHznagrERBOTP-MXeDoH5ArimxMOTDQiyWc-9ZkapC-ouK_2IhBDkve20Psdkcp8M0A_IlJ85Zg_b59oiD1-jLbMhoSTK-7tnDfFkwa4XQbewjt628UEg0vcL2Aa_dT2UZ6rLhEPPzqIlSVoSEZNCg");'></div>
+</div>
+<h2 class="text-text-primary text-xl font-semibold leading-tight flex-1">Hello, David</h2>
+<div class="flex w-12 items-center justify-end">
+<button class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 w-10 bg-transparent text-text-primary gap-2 text-base font-bold leading-normal tracking-[0.015em] min-w-0 p-0">
+<span class="material-symbols-outlined text-text-primary text-2xl">notifications</span>
+</button>
+</div>
+</div>
+<!-- Main Content -->
+<main class="flex-1 pb-28">
+<!-- Progress Bar -->
+<div class="flex flex-col gap-3 p-4 bg-white rounded-lg m-4 border border-border-light shadow-sm">
+<div class="flex gap-6 justify-between">
+<p class="text-text-primary text-base font-medium leading-normal">Recovery Progress</p>
+<p class="text-text-secondary text-sm font-normal leading-normal">Day 15 of 365</p>
+</div>
+<div class="rounded-full bg-background-light h-2.5"><div class="h-2.5 rounded-full bg-accent" style="width: 4%;"></div></div>
+<p class="text-text-secondary text-sm font-normal leading-normal">Week 2: Healing Phase</p>
+</div>
+<!-- Today's Care Routine -->
+<div class="px-4">
+<h3 class="text-text-primary text-lg font-semibold leading-tight tracking-[-0.015em] pb-2 pt-4">Today's Care Routine</h3>
+<div class="bg-white rounded-lg p-4 border border-border-light shadow-sm" style="--checkbox-tick-svg: url('data:image/svg+xml,%3csvg viewBox=%270 0 16 16%27 fill=%27rgb(255,255,255)%27 xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath d=%27M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z%27/%3e%3c/svg%3e');">
+<label class="flex gap-x-4 py-3 flex-row items-center border-b border-border-light">
+<input checked="" class="h-5 w-5 flex-shrink-0 rounded-md border-border-light border-2 bg-transparent text-primary checked:bg-primary checked:border-primary checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-border-light focus:outline-none" type="checkbox"/>
+<p class="text-text-primary text-base font-normal leading-normal">Take medication (Morning)</p>
+</label>
+<label class="flex gap-x-4 py-3 flex-row items-center border-b border-border-light">
+<input class="h-5 w-5 flex-shrink-0 rounded-md border-border-light border-2 bg-transparent text-primary checked:bg-primary checked:border-primary checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-border-light focus:outline-none" type="checkbox"/>
+<p class="text-text-primary text-base font-normal leading-normal">Apply topical solution</p>
+</label>
+<label class="flex gap-x-4 pt-3 flex-row items-center">
+<input class="h-5 w-5 flex-shrink-0 rounded-md border-border-light border-2 bg-transparent text-primary checked:bg-primary checked:border-primary checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-border-light focus:outline-none" type="checkbox"/>
+<p class="text-text-primary text-base font-normal leading-normal">Take medication (Evening)</p>
+</label>
+</div>
+</div>
+<!-- Upcoming Appointment Card -->
+<div class="p-4 @container">
+<div class="flex flex-col items-stretch justify-start rounded-xl bg-white @xl:flex-row @xl:items-start border border-border-light shadow-sm overflow-hidden">
+<div class="w-full h-40 bg-center bg-no-repeat aspect-video bg-cover @xl:w-48 @xl:h-full" data-alt="Image of a modern and clean clinic reception area" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDO70f2pWocOfdZLdz5lOFrMIB-llVaGKCeSSag7zAWhN_DVfGIb1mSR1mHocxew82p0JEZ35WtQ_T--sDJ-kO15PZ9Se2lik_2ScsdMsAXzWG8GIpopD6Gsv6kxSo9qR6b-37EWzy8OGlL6Umh-G8feqLMR_IE3R3DUgn6cZe1WNtHgGRcWuFuJf4_A0AtTYodTbm4wS5GkaM3Fh3K1-5RKtu3sCLYHSMqxT7CiNpFNOLkd01m6yZAaPoiyFfe83wflf2os4ZuTw");'></div>
+<div class="flex w-full min-w-72 grow flex-col items-stretch justify-center gap-2 p-4 @xl:p-5">
+<p class="text-text-primary text-lg font-semibold leading-tight">Upcoming Appointment</p>
+<div class="flex flex-col gap-1">
+<p class="text-text-secondary text-base font-normal leading-normal">Your next follow-up consultation.</p>
+<p class="text-text-primary text-base font-medium leading-normal">Tue, Nov 9, 10:30 AM</p>
+</div>
+<div class="flex items-center gap-3 justify-start mt-2">
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-5 bg-primary text-white text-sm font-medium leading-normal">
+<span class="truncate">View Details</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Action Buttons -->
+<div class="px-4">
+<h3 class="text-text-primary text-lg font-semibold leading-tight tracking-[-0.015em] pb-2 pt-4">Quick Actions</h3>
+<div class="grid grid-cols-2 gap-4">
+<a class="flex flex-col items-center justify-center gap-2 rounded-lg bg-white p-4 text-center border border-border-light shadow-sm" href="#">
+<span class="material-symbols-outlined text-primary text-3xl">support_agent</span>
+<p class="text-text-primary text-sm font-medium">Contact Support</p>
+</a>
+<a class="flex flex-col items-center justify-center gap-2 rounded-lg bg-white p-4 text-center border border-border-light shadow-sm" href="#">
+<span class="material-symbols-outlined text-primary text-3xl">chat</span>
+<p class="text-text-primary text-sm font-medium">Message Doctor</p>
+</a>
+<a class="flex flex-col items-center justify-center gap-2 rounded-lg bg-white p-4 text-center border border-border-light shadow-sm" href="#">
+<span class="material-symbols-outlined text-primary text-3xl">photo_library</span>
+<p class="text-text-primary text-sm font-medium">View Photo Log</p>
+</a>
+<a class="flex flex-col items-center justify-center gap-2 rounded-lg bg-white p-4 text-center border border-border-light shadow-sm" href="#">
+<span class="material-symbols-outlined text-primary text-3xl">article</span>
+<p class="text-text-primary text-sm font-medium">Care Resources</p>
+</a>
+</div>
+</div>
+</main>
+<!-- Bottom Navigation Bar -->
+<div class="fixed bottom-0 left-0 right-0 h-20 bg-white border-t border-border-light shadow-lg">
+<div class="flex h-full items-center justify-around">
+<a class="flex flex-col items-center gap-1 text-primary" href="#">
+<span class="material-symbols-outlined">home</span>
+<span class="text-xs font-medium">Home</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-text-secondary hover:text-primary" href="#">
+<span class="material-symbols-outlined">calendar_month</span>
+<span class="text-xs font-medium">Appointments</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-text-secondary hover:text-primary" href="#">
+<span class="material-symbols-outlined">mail</span>
+<span class="text-xs font-medium">Messages</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-text-secondary hover:text-primary" href="#">
+<span class="material-symbols-outlined">book</span>
+<span class="text-xs font-medium">Resources</span>
+</a>
+</div>
+</div>
+</div>
+</body></html>
